@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* iQkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iQkAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		1E27935610AC015A00BE4F6C /* ModeSelectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E27935510AC015A00BE4F6C /* ModeSelectView.xib */; };
+		1E6B216D10B12DB400BA14AD /* ServerBrowseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B216B10B12DB400BA14AD /* ServerBrowseViewController.m */; };
+		1E6B216E10B12DB400BA14AD /* ServerBrowseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E6B216C10B12DB400BA14AD /* ServerBrowseView.xib */; };
+		1E6B219410B12F8A00BA14AD /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B218210B12F8A00BA14AD /* Connection.m */; };
+		1E6B219510B12F8A00BA14AD /* Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B218510B12F8A00BA14AD /* Gesture.m */; };
+		1E6B219610B12F8A00BA14AD /* LocalGameHost.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B218710B12F8A00BA14AD /* LocalGameHost.m */; };
+		1E6B219710B12F8A00BA14AD /* RemoteGameHost.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B218910B12F8A00BA14AD /* RemoteGameHost.m */; };
+		1E6B219810B12F8A00BA14AD /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B218B10B12F8A00BA14AD /* Server.m */; };
+		1E6B219910B12F8A00BA14AD /* ServerBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B218D10B12F8A00BA14AD /* ServerBrowser.m */; };
+		1E6B219B10B12F8A00BA14AD /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B219210B12F8A00BA14AD /* Game.m */; };
+		1E6B21BE10B131F200BA14AD /* AppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B21BD10B131F200BA14AD /* AppConfig.m */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		6A21A8DC10ABF54700994931 /* ModeSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A8DB10ABF54700994931 /* ModeSelectViewController.m */; };
+		6A21A8DF10ABF55600994931 /* PreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A8DE10ABF55600994931 /* PreferencesViewController.m */; };
+		6A21A8E510ABF57B00994931 /* iQkGooViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A8E410ABF57B00994931 /* iQkGooViewController.m */; };
+		6A21A90B10ABFD0F00994931 /* ModeSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A90910ABFD0F00994931 /* ModeSelectView.m */; };
+		CD10982F10C78E5C00993154 /* gridMap.m in Sources */ = {isa = PBXBuildFile; fileRef = CD10982E10C78E5C00993154 /* gridMap.m */; };
+		CDDC912410C772620054F2A5 /* iQkSplash.png in Resources */ = {isa = PBXBuildFile; fileRef = CDDC912310C772620054F2A5 /* iQkSplash.png */; };
+		CDDC912610C772760054F2A5 /* iQkMultiButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CDDC912510C772760054F2A5 /* iQkMultiButton.png */; };
+		CDDC912A10C7730F0054F2A5 /* splashView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDC912910C7730F0054F2A5 /* splashView.m */; };
+		CDDC912C10C773510054F2A5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDC912B10C773510054F2A5 /* QuartzCore.framework */; };
+		EA7EBAC810B91BF700CC3F9A /* iQkGooView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA7EBAC710B91BF700CC3F9A /* iQkGooView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iQkAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iQkAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iQkAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iQkAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* iQk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1E27935510AC015A00BE4F6C /* ModeSelectView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ModeSelectView.xib; path = Classes/ModeSelectView.xib; sourceTree = "<group>"; };
+		1E6B216A10B12DB400BA14AD /* ServerBrowseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerBrowseViewController.h; sourceTree = "<group>"; };
+		1E6B216B10B12DB400BA14AD /* ServerBrowseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerBrowseViewController.m; sourceTree = "<group>"; };
+		1E6B216C10B12DB400BA14AD /* ServerBrowseView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ServerBrowseView.xib; path = Classes/ServerBrowseView.xib; sourceTree = "<group>"; };
+		1E6B218110B12F8A00BA14AD /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		1E6B218210B12F8A00BA14AD /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		1E6B218310B12F8A00BA14AD /* ConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionDelegate.h; sourceTree = "<group>"; };
+		1E6B218410B12F8A00BA14AD /* Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gesture.h; sourceTree = "<group>"; };
+		1E6B218510B12F8A00BA14AD /* Gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gesture.m; sourceTree = "<group>"; };
+		1E6B218610B12F8A00BA14AD /* LocalGameHost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalGameHost.h; sourceTree = "<group>"; };
+		1E6B218710B12F8A00BA14AD /* LocalGameHost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalGameHost.m; sourceTree = "<group>"; };
+		1E6B218810B12F8A00BA14AD /* RemoteGameHost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteGameHost.h; sourceTree = "<group>"; };
+		1E6B218910B12F8A00BA14AD /* RemoteGameHost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteGameHost.m; sourceTree = "<group>"; };
+		1E6B218A10B12F8A00BA14AD /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		1E6B218B10B12F8A00BA14AD /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		1E6B218C10B12F8A00BA14AD /* ServerBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerBrowser.h; sourceTree = "<group>"; };
+		1E6B218D10B12F8A00BA14AD /* ServerBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerBrowser.m; sourceTree = "<group>"; };
+		1E6B218E10B12F8A00BA14AD /* ServerBrowserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerBrowserDelegate.h; sourceTree = "<group>"; };
+		1E6B219010B12F8A00BA14AD /* ServerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerDelegate.h; sourceTree = "<group>"; };
+		1E6B219110B12F8A00BA14AD /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		1E6B219210B12F8A00BA14AD /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		1E6B219310B12F8A00BA14AD /* GameDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDelegate.h; sourceTree = "<group>"; };
+		1E6B21BC10B131F200BA14AD /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
+		1E6B21BD10B131F200BA14AD /* AppConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConfig.m; sourceTree = "<group>"; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* iQk_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iQk_Prefix.pch; sourceTree = "<group>"; };
+		6A21A8DA10ABF54700994931 /* ModeSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeSelectViewController.h; sourceTree = "<group>"; };
+		6A21A8DB10ABF54700994931 /* ModeSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModeSelectViewController.m; sourceTree = "<group>"; };
+		6A21A8DD10ABF55600994931 /* PreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesViewController.h; sourceTree = "<group>"; };
+		6A21A8DE10ABF55600994931 /* PreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesViewController.m; sourceTree = "<group>"; };
+		6A21A8E310ABF57B00994931 /* iQkGooViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iQkGooViewController.h; sourceTree = "<group>"; };
+		6A21A8E410ABF57B00994931 /* iQkGooViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iQkGooViewController.m; sourceTree = "<group>"; };
+		6A21A90810ABFD0F00994931 /* ModeSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeSelectView.h; sourceTree = "<group>"; };
+		6A21A90910ABFD0F00994931 /* ModeSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModeSelectView.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* iQk-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iQk-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CD10982D10C78E5C00993154 /* gridMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gridMap.h; sourceTree = "<group>"; };
+		CD10982E10C78E5C00993154 /* gridMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gridMap.m; sourceTree = "<group>"; };
+		CDDC912310C772620054F2A5 /* iQkSplash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iQkSplash.png; sourceTree = "<group>"; };
+		CDDC912510C772760054F2A5 /* iQkMultiButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iQkMultiButton.png; sourceTree = "<group>"; };
+		CDDC912810C7730F0054F2A5 /* splashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = splashView.h; sourceTree = "<group>"; };
+		CDDC912910C7730F0054F2A5 /* splashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = splashView.m; sourceTree = "<group>"; };
+		CDDC912B10C773510054F2A5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EA7EBAC710B91BF700CC3F9A /* iQkGooView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iQkGooView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				CDDC912C10C773510054F2A5 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1E6B219C10B12F9100BA14AD /* Game Logic */,
+				1E6B216910B12D9B00BA14AD /* Networking */,
+				6A21A8D010ABF47D00994931 /* UI */,
+				1D3623240D0F684500981E51 /* iQkAppDelegate.h */,
+				1D3623250D0F684500981E51 /* iQkAppDelegate.m */,
+				1E6B21BC10B131F200BA14AD /* AppConfig.h */,
+				1E6B21BD10B131F200BA14AD /* AppConfig.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iQk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E6B216910B12D9B00BA14AD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1E6B218110B12F8A00BA14AD /* Connection.h */,
+				1E6B218210B12F8A00BA14AD /* Connection.m */,
+				1E6B218310B12F8A00BA14AD /* ConnectionDelegate.h */,
+				1E6B218A10B12F8A00BA14AD /* Server.h */,
+				1E6B218B10B12F8A00BA14AD /* Server.m */,
+				1E6B219010B12F8A00BA14AD /* ServerDelegate.h */,
+				1E6B218C10B12F8A00BA14AD /* ServerBrowser.h */,
+				1E6B218D10B12F8A00BA14AD /* ServerBrowser.m */,
+				1E6B218E10B12F8A00BA14AD /* ServerBrowserDelegate.h */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		1E6B219C10B12F9100BA14AD /* Game Logic */ = {
+			isa = PBXGroup;
+			children = (
+				1E6B218410B12F8A00BA14AD /* Gesture.h */,
+				1E6B218510B12F8A00BA14AD /* Gesture.m */,
+				1E6B218610B12F8A00BA14AD /* LocalGameHost.h */,
+				1E6B218710B12F8A00BA14AD /* LocalGameHost.m */,
+				1E6B218810B12F8A00BA14AD /* RemoteGameHost.h */,
+				1E6B218910B12F8A00BA14AD /* RemoteGameHost.m */,
+				1E6B219110B12F8A00BA14AD /* Game.h */,
+				1E6B219210B12F8A00BA14AD /* Game.m */,
+				1E6B219310B12F8A00BA14AD /* GameDelegate.h */,
+				CD10982D10C78E5C00993154 /* gridMap.h */,
+				CD10982E10C78E5C00993154 /* gridMap.m */,
+			);
+			name = "Game Logic";
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* iQk_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1E6B216C10B12DB400BA14AD /* ServerBrowseView.xib */,
+				1E27935510AC015A00BE4F6C /* ModeSelectView.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* iQk-Info.plist */,
+				EA7EBAC710B91BF700CC3F9A /* iQkGooView.xib */,
+				CDDC912510C772760054F2A5 /* iQkMultiButton.png */,
+				CDDC912310C772620054F2A5 /* iQkSplash.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				CDDC912B10C773510054F2A5 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A21A8D010ABF47D00994931 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1E6B216A10B12DB400BA14AD /* ServerBrowseViewController.h */,
+				1E6B216B10B12DB400BA14AD /* ServerBrowseViewController.m */,
+				6A21A90810ABFD0F00994931 /* ModeSelectView.h */,
+				6A21A90910ABFD0F00994931 /* ModeSelectView.m */,
+				6A21A8DA10ABF54700994931 /* ModeSelectViewController.h */,
+				6A21A8DB10ABF54700994931 /* ModeSelectViewController.m */,
+				6A21A8DD10ABF55600994931 /* PreferencesViewController.h */,
+				6A21A8DE10ABF55600994931 /* PreferencesViewController.m */,
+				6A21A8E310ABF57B00994931 /* iQkGooViewController.h */,
+				6A21A8E410ABF57B00994931 /* iQkGooViewController.m */,
+				CDDC912810C7730F0054F2A5 /* splashView.h */,
+				CDDC912910C7730F0054F2A5 /* splashView.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iQk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iQk" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iQk;
+			productName = iQk;
+			productReference = 1D6058910D05DD3D006BFB54 /* iQk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iQk" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iQk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				1E27935610AC015A00BE4F6C /* ModeSelectView.xib in Resources */,
+				1E6B216E10B12DB400BA14AD /* ServerBrowseView.xib in Resources */,
+				EA7EBAC810B91BF700CC3F9A /* iQkGooView.xib in Resources */,
+				CDDC912410C772620054F2A5 /* iQkSplash.png in Resources */,
+				CDDC912610C772760054F2A5 /* iQkMultiButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* iQkAppDelegate.m in Sources */,
+				6A21A8DC10ABF54700994931 /* ModeSelectViewController.m in Sources */,
+				6A21A8DF10ABF55600994931 /* PreferencesViewController.m in Sources */,
+				6A21A8E510ABF57B00994931 /* iQkGooViewController.m in Sources */,
+				6A21A90B10ABFD0F00994931 /* ModeSelectView.m in Sources */,
+				1E6B216D10B12DB400BA14AD /* ServerBrowseViewController.m in Sources */,
+				1E6B219410B12F8A00BA14AD /* Connection.m in Sources */,
+				1E6B219510B12F8A00BA14AD /* Gesture.m in Sources */,
+				1E6B219610B12F8A00BA14AD /* LocalGameHost.m in Sources */,
+				1E6B219710B12F8A00BA14AD /* RemoteGameHost.m in Sources */,
+				1E6B219810B12F8A00BA14AD /* Server.m in Sources */,
+				1E6B219910B12F8A00BA14AD /* ServerBrowser.m in Sources */,
+				1E6B219B10B12F8A00BA14AD /* Game.m in Sources */,
+				1E6B21BE10B131F200BA14AD /* AppConfig.m in Sources */,
+				CDDC912A10C7730F0054F2A5 /* splashView.m in Sources */,
+				CD10982F10C78E5C00993154 /* gridMap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iQk_Prefix.pch;
+				INFOPLIST_FILE = "iQk-Info.plist";
+				PRODUCT_NAME = iQk;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iQk_Prefix.pch;
+				INFOPLIST_FILE = "iQk-Info.plist";
+				PRODUCT_NAME = iQk;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iQk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iQk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
