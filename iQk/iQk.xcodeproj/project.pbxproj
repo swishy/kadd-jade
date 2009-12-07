@@ -28,6 +28,7 @@
 		6A21A8DF10ABF55600994931 /* PreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A8DE10ABF55600994931 /* PreferencesViewController.m */; };
 		6A21A8E510ABF57B00994931 /* iQkGooViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A8E410ABF57B00994931 /* iQkGooViewController.m */; };
 		6A21A90B10ABFD0F00994931 /* ModeSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A90910ABFD0F00994931 /* ModeSelectView.m */; };
+		B9081C7010CCF717009D860D /* iQkGooView.png in Resources */ = {isa = PBXBuildFile; fileRef = B9081C6F10CCF717009D860D /* iQkGooView.png */; };
 		CD10982F10C78E5C00993154 /* gridMap.m in Sources */ = {isa = PBXBuildFile; fileRef = CD10982E10C78E5C00993154 /* gridMap.m */; };
 		CDDC912410C772620054F2A5 /* iQkSplash.png in Resources */ = {isa = PBXBuildFile; fileRef = CDDC912310C772620054F2A5 /* iQkSplash.png */; };
 		CDDC912610C772760054F2A5 /* iQkMultiButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CDDC912510C772760054F2A5 /* iQkMultiButton.png */; };
@@ -79,6 +80,7 @@
 		6A21A90810ABFD0F00994931 /* ModeSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeSelectView.h; sourceTree = "<group>"; };
 		6A21A90910ABFD0F00994931 /* ModeSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModeSelectView.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iQk-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iQk-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B9081C6F10CCF717009D860D /* iQkGooView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iQkGooView.png; path = ../../../iQkGooView.png; sourceTree = SOURCE_ROOT; };
 		CD10982D10C78E5C00993154 /* gridMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gridMap.h; sourceTree = "<group>"; };
 		CD10982E10C78E5C00993154 /* gridMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gridMap.m; sourceTree = "<group>"; };
 		CDDC912310C772620054F2A5 /* iQkSplash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iQkSplash.png; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 			children = (
 				1E6B216C10B12DB400BA14AD /* ServerBrowseView.xib */,
 				1E27935510AC015A00BE4F6C /* ModeSelectView.xib */,
+				B9081C6F10CCF717009D860D /* iQkGooView.png */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* iQk-Info.plist */,
 				EA7EBAC710B91BF700CC3F9A /* iQkGooView.xib */,
@@ -273,6 +276,7 @@
 				EA7EBAC810B91BF700CC3F9A /* iQkGooView.xib in Resources */,
 				CDDC912410C772620054F2A5 /* iQkSplash.png in Resources */,
 				CDDC912610C772760054F2A5 /* iQkMultiButton.png in Resources */,
+				B9081C7010CCF717009D860D /* iQkGooView.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

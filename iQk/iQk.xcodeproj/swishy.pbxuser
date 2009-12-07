@@ -11,6 +11,9 @@
 		activeExecutable = B90D149310CB844D00D4ECB2 /* iQk */;
 		activeSDKPreference = iphonesimulator3.1;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* iQk */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* iQk */,
+		);
 		codeSenseManager = B90D14A910CB846300D4ECB2 /* Code sense */;
 		executables = (
 			B90D149310CB844D00D4ECB2 /* iQk */,
@@ -23,7 +26,7 @@
 					20,
 					341,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -38,12 +41,24 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 281773133;
-			PBXWorkspaceStateSaveDate = 281773133;
+			PBXPerProjectTemplateStateSaveDate = 281867624;
+			PBXWorkspaceStateSaveDate = 281867624;
+		};
+		perUserProjectItems = {
+			B9081C7610CCF820009D860D /* PBXBookmark */ = B9081C7610CCF820009D860D /* PBXBookmark */;
+			B9081C7710CCF820009D860D /* PBXBookmark */ = B9081C7710CCF820009D860D /* PBXBookmark */;
 		};
 		sourceControlManager = B90D14A810CB846300D4ECB2 /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	B9081C7610CCF820009D860D /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B9081C6F10CCF717009D860D /* iQkGooView.png */;
+	};
+	B9081C7710CCF820009D860D /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B9081C6F10CCF717009D860D /* iQkGooView.png */;
 	};
 	B90D149310CB844D00D4ECB2 /* iQk */ = {
 		isa = PBXExecutable;
