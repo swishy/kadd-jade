@@ -15,15 +15,46 @@
 
 + (id)getGridID:(CGPoint)theTouchPoint {
 	
-	NSDictionary *grid;
-	NSString *coordx = [[NSNumber numberWithInt:theTouchPoint.x] stringValue];
-	NSString *coordy = [[NSNumber numberWithInt:theTouchPoint.y] stringValue];
+	float coordx = [[NSNumber numberWithInt:theTouchPoint.x] floatValue];
+	float coordy = [[NSNumber numberWithInt:theTouchPoint.y] floatValue];
+	
+	
 	NSLog(@"Inside getGridID method");
-	NSLog(coordx);
-	NSLog(coordy);
-	NSString *sample = @"grid1";
-	//[Audio playSound:sample];
-	return @"grid1";
+	
+	float columnValue = coordx / 106.66;
+
+	float rowValue = coordy / 120;
+	
+	NSString *columnID;
+	NSString *rowID;
+	
+
+	
+	if ( columnValue > 0 && columnValue <= 1 ) {
+		columnID = @"0";
+	} else if ( columnValue > 1 && columnValue <= 2 ) {
+			columnID = @"1";
+	} else if ( columnValue > 2 && columnValue <= 3 ) {
+			columnID = @"2";
+	}
+	
+
+	
+	if ( rowValue >= 0 && rowValue <= 1 ) {
+		rowID = @"0";
+	} else if ( rowValue > 1 && rowValue <= 2 ) {
+		rowID = @"1";
+	} else if ( rowValue > 2 && rowValue <= 3 ) {
+		rowID = @"2";
+	} else if ( rowValue > 3 && rowValue <= 4 ) {
+		rowID = @"3";
+	} 
+	
+	NSString *grid = @"grid";
+	grid = [ grid stringByAppendingString:columnID];
+	grid = [ grid stringByAppendingString:rowID];
+
+	return grid;
 	
 }
 
