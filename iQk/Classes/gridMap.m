@@ -7,6 +7,7 @@
 //
 
 #import "gridMap.h"
+#import "Audio.h"
 
 
 @implementation gridMap
@@ -20,6 +21,8 @@
 	NSLog(@"Inside getGridID method");
 	NSLog(coordx);
 	NSLog(coordy);
+	NSString *sample = @"grid2";
+	[Audio playSound:sample];
 	return grid;
 	
 }

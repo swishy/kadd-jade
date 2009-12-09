@@ -79,7 +79,7 @@
 	UITouch *touch = [touches anyObject];
 	CGPoint touchCoordinates = [touch locationInView:self.view];
 	NSLog(@"in touchesBegan event");
-	[gridMap getGridID:touchCoordinates];
+	NSObject *id = [gridMap getGridID:touchCoordinates];
 } 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
 	NSLog(@"in touchesMoved event");
