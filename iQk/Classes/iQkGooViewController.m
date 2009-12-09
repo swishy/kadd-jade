@@ -9,6 +9,7 @@
 #import "iQkGooViewController.h"
 #import "AppConfig.h"
 #import "Gesture.h"
+#import "Audio.h"
 
 
 @implementation iQkGooViewController
@@ -79,7 +80,8 @@
 	UITouch *touch = [touches anyObject];
 	CGPoint touchCoordinates = [touch locationInView:self.view];
 	NSLog(@"in touchesBegan event");
-	NSObject *id = [gridMap getGridID:touchCoordinates];
+	NSString *grid = [gridMap getGridID:touchCoordinates];
+	[game broadcastGesture:[[Gesture alloc] init:grid] fromUser:[AppConfig getInstance].name];
 } 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
 	NSLog(@"in touchesMoved event");
@@ -91,11 +93,13 @@
 
 - (void)clicked:(id)sender {
 	[game broadcastGesture:[[Gesture alloc] init] fromUser:[AppConfig getInstance].name];
+	//[Audio playSound:gesture.name];
 }
 
 - (void)reactByGesture:(Gesture*)gesture fromUser:(NSString*)userName{
 	NSLog(@"displayChatMessage reached.");
-	NSLog(gesture.name);
+	NSLog(gesture.grid);
+	[Audio playSound:gesture.grid];
 }
 
 @end

@@ -210,7 +210,7 @@ static void serverAcceptCallback(CFSocketRef socket, CFSocketCallBackType type, 
 	
 	// create new instance of netService
  	self.netService = [[NSNetService alloc]
-					   initWithDomain:@"" type:@"_iQk._tcp."
+					   initWithDomain:@"" type:@"_iQk2._tcp."
 					   name:chatRoomName port:self.port];
 	if (self.netService == nil)
 		return NO;

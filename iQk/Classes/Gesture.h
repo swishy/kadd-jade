@@ -9,16 +9,12 @@
 #import <Foundation/Foundation.h>
 
 
-@interface Gesture : NSObject {
-	NSString* name;
+@interface Gesture : NSObject <NSCoding>{
+	NSString* grid;
 }
 
-@property(nonatomic,retain) NSString* name;
+@property(nonatomic,retain) NSString* grid;
 
 - (id)init;
-
-- (void) encodeWithCoder:(NSCoder*) encoder;
-
-- (id) initWithCoder:(NSCoder*) decoder;
 
 @end

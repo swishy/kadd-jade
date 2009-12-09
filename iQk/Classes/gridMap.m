@@ -21,9 +21,9 @@
 	NSLog(@"Inside getGridID method");
 	NSLog(coordx);
 	NSLog(coordy);
-	NSString *sample = @"grid2";
-	[Audio playSound:sample];
-	return grid;
+	NSString *sample = @"grid1";
+	//[Audio playSound:sample];
+	return @"grid1";
 	
 }
 

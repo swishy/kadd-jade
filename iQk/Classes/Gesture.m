@@ -10,26 +10,28 @@
 
 
 @implementation Gesture
-@synthesize name;
+@synthesize grid;
 
 - (void)dealloc{
-	self.name = nil;
+	self.grid = nil;
 	[super dealloc];
 }
 
 
-- (id)init {
-	self.name = @"hahahahaha";
+- (id)init:(NSString *) theGrid{
+	[super init];
+	self.grid = theGrid;
 	return self;
 }
 
 - (void)encodeWithCoder:(NSCoder *)encoder{
-	[encoder encodeObject:self forKey:@"theGesture"];
+	[encoder encodeObject:self.grid forKey:@"gesture.name"];
 }
 
 - (id)initWithCoder:(NSCoder *)decoder {
 	NSLog(@"initWithCoder reached.");
-	self = [[decoder decodeObjectForKey:@"theGesture"] retain];
+	self = [super init];
+	self.grid = [[decoder decodeObjectForKey:@"gesture.name"] retain];
 	return self;
 }
 @end

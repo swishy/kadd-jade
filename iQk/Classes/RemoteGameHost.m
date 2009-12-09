@@ -7,6 +7,7 @@
 //
 #import	"Gesture.h"
 #import "RemoteGameHost.h"
+#import "Audio.h"
 
 
 @interface RemoteGameHost ()

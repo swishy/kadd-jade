@@ -8,6 +8,7 @@
 
 #import "LocalGameHost.h"
 #import "Connection.h"
+#import "Audio.h"
 
 // Private properties
 @interface LocalGameHost ()
@@ -85,7 +86,7 @@
 - (void) serverFailed:(Server*)server reason:(NSString*)reason {
 	// Stop everything and let our delegate know
 	[self stop];
-	[delegate roomTerminated:self reason:reason];
+	[delegate serverHostTerminated:self reason:reason];
 }
 
 
@@ -122,9 +123,13 @@
 	[clients makeObjectsPerformSelector:@selector(sendNetworkPacket:) withObject:packet];
 }
 
+/*
 - (void)reactByGesture:(Gesture*)gesture fromUser:(NSString*)userName{
 	NSLog(@"LocalGameHost.displayChatMessage reached.");
 	NSLog(gesture.name);
+	
+	[Audio playSound:gesture.name];
 }
+ */
 
 @end

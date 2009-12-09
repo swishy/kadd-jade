@@ -62,7 +62,7 @@
 	}
 	
 	netServiceBrowser.delegate = self;
-	[netServiceBrowser searchForServicesOfType:@"_iQk._tcp." inDomain:@""];
+	[netServiceBrowser searchForServicesOfType:@"_iQk2._tcp." inDomain:@""];
 	
 	return YES;
 }

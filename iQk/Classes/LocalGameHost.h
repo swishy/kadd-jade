@@ -23,5 +23,5 @@
 // Initialize everything
 - (id)init;
 
-- (void) reactByGesture:(Gesture*)gesture fromUser:(NSString*)userName;
+//- (void) reactByGesture:(Gesture*)gesture fromUser:(NSString*)userName;
 @end
