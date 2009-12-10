@@ -15,10 +15,18 @@
 + (void)playSound:(NSString*)sound {
 	
 	NSDictionary *gridAudio = [NSDictionary dictionaryWithObjectsAndKeys:
-					  @"/SnareDrum.wav", @"grid1", 
-					  @"/BassDrum.wav", @"grid2", 
-					  @"/SomeSound.wav", @"grid3", 
-					  @"/AnotherSound.wav", @"grid4", nil];
+					  @"/SnareDrum.wav", @"grid00", 
+					  @"/BassDrum.wav", @"grid10", 
+					  @"/CowBell.wav", @"grid20",
+					  @"/DiscoHit.wav", @"grid01",
+					  @"/HiHat.wav", @"grid11",
+					  @"/HiHatClose.wav", @"grid12",
+					  @"/ReversedCrash.wav", @"grid02",
+					  @"/Tambourine.wav", @"grid21",
+					  @"/JazzCymbal.wav", @"grid22", 
+					  @"/DrumStick.wav", @"grid03", 
+					  @"/CymbalSplash.wav", @"grid13", 
+					  @"/ZildjianCymbals.wav", @"grid23", nil];
 	NSString *track = [gridAudio valueForKey:sound];
 	
 	NSString *path = [NSString stringWithFormat:@"%@%@",

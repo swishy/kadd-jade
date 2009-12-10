@@ -7,7 +7,6 @@
 //
 
 #import "gridMap.h"
-#import "Audio.h"
 
 
 @implementation gridMap
@@ -17,18 +16,11 @@
 	
 	float coordx = [[NSNumber numberWithInt:theTouchPoint.x] floatValue];
 	float coordy = [[NSNumber numberWithInt:theTouchPoint.y] floatValue];
-	
-	
-	NSLog(@"Inside getGridID method");
-	
 	float columnValue = coordx / 106.66;
-
 	float rowValue = coordy / 120;
 	
 	NSString *columnID;
 	NSString *rowID;
-	
-
 	
 	if ( columnValue > 0 && columnValue <= 1 ) {
 		columnID = @"0";
@@ -37,8 +29,6 @@
 	} else if ( columnValue > 2 && columnValue <= 3 ) {
 			columnID = @"2";
 	}
-	
-
 	
 	if ( rowValue >= 0 && rowValue <= 1 ) {
 		rowID = @"0";
