@@ -30,7 +30,7 @@ static iQkAppDelegate* _instance;
 	serverBrowseViewController = [ServerBrowseViewController alloc];
 	iqkGooViewController = [iQkGooViewController alloc];
 	[window addSubview:iqkGooViewController.view];
-	[window addSubview:serverBrowseViewController.view];
+	//[window addSubview:serverBrowseViewController.view];
 	[window addSubview:modeSelectViewController.view];
 	
     // Override point for customization after application launch
@@ -59,7 +59,8 @@ static iQkAppDelegate* _instance;
 - (void)showServerBrowseView{
 	//NSLog(@"showServerBrowseView reached.");
 	[serverBrowseViewController activate];
-	
+	[window sendSubviewToBack:modeSelectViewController.view];
+	[window addSubview:serverBrowseViewController.view];
 	[window bringSubviewToFront:serverBrowseViewController.view];
 }
 

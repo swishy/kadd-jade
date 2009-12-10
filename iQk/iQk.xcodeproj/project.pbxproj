@@ -40,6 +40,8 @@
 		6A21A8E510ABF57B00994931 /* iQkGooViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A8E410ABF57B00994931 /* iQkGooViewController.m */; };
 		6A21A90B10ABFD0F00994931 /* ModeSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A90910ABFD0F00994931 /* ModeSelectView.m */; };
 		CD10982F10C78E5C00993154 /* gridMap.m in Sources */ = {isa = PBXBuildFile; fileRef = CD10982E10C78E5C00993154 /* gridMap.m */; };
+		CD8B07A910D0E43000280D4C /* iQkSoloButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8B07A810D0E43000280D4C /* iQkSoloButton.png */; };
+		CD8B07B710D0E5DC00280D4C /* iQkSelectionBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8B07B610D0E5DC00280D4C /* iQkSelectionBackground.png */; };
 		CDA83B7A10CF70040050F857 /* iQkGooView.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA83B7910CF70040050F857 /* iQkGooView.png */; };
 		CDA83B8410CF71CD0050F857 /* SnareDrum.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDA83B8310CF71CD0050F857 /* SnareDrum.wav */; };
 		CDA83B8E10CF72280050F857 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA83B8D10CF72280050F857 /* AudioToolbox.framework */; };
@@ -108,6 +110,8 @@
 		8D1107310486CEB800E47090 /* iQk-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iQk-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		CD10982D10C78E5C00993154 /* gridMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gridMap.h; sourceTree = "<group>"; };
 		CD10982E10C78E5C00993154 /* gridMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gridMap.m; sourceTree = "<group>"; };
+		CD8B07A810D0E43000280D4C /* iQkSoloButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iQkSoloButton.png; sourceTree = "<group>"; };
+		CD8B07B610D0E5DC00280D4C /* iQkSelectionBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iQkSelectionBackground.png; sourceTree = "<group>"; };
 		CDA83B7910CF70040050F857 /* iQkGooView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iQkGooView.png; sourceTree = "<group>"; };
 		CDA83B8310CF71CD0050F857 /* SnareDrum.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SnareDrum.wav; sourceTree = "<group>"; };
 		CDA83B8D10CF72280050F857 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -224,6 +228,8 @@
 				1E6B216C10B12DB400BA14AD /* ServerBrowseView.xib */,
 				1E27935510AC015A00BE4F6C /* ModeSelectView.xib */,
 				CDA83B7910CF70040050F857 /* iQkGooView.png */,
+				CD8B07B610D0E5DC00280D4C /* iQkSelectionBackground.png */,
+				CD8B07A810D0E43000280D4C /* iQkSoloButton.png */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* iQk-Info.plist */,
 				EA7EBAC710B91BF700CC3F9A /* iQkGooView.xib */,
@@ -354,6 +360,8 @@
 				4680DEC210D0D9FD0015D2C3 /* ZildjianCymbals.wav in Resources */,
 				4680DED810D0DB7A0015D2C3 /* CymbalSplash.wav in Resources */,
 				4680DEDC10D0DC6A0015D2C3 /* HiHat.wav in Resources */,
+				CD8B07A910D0E43000280D4C /* iQkSoloButton.png in Resources */,
+				CD8B07B710D0E5DC00280D4C /* iQkSelectionBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
