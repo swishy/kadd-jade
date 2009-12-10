@@ -1,1305 +1,0 @@
-TiQk
-v7
-r0
-t282127631.170730
-cCheck dependencies
-cCpResource build/Debug-iphoneos/iQk.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/Info.plist iQk-Info.plist
-cCompileXIB /Users/sixteen/kadd-jade/iQk/MainWindow.xib
-cCompileXIB /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.xib
-cCompileXIB /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseView.xib
-cCompileXIB /Users/sixteen/kadd-jade/iQk/iQkGooView.xib
-cCopyPNGFile /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkSplash.png iQkSplash.png
-cCopyPNGFile /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkMultiButton.png iQkMultiButton.png
-cCopyPNGFile /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkGooView.png iQkGooView.png
-cCpResource build/Debug-iphoneos/iQk.app/SnareDrum.wav SnareDrum.wav
-cCpResource build/Debug-iphoneos/iQk.app/BassDrum.wav BassDrum.wav
-cCpResource build/Debug-iphoneos/iQk.app/CowBell.wav CowBell.wav
-cCpResource build/Debug-iphoneos/iQk.app/DiscoHit.wav DiscoHit.wav
-cCpResource build/Debug-iphoneos/iQk.app/DrumStick.wav DrumStick.wav
-cCpResource build/Debug-iphoneos/iQk.app/HiHatClose.wav HiHatClose.wav
-cCpResource build/Debug-iphoneos/iQk.app/JazzCymbal.wav JazzCymbal.wav
-cCpResource build/Debug-iphoneos/iQk.app/PacmanDying.wav PacmanDying.wav
-cCpResource build/Debug-iphoneos/iQk.app/ReversedCrash.wav ReversedCrash.wav
-cCpResource build/Debug-iphoneos/iQk.app/Tambourine.wav Tambourine.wav
-cCpResource build/Debug-iphoneos/iQk.app/ZildjianCymbals.wav ZildjianCymbals.wav
-cCpResource build/Debug-iphoneos/iQk.app/CymbalSplash.wav CymbalSplash.wav
-cCpResource build/Debug-iphoneos/iQk.app/HiHat.wav HiHat.wav
-cCopyPNGFile /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkSoloButton.png iQkSoloButton.png
-cCopyPNGFile /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkSelectionBackground.png iQkSelectionBackground.png
-cProcessPCH /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-fuuephvltdihwqemuydkqypbojlm/iQk_Prefix.pch.gch iQk_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/main.o /Users/sixteen/kadd-jade/iQk/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/iQkAppDelegate.o /Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/ModeSelectViewController.o /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/PreferencesViewController.o /Users/sixteen/kadd-jade/iQk/Classes/PreferencesViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/iQkGooViewController.o /Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/ModeSelectView.o /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/ServerBrowseViewController.o /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Connection.o /Users/sixteen/kadd-jade/iQk/Classes/Connection.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Gesture.o /Users/sixteen/kadd-jade/iQk/Classes/Gesture.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/LocalGameHost.o /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/RemoteGameHost.o /Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Server.o /Users/sixteen/kadd-jade/iQk/Classes/Server.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/ServerBrowser.o /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Game.o /Users/sixteen/kadd-jade/iQk/Classes/Game.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/AppConfig.o /Users/sixteen/kadd-jade/iQk/Classes/AppConfig.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/splashView.o /Users/sixteen/kadd-jade/iQk/Classes/splashView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/gridMap.o /Users/sixteen/kadd-jade/iQk/Classes/gridMap.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Audio.o /Users/sixteen/kadd-jade/iQk/Classes/Audio.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQk normal armv6
-cGenerateDSYMFile /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app.dSYM /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQk
-cProcessProductPackaging "/Users/sixteen/Library/MobileDevice/Provisioning Profiles/CBEAAA8E-7C6A-4FED-B378-87CD1249AEA3.mobileprovision" /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/embedded.mobileprovision
-cTouch /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk.xcent
-cCodeSign /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk
-c000000004AD3C0E10000000000000110
-t1255391457
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
-c000000004ABDB88400000000000000DD
-t1253947524
-s221
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
-c000000004ABDB88400000000000001E5
-t1253947524
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004ABDBC2D00000000002E0B30
-t1253948461
-s3017520
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioServices.h
-c000000004ABDBC03000000000000E37C
-t1253948419
-s58236
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFSocketStream.h
-c000000004ABDBC2B00000000000060BB
-t1253948459
-s24763
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004ABDBA1300000000005F4900
-t1253947923
-s6244608
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004ABDBDCF0000000000501370
-t1253948879
-s5247856
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004ABDBDA40000000000001355
-t1253948836
-s4949
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004ABDC796000000000000007D
-t1253951382
-s125
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004ABDC85900000000001C27F0
-t1253951577
-s1845232
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004ABDD0D10000000000000788
-t1253953745
-s1928
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004ABDD2250000000001B3F450
-t1253954085
-s28570704
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/netinet/in.h
-c000000004ABDB473000000000000535B
-t1253946483
-s21339
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/sys/socket.h
-c000000004ABDB4790000000000005660
-t1253946489
-s22112
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/unistd.h
-c000000004ABDAF7900000000000053FF
-t1253945209
-s21503
-
-N/Users/sixteen/Library/MobileDevice/Provisioning Profiles/CBEAAA8E-7C6A-4FED-B378-87CD1249AEA3.mobileprovision
-c000000004B0E0A420000000000001C77
-t1259211330
-s7287
-
-N/Users/sixteen/kadd-jade/iQk/BassDrum.wav
-c000000004B20A9120000000000011F78
-t1260431634
-s73592
-
-N/Users/sixteen/kadd-jade/iQk/Classes/AppConfig.h
-c000000004B20A9120000000000000150
-t1260431634
-s336
-i<Foundation/Foundation.h>
-
-N/Users/sixteen/kadd-jade/iQk/Classes/AppConfig.m
-c000000004B20A9120000000000000254
-t1260431634
-s596
-i"AppConfig.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/Audio.h
-c000000004B20A91200000000000000EB
-t1260431634
-s235
-i<Foundation/Foundation.h>
-
-N/Users/sixteen/kadd-jade/iQk/Classes/Audio.m
-c000000004B20A9120000000000000513
-t1260431634
-s1299
-i"Audio.h"
-i"AudioToolbox/AudioServices.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/Connection.h
-c000000004B20A9120000000000000596
-t1260431634
-s1430
-i<Foundation/Foundation.h>
-i<CFNetwork/CFSocketStream.h>
-i"ConnectionDelegate.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/Connection.m
-c000000004B20A91200000000000031AA
-t1260431634
-s12714
-i"Connection.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h
-c000000004B20A91200000000000001BD
-t1260431634
-s445
-i<Foundation/Foundation.h>
-
-N/Users/sixteen/kadd-jade/iQk/Classes/Game.h
-c000000004B20A91200000000000001B0
-t1260431634
-s432
-i<Foundation/Foundation.h>
-i"GameDelegate.h"
-i"Gesture.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/Game.m
-c000000004B20A91200000000000002C0
-t1260431634
-s704
-i"GameDelegate.h"
-i"Gesture.h"
-i"Game.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/GameDelegate.h
-c000000004B20A9120000000000000170
-t1260431634
-s368
-i<Foundation/Foundation.h>
-
-N/Users/sixteen/kadd-jade/iQk/Classes/Gesture.h
-c000000004B20A9120000000000000122
-t1260431634
-s290
-i<Foundation/Foundation.h>
-
-N/Users/sixteen/kadd-jade/iQk/Classes/Gesture.m
-c000000004B20A9120000000000000276
-t1260431634
-s630
-i"Gesture.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.h
-c000000004B20A912000000000000026D
-t1260431634
-s621
-i<Foundation/Foundation.h>
-i"Game.h"
-i"Server.h"
-i"ServerDelegate.h"
-i"ConnectionDelegate.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m
-c000000004B20A9120000000000000C61
-t1260431634
-s3169
-i"LocalGameHost.h"
-i"Connection.h"
-i"Audio.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.h
-c000000004B20A91200000000000000DB
-t1260431634
-s219
-i<Foundation/Foundation.h>
-
-N/Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.m
-c000000004B20B58C0000000000000529
-t1260434828
-s1321
-i"ModeSelectView.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.xib
-c000000004B20AFBA0000000000005D5A
-t1260433338
-s23898
-
-N/Users/sixteen/kadd-jade/iQk/Classes/ModeSelectViewController.h
-c000000004B20A91200000000000002A3
-t1260431634
-s675
-i<UIKit/UIKit.h>
-i"ModeSelectView.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/ModeSelectViewController.m
-c000000004B20A91200000000000006DD
-t1260431634
-s1757
-i"ModeSelectViewController.h"
-i"iQkAppDelegate.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/PreferencesViewController.h
-c000000004B20A91200000000000000EF
-t1260431634
-s239
-i<UIKit/UIKit.h>
-
-N/Users/sixteen/kadd-jade/iQk/Classes/PreferencesViewController.m
-c000000004B20A91200000000000005F8
-t1260431634
-s1528
-i"PreferencesViewController.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.h
-c000000004B20A9120000000000000243
-t1260431634
-s579
-i<Foundation/Foundation.h>
-i"Game.h"
-i"Connection.h"
-i"Gesture.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m
-c000000004B20A9120000000000000895
-t1260431634
-s2197
-i"Gesture.h"
-i"RemoteGameHost.h"
-i"Audio.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/Server.h
-c000000004B20A912000000000000022C
-t1260431634
-s556
-i<Foundation/Foundation.h>
-i"ServerDelegate.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/Server.m
-c000000004B20A9120000000000001BF4
-t1260431634
-s7156
-i<sys/socket.h>
-i<netinet/in.h>
-i<unistd.h>
-i<CFNetwork/CFSocketStream.h>
-i"Server.h"
-i"Connection.h"
-i"AppConfig.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseView.xib
-c000000004B20A91200000000000059F4
-t1260431634
-s23028
-
-N/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.h
-c000000004B20A9120000000000000257
-t1260431634
-s599
-i<UIKit/UIKit.h>
-i"ServerBrowserDelegate.h"
-i"ServerBrowser.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m
-c000000004B20A9120000000000000E0F
-t1260431634
-s3599
-i"ServerBrowseViewController.h"
-i"iQkAppDelegate.h"
-i"LocalGameHost.h"
-i"RemoteGameHost.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowser.h
-c000000004B20A9120000000000000229
-t1260431634
-s553
-i<Foundation/Foundation.h>
-
-N/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowser.m
-c000000004B20A9120000000000000B39
-t1260431634
-s2873
-i"ServerBrowserDelegate.h"
-i"ServerBrowser.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowserDelegate.h
-c000000004B20A91200000000000000F4
-t1260431634
-s244
-i<Foundation/Foundation.h>
-
-N/Users/sixteen/kadd-jade/iQk/Classes/ServerDelegate.h
-c000000004B20A91200000000000001D5
-t1260431634
-s469
-i<Foundation/Foundation.h>
-
-N/Users/sixteen/kadd-jade/iQk/Classes/gridMap.h
-c000000004B20A9120000000000000162
-t1260431634
-s354
-i<Foundation/Foundation.h>
-
-N/Users/sixteen/kadd-jade/iQk/Classes/gridMap.m
-c000000004B20A9120000000000000442
-t1260431634
-s1090
-i"gridMap.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.h
-c000000004B20A912000000000000053F
-t1260431634
-s1343
-i<UIKit/UIKit.h>
-i"ModeSelectViewController.h"
-i"PreferencesViewController.h"
-i"ServerBrowseViewController.h"
-i"iQkGooViewController.h"
-i"Game.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.m
-c000000004B20A91200000000000008FE
-t1260431634
-s2302
-i"iQkAppDelegate.h"
-i"splashView.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.h
-c000000004B20A91200000000000002BE
-t1260431634
-s702
-i<UIKit/UIKit.h>
-i"Game.h"
-i"GameDelegate.h"
-i"gridMap.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m
-c000000004B20A9120000000000000A77
-t1260431634
-s2679
-i"iQkGooViewController.h"
-i"AppConfig.h"
-i"Gesture.h"
-i"Audio.h"
-
-N/Users/sixteen/kadd-jade/iQk/Classes/splashView.h
-c000000004B20A91200000000000004F4
-t1260431634
-s1268
-i<UIKit/UIKit.h>
-i<QuartzCore/QuartzCore.h>
-
-N/Users/sixteen/kadd-jade/iQk/Classes/splashView.m
-c000000004B20A9120000000000000B9F
-t1260431634
-s2975
-i"splashView.h"
-
-N/Users/sixteen/kadd-jade/iQk/CowBell.wav
-c000000004B20A9120000000000011FF8
-t1260431634
-s73720
-
-N/Users/sixteen/kadd-jade/iQk/CymbalSplash.wav
-c000000004B20A9120000000000093B30
-t1260431634
-s604976
-
-N/Users/sixteen/kadd-jade/iQk/DiscoHit.wav
-c000000004B20A912000000000000758A
-t1260431634
-s30090
-
-N/Users/sixteen/kadd-jade/iQk/DrumStick.wav
-c000000004B20A912000000000000CEE4
-t1260431634
-s52964
-
-N/Users/sixteen/kadd-jade/iQk/HiHat.wav
-c000000004B20A912000000000007AAE8
-t1260431634
-s502504
-
-N/Users/sixteen/kadd-jade/iQk/HiHatClose.wav
-c000000004B20A9120000000000049DF0
-t1260431634
-s302576
-
-N/Users/sixteen/kadd-jade/iQk/JazzCymbal.wav
-c000000004B20A912000000000004122C
-t1260431634
-s266796
-
-N/Users/sixteen/kadd-jade/iQk/MainWindow.xib
-c000000004B20A9120000000000001F3F
-t1260431634
-s7999
-
-N/Users/sixteen/kadd-jade/iQk/PacmanDying.wav
-c000000004B20A9120000000000004A74
-t1260431634
-s19060
-
-N/Users/sixteen/kadd-jade/iQk/ReversedCrash.wav
-c000000004B20A912000000000002BD64
-t1260431634
-s179556
-
-N/Users/sixteen/kadd-jade/iQk/SnareDrum.wav
-c000000004B20A912000000000001702C
-t1260431634
-s94252
-
-N/Users/sixteen/kadd-jade/iQk/Tambourine.wav
-c000000004B20A912000000000000DC84
-t1260431634
-s56452
-
-N/Users/sixteen/kadd-jade/iQk/ZildjianCymbals.wav
-c000000004B20A912000000000003E424
-t1260431634
-s255012
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app
-t1260434831
-s1054
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app.dSYM
-t1260434830
-s102
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/BassDrum.wav
-t1260434044
-s73592
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/CowBell.wav
-t1260434044
-s73720
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/CymbalSplash.wav
-t1260434044
-s604976
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/DiscoHit.wav
-t1260434044
-s30090
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/DrumStick.wav
-t1260434044
-s52964
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/HiHat.wav
-t1260434044
-s502504
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/HiHatClose.wav
-t1260434044
-s302576
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/Info.plist
-t1260434043
-s614
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/JazzCymbal.wav
-t1260434044
-s266796
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/MainWindow.nib
-t1260434043
-s1339
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/ModeSelectView.nib
-t1260434043
-s3334
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/PacmanDying.wav
-t1260434044
-s19060
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/PkgInfo
-t1260434043
-s8
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/ResourceRules.plist
-t1260434043
-s485
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/ReversedCrash.wav
-t1260434044
-s179556
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/ServerBrowseView.nib
-t1260434044
-s3098
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/SnareDrum.wav
-t1260434044
-s94252
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/Tambourine.wav
-t1260434044
-s56452
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/ZildjianCymbals.wav
-t1260434044
-s255012
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/embedded.mobileprovision
-t1260434046
-s7287
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQk
-t1260434830
-s94176
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkGooView.nib
-t1260434044
-s1929
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkGooView.png
-t1260434044
-s244694
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkMultiButton.png
-t1260434044
-s5225
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkSelectionBackground.png
-t1260434044
-s28874
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkSoloButton.png
-t1260434044
-s4004
-
-N/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkSplash.png
-t1260434045
-s245976
-
-N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/AppConfig.o
-t1260434046
-s10524
-
-N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Audio.o
-t1260434046
-s10920
-
-N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Connection.o
-t1260434045
-s39740
-
-N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Game.o
-t1260434046
-s9432
-
-N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Gesture.o
-t1260434045
-s10664
-
-N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/LocalGameHost.o
-t1260434045
-s19480
-
-N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/ModeSelectView.o
-t1260434830
-s7984
-
-N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/ModeSelectViewController.o
-t1260434045
-s39920
-
-N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/PreferencesViewController.o
-t1260434045
-s29548
-
-N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/RemoteGameHost.o
-t1260434045
-s16808
-
-N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Server.o
-t1260434046
-s26204
-
-N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/ServerBrowseViewController.o
-t1260434045
-s51108
-
-N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/ServerBrowser.o
-t1260434046
-s16708
-
-N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/gridMap.o
-t1260434046
-s10264
-
-N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/iQk.LinkFileList
-c000000004B20B27B000000000000077D
-t1260434043
-s1917
-
-N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/iQkAppDelegate.o
-t1260434045
-s52932
-
-N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/iQkGooViewController.o
-t1260434045
-s44084
-
-N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/main.o
-t1260434045
-s6528
-
-N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/splashView.o
-t1260434046
-s31540
-
-N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk.xcent
-t1260434046
-s316
-
-N/Users/sixteen/kadd-jade/iQk/iQkGooView.png
-c000000004B20A9120000000000031F8A
-t1260431634
-s204682
-
-N/Users/sixteen/kadd-jade/iQk/iQkGooView.xib
-c000000004B20A912000000000000254B
-t1260431634
-s9547
-
-N/Users/sixteen/kadd-jade/iQk/iQkMultiButton.png
-c000000004B20A91200000000000014AA
-t1260431634
-s5290
-
-N/Users/sixteen/kadd-jade/iQk/iQkSelectionBackground.png
-c000000004B20A91200000000000071E9
-t1260431634
-s29161
-
-N/Users/sixteen/kadd-jade/iQk/iQkSoloButton.png
-c000000004B20A9120000000000000F23
-t1260431634
-s3875
-
-N/Users/sixteen/kadd-jade/iQk/iQkSplash.png
-c000000004B20A9120000000000037F7E
-t1260431634
-s229246
-
-N/Users/sixteen/kadd-jade/iQk/iQk_Prefix.pch
-c000000004B20A91200000000000000AF
-t1260431634
-s175
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/sixteen/kadd-jade/iQk/main.m
-c000000004B20A9120000000000000162
-t1260431634
-s354
-i<UIKit/UIKit.h>
-
-N/var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-fuuephvltdihwqemuydkqypbojlm/iQk_Prefix.pch.gch
-t1260434045
-s7876792
-
-NiQk-Info.plist
-c000000004B20A912000000000000038D
-t1260431634
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies282127630#282127630#0(0"0(0#1#0"4300885448#0"0#
-
-CCodeSign /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app
-s282127630.967556
-e282127631.170695
-r1
-xCodeSign
-x/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app
-lSLF07#2@37"CodeSign build/Debug-iphoneos/iQk.app282127630#282127631#0(0"0(0#0#57"/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app4300885448#587"    cd /Users/sixteen/kadd-jade/iQk    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Andrew Bishop (Z4RD8K4M4G)" --resource-rules=/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/ResourceRules.plist --entitlements /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk.xcent /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app0#
-
-CCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/AppConfig.o /Users/sixteen/kadd-jade/iQk/Classes/AppConfig.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282126846.086169
-e282126846.140618
-r1
-xCompileC
-xbuild/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/AppConfig.o
-x/Users/sixteen/kadd-jade/iQk/Classes/AppConfig.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/sixteen/kadd-jade/iQk/Classes/AppConfig.m282126846#282126846#0(0"0(0#0#48"/Users/sixteen/kadd-jade/iQk/Classes/AppConfig.m4300885448#1556"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos -I/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources/armv6 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-fuuephvltdihwqemuydkqypbojlm/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/AppConfig.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/AppConfig.o0#
-
-CCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Audio.o /Users/sixteen/kadd-jade/iQk/Classes/Audio.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282126846.188567
-e282126846.241873
-r1
-xCompileC
-xbuild/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Audio.o
-x/Users/sixteen/kadd-jade/iQk/Classes/Audio.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /Users/sixteen/kadd-jade/iQk/Classes/Audio.m282126846#282126846#0(0"0(0#0#44"/Users/sixteen/kadd-jade/iQk/Classes/Audio.m4300885448#1548"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos -I/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources/armv6 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-fuuephvltdihwqemuydkqypbojlm/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/Audio.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Audio.o0#
-
-CCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Connection.o /Users/sixteen/kadd-jade/iQk/Classes/Connection.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282126845.804217
-e282126845.929938
-r1
-xCompileC
-xbuild/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Connection.o
-x/Users/sixteen/kadd-jade/iQk/Classes/Connection.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.h:11,
-o                 from /Users/sixteen/kadd-jade/iQk/Classes/Connection.m:9:
-o/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h:23: warning: '@end' must appear in an @implementation context
-lSLF07#2@57"Compile /Users/sixteen/kadd-jade/iQk/Classes/Connection.m282126845#282126845#0(271"In file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.h:11,                 from /Users/sixteen/kadd-jade/iQk/Classes/Connection.m:9:/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h:23: warning: '@end' must appear in an @implementation context1(22@48"'@end' must appear in an @implementation context282126845#151#120#3(7@71"In file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.m282126845#18446744073709551615#0#0(6@49"/Users/sixteen/kadd-jade/iQk/Classes/Connection.m282124434#9#0#9#0#0"0(7@71"In file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.h282126845#18446744073709551615#0#0(6@49"/Users/sixteen/kadd-jade/iQk/Classes/Connection.h282124434#11#0#11#0#0"0(13@109"'@end' must appear in an @implementation context in /Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282126845#18446744073709551615#0#0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282124434#23#0#23#0#0"0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282124434#23#0#23#0#0"0(0#0#49"/Users/sixteen/kadd-jade/iQk/Classes/Connection.m4300885448#1558"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos -I/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources/armv6 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-fuuephvltdihwqemuydkqypbojlm/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/Connection.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Connection.o0#
-
-CCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Game.o /Users/sixteen/kadd-jade/iQk/Classes/Game.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282126846.058073
-e282126846.106519
-r1
-xCompileC
-xbuild/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Game.o
-x/Users/sixteen/kadd-jade/iQk/Classes/Game.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@51"Compile /Users/sixteen/kadd-jade/iQk/Classes/Game.m282126846#282126846#0(0"0(0#0#43"/Users/sixteen/kadd-jade/iQk/Classes/Game.m4300885448#1546"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos -I/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources/armv6 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-fuuephvltdihwqemuydkqypbojlm/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/Game.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Game.o0#
-
-CCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Gesture.o /Users/sixteen/kadd-jade/iQk/Classes/Gesture.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282126845.873013
-e282126845.930910
-r1
-xCompileC
-xbuild/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Gesture.o
-x/Users/sixteen/kadd-jade/iQk/Classes/Gesture.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/sixteen/kadd-jade/iQk/Classes/Gesture.m:37: warning: incomplete implementation of class 'Gesture'
-o/Users/sixteen/kadd-jade/iQk/Classes/Gesture.m:37: warning: method definition for '-init' not found
-lSLF07#2@54"Compile /Users/sixteen/kadd-jade/iQk/Classes/Gesture.m282126845#282126845#0(205"/Users/sixteen/kadd-jade/iQk/Classes/Gesture.m:37: warning: incomplete implementation of class 'Gesture'/Users/sixteen/kadd-jade/iQk/Classes/Gesture.m:37: warning: method definition for '-init' not found2(22@44"Incomplete implementation of class 'Gesture'282126845#0#105#0(6@46"/Users/sixteen/kadd-jade/iQk/Classes/Gesture.m282124434#37#0#37#0#38"incomplete implementation of class '*'0(22@39"Method definition for '-init' not found282126845#105#100#0(6@46"/Users/sixteen/kadd-jade/iQk/Classes/Gesture.m282124434#37#0#37#0#35"method definition for '*' not found0(0#0#46"/Users/sixteen/kadd-jade/iQk/Classes/Gesture.m4300885448#1552"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos -I/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources/armv6 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-fuuephvltdihwqemuydkqypbojlm/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/Gesture.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Gesture.o0#
-
-CCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/LocalGameHost.o /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282126845.930039
-e282126845.995688
-r1
-xCompileC
-xbuild/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/LocalGameHost.o
-x/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.h:13,
-o                 from /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:9:
-o/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h:23: warning: '@end' must appear in an @implementation context
-o/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m: In function '-[LocalGameHost start]':
-o/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:44: warning: class 'LocalGameHost' does not implement the 'ServerDelegate' protocol
-o/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m: At top level:
-o/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:135: warning: incomplete implementation of class 'LocalGameHost'
-o/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:135: warning: method definition for '-serverHostTerminated:reason:' not found
-o/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:135: warning: method definition for '-reactByGesture:fromUser:' not found
-o/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:135: warning: class 'LocalGameHost' does not fully implement the 'GameDelegate' protocol
-lSLF07#2@60"Compile /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282126845#282126845#0(1092"In file included from /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.h:13,                 from /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:9:/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h:23: warning: '@end' must appear in an @implementation context/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m: In function '-[LocalGameHost start]':/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:44: warning: class 'LocalGameHost' does not implement the 'ServerDelegate' protocol/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m: At top level:/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:135: warning: incomplete implementation of class 'LocalGameHost'/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:135: warning: method definition for '-serverHostTerminated:reason:' not found/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:135: warning: method definition for '-reactByGesture:fromUser:' not found/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:135: warning: class 'LocalGameHost' does not fully implement the 'GameDelegate' protocol7(22@48"'@end' must appear in an @implementation context282126845#157#120#3(7@74"In file included from /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282126845#18446744073709551615#0#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282124434#9#0#9#0#0"0(7@74"In file included from /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.h282126845#18446744073709551615#0#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.h282124434#13#0#13#0#0"0(13@109"'@end' must appear in an @implementation context in /Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282126845#18446744073709551615#0#0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282124434#23#0#23#0#0"0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282124434#23#0#23#0#0"0(22@70"Class 'LocalGameHost' does not implement the 'ServerDelegate' protocol282126845#369#137#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282124434#44#0#44#0#45"class '*' does not implement the '*' protocol0(23@13"At top level:282126845#506#68#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282124434#0#0#0#0#0"0(22@50"Incomplete implementation of class 'LocalGameHost'282126845#574#118#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282124434#135#0#135#0#38"incomplete implementation of class '*'0(22@63"Method definition for '-serverHostTerminated:reason:' not found282126845#692#131#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282124434#135#0#135#0#35"method definition for '*' not found0(22@59"Method definition for '-reactByGesture:fromUser:' not found282126845#823#127#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282124434#135#0#135#0#35"method definition for '*' not found0(22@74"Class 'LocalGameHost' does not fully implement the 'GameDelegate' protocol282126845#950#142#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282124434#135#0#135#0#51"class '*' does not fully implement the '*' protocol0(0#0#52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m4300885448#1564"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos -I/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources/armv6 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-fuuephvltdihwqemuydkqypbojlm/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/LocalGameHost.o0#
-
-CCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/ModeSelectView.o /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282127630.815639
-e282127630.907373
-r1
-xCompileC
-xbuild/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/ModeSelectView.o
-x/Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@61"Compile /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.m282127630#282127630#0(0"0(0#0#53"/Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.m4300885448#1566"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos -I/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources/armv6 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-fuuephvltdihwqemuydkqypbojlm/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/ModeSelectView.o0#
-
-CCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/ModeSelectViewController.o /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282126845.646178
-e282126845.731306
-r1
-xCompileC
-xbuild/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/ModeSelectViewController.o
-x/Users/sixteen/kadd-jade/iQk/Classes/ModeSelectViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectViewController.m282126845#282126845#0(0"0(0#0#63"/Users/sixteen/kadd-jade/iQk/Classes/ModeSelectViewController.m4300885448#1586"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos -I/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources/armv6 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-fuuephvltdihwqemuydkqypbojlm/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectViewController.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/ModeSelectViewController.o0#
-
-CCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/PreferencesViewController.o /Users/sixteen/kadd-jade/iQk/Classes/PreferencesViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282126845.680822
-e282126845.736336
-r1
-xCompileC
-xbuild/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/PreferencesViewController.o
-x/Users/sixteen/kadd-jade/iQk/Classes/PreferencesViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/sixteen/kadd-jade/iQk/Classes/PreferencesViewController.m282126845#282126845#0(0"0(0#0#64"/Users/sixteen/kadd-jade/iQk/Classes/PreferencesViewController.m4300885448#1588"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos -I/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources/armv6 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-fuuephvltdihwqemuydkqypbojlm/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/PreferencesViewController.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/PreferencesViewController.o0#
-
-CCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/RemoteGameHost.o /Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282126845.930975
-e282126845.993908
-r1
-xCompileC
-xbuild/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/RemoteGameHost.o
-x/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.h:11,
-o                 from /Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.h:11,
-o                 from /Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:9:
-o/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h:23: warning: '@end' must appear in an @implementation context
-o/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m: In function '-[RemoteGameHost connectionAttemptFailed:]':
-o/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:81: warning: '-roomTerminated:reason:' not found in protocol(s)
-o/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:81: warning: no '-roomTerminated:reason:' method found
-o/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:81: warning: (Messages without a matching method signature
-o/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:81: warning: will be assumed to return 'id' and accept
-o/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:81: warning: '...' as arguments.)
-o/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m: In function '-[RemoteGameHost connectionTerminated:]':
-o/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:86: warning: '-roomTerminated:reason:' not found in protocol(s)
-o/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:86: warning: no '-roomTerminated:reason:' method found
-lSLF07#2@61"Compile /Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m282126845#282126845#0(1342"In file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.h:11,                 from /Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.h:11,                 from /Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:9:/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h:23: warning: '@end' must appear in an @implementation context/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m: In function '-[RemoteGameHost connectionAttemptFailed:]':/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:81: warning: '-roomTerminated:reason:' not found in protocol(s)/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:81: warning: no '-roomTerminated:reason:' method found/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:81: warning: (Messages without a matching method signature/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:81: warning: will be assumed to return 'id' and accept/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:81: warning: '...' as arguments.)/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m: In function '-[RemoteGameHost connectionTerminated:]':/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:86: warning: '-roomTerminated:reason:' not found in protocol(s)/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:86: warning: no '-roomTerminated:reason:' method found6(22@48"'@end' must appear in an @implementation context282126845#235#120#4(7@75"In file included from /Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m282126845#18446744073709551615#0#0(6@53"/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m282124434#9#0#9#0#0"0(7@75"In file included from /Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.h282126845#18446744073709551615#0#0(6@53"/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.h282124434#11#0#11#0#0"0(7@71"In file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.h282126845#18446744073709551615#0#0(6@49"/Users/sixteen/kadd-jade/iQk/Classes/Connection.h282124434#11#0#11#0#0"0(13@109"'@end' must appear in an @implementation context in /Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282126845#18446744073709551615#0#0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282124434#23#0#23#0#0"0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282124434#23#0#23#0#0"0(22@50"'-roomTerminated:reason:' not found in protocol(s)282126845#468#118#0(6@53"/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m282124434#81#0#81#0#28"'*' not found in protocol(s)0(22@41"No '-roomTerminated:reason:' method found282126845#586#109#0(6@53"/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m282124434#81#0#81#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)282126845#695#113#0(6@53"/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m282124434#81#0#81#0#0"0(22@50"'-roomTerminated:reason:' not found in protocol(s)282126845#1115#118#0(6@53"/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m282124434#86#0#86#0#28"'*' not found in protocol(s)0(22@41"No '-roomTerminated:reason:' method found282126845#1233#109#0(6@53"/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m282124434#86#0#86#0#19"no '*' method found0(0#0#53"/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m4300885448#1566"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos -I/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources/armv6 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-fuuephvltdihwqemuydkqypbojlm/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/RemoteGameHost.o0#
-
-CCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Server.o /Users/sixteen/kadd-jade/iQk/Classes/Server.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282126845.994165
-e282126846.086080
-r1
-xCompileC
-xbuild/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Server.o
-x/Users/sixteen/kadd-jade/iQk/Classes/Server.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.h:11,
-o                 from /Users/sixteen/kadd-jade/iQk/Classes/Server.m:15:
-o/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h:23: warning: '@end' must appear in an @implementation context
-lSLF07#2@53"Compile /Users/sixteen/kadd-jade/iQk/Classes/Server.m282126845#282126846#0(268"In file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.h:11,                 from /Users/sixteen/kadd-jade/iQk/Classes/Server.m:15:/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h:23: warning: '@end' must appear in an @implementation context1(22@48"'@end' must appear in an @implementation context282126846#148#120#3(7@67"In file included from /Users/sixteen/kadd-jade/iQk/Classes/Server.m282126846#18446744073709551615#0#0(6@45"/Users/sixteen/kadd-jade/iQk/Classes/Server.m282124434#15#0#15#0#0"0(7@71"In file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.h282126846#18446744073709551615#0#0(6@49"/Users/sixteen/kadd-jade/iQk/Classes/Connection.h282124434#11#0#11#0#0"0(13@109"'@end' must appear in an @implementation context in /Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282126846#18446744073709551615#0#0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282124434#23#0#23#0#0"0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282124434#23#0#23#0#0"0(0#0#45"/Users/sixteen/kadd-jade/iQk/Classes/Server.m4300885448#1550"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos -I/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources/armv6 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-fuuephvltdihwqemuydkqypbojlm/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/Server.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/Server.o0#
-
-CCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/ServerBrowseViewController.o /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282126845.786112
-e282126845.872920
-r1
-xCompileC
-xbuild/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/ServerBrowseViewController.o
-x/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.h:13,
-o                 from /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m:11:
-o/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h:23: warning: '@end' must appear in an @implementation context
-o/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m: In function '-[ServerBrowseViewController tableView:cellForRowAtIndexPath:]':
-o/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m:114: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)
-lSLF07#2@73"Compile /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m282126845#282126845#0(699"In file included from /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.h:13,                 from /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m:11:/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h:23: warning: '@end' must appear in an @implementation context/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m: In function '-[ServerBrowseViewController tableView:cellForRowAtIndexPath:]':/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m:114: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)2(22@48"'@end' must appear in an @implementation context282126845#171#120#3(7@87"In file included from /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m282126845#18446744073709551615#0#0(6@65"/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m282124434#11#0#11#0#0"0(7@74"In file included from /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.h282126845#18446744073709551615#0#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.h282124434#13#0#13#0#0"0(13@109"'@end' must appear in an @implementation context in /Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282126845#18446744073709551615#0#0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282124434#23#0#23#0#0"0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282124434#23#0#23#0#0"0(22@182"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)282126845#436#263#0(6@65"/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m282124434#114#0#114#0#33"'*' is deprecated (declared at *)0(0#0#65"/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m4300885448#1590"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos -I/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources/armv6 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-fuuephvltdihwqemuydkqypbojlm/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/ServerBrowseViewController.o0#
-
-CCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/ServerBrowser.o /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282126845.995757
-e282126846.057987
-r1
-xCompileC
-xbuild/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/ServerBrowser.o
-x/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowser.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowser.m282126845#282126846#0(0"0(0#0#52"/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowser.m4300885448#1564"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos -I/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources/armv6 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-fuuephvltdihwqemuydkqypbojlm/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowser.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/ServerBrowser.o0#
-
-CCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/gridMap.o /Users/sixteen/kadd-jade/iQk/Classes/gridMap.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282126846.140704
-e282126846.192099
-r1
-xCompileC
-xbuild/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/gridMap.o
-x/Users/sixteen/kadd-jade/iQk/Classes/gridMap.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/sixteen/kadd-jade/iQk/Classes/gridMap.m:52: warning: property 'touchPoint' requires method '-touchPoint' to be defined - use @synthesize, @dynamic or provide a method implementation
-lSLF07#2@54"Compile /Users/sixteen/kadd-jade/iQk/Classes/gridMap.m282126846#282126846#0(189"/Users/sixteen/kadd-jade/iQk/Classes/gridMap.m:52: warning: property 'touchPoint' requires method '-touchPoint' to be defined - use @synthesize, @dynamic or provide a method implementation1(22@128"Property 'touchPoint' requires method '-touchPoint' to be defined - use @synthesize, @dynamic or provide a method implementation282126846#0#189#0(6@46"/Users/sixteen/kadd-jade/iQk/Classes/gridMap.m282124434#52#0#52#0#0"0(0#0#46"/Users/sixteen/kadd-jade/iQk/Classes/gridMap.m4300885448#1552"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos -I/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources/armv6 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-fuuephvltdihwqemuydkqypbojlm/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/gridMap.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/gridMap.o0#
-
-CCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/iQkAppDelegate.o /Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282126845.560275
-e282126845.680726
-r1
-xCompileC
-xbuild/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/iQkAppDelegate.o
-x/Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@61"Compile /Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.m282126845#282126845#0(0"0(0#0#53"/Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.m4300885448#1566"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos -I/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources/armv6 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-fuuephvltdihwqemuydkqypbojlm/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/iQkAppDelegate.o0#
-
-CCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/iQkGooViewController.o /Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282126845.731404
-e282126845.804125
-r1
-xCompileC
-xbuild/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/iQkGooViewController.o
-x/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m: In function '-[iQkGooViewController touchesBegan:withEvent:]':
-o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:84: warning: no '-init:' method found
-o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:84: warning: (Messages without a matching method signature
-o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:84: warning: will be assumed to return 'id' and accept
-o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:84: warning: '...' as arguments.)
-o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m: At top level:
-o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:105: warning: incomplete implementation of class 'iQkGooViewController'
-o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:105: warning: method definition for '-serverHostTerminated:reason:' not found
-o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:105: warning: class 'iQkGooViewController' does not fully implement the 'GameDelegate' protocol
-lSLF07#2@67"Compile /Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m282126845#282126845#0(1051"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m: In function '-[iQkGooViewController touchesBegan:withEvent:]':/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:84: warning: no '-init:' method found/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:84: warning: (Messages without a matching method signature/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:84: warning: will be assumed to return 'id' and accept/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:84: warning: '...' as arguments.)/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m: At top level:/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:105: warning: incomplete implementation of class 'iQkGooViewController'/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:105: warning: method definition for '-serverHostTerminated:reason:' not found/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:105: warning: class 'iQkGooViewController' does not fully implement the 'GameDelegate' protocol6(22@24"No '-init:' method found282126845#124#98#0(6@59"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m282124434#84#0#84#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)282126845#222#119#0(6@59"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m282124434#84#0#84#0#0"0(23@13"At top level:282126845#550#75#0(6@59"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m282124434#0#0#0#0#0"0(22@57"Incomplete implementation of class 'iQkGooViewController'282126845#625#132#0(6@59"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m282124434#105#0#105#0#38"incomplete implementation of class '*'0(22@63"Method definition for '-serverHostTerminated:reason:' not found282126845#757#138#0(6@59"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m282124434#105#0#105#0#35"method definition for '*' not found0(22@81"Class 'iQkGooViewController' does not fully implement the 'GameDelegate' protocol282126845#895#156#0(6@59"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m282124434#105#0#105#0#51"class '*' does not fully implement the '*' protocol0(0#0#59"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m4300885448#1578"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos -I/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources/armv6 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-fuuephvltdihwqemuydkqypbojlm/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/iQkGooViewController.o0#
-
-CCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/main.o /Users/sixteen/kadd-jade/iQk/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282126845.559208
-e282126845.646079
-r1
-xCompileC
-xbuild/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/main.o
-x/Users/sixteen/kadd-jade/iQk/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@43"Compile /Users/sixteen/kadd-jade/iQk/main.m282126845#282126845#0(0"0(0#0#35"/Users/sixteen/kadd-jade/iQk/main.m4300885448#1538"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos -I/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources/armv6 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-fuuephvltdihwqemuydkqypbojlm/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/main.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/main.o0#
-
-CCompileC build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/splashView.o /Users/sixteen/kadd-jade/iQk/Classes/splashView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282126846.106602
-e282126846.188474
-r1
-xCompileC
-xbuild/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/splashView.o
-x/Users/sixteen/kadd-jade/iQk/Classes/splashView.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@57"Compile /Users/sixteen/kadd-jade/iQk/Classes/splashView.m282126846#282126846#0(0"0(0#0#49"/Users/sixteen/kadd-jade/iQk/Classes/splashView.m4300885448#1558"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos -I/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources/armv6 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-fuuephvltdihwqemuydkqypbojlm/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/splashView.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/splashView.o0#
-
-CCompileXIB /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.xib
-s282126843.440835
-e282126843.909316
-r1
-xCompileXIB
-x/Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.xib
-lSLF07#2@37"CompileXIB Classes/ModeSelectView.xib282126843#282126843#0(0"0(0#0#55"/Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.xib4300885448#450"    cd /Users/sixteen/kadd-jade/iQk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/ModeSelectView.nib /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.xib0#
-
-CCompileXIB /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseView.xib
-s282126843.822582
-e282126844.151536
-r1
-xCompileXIB
-x/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseView.xib
-lSLF07#2@39"CompileXIB Classes/ServerBrowseView.xib282126843#282126844#0(0"0(0#0#57"/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseView.xib4300885448#454"    cd /Users/sixteen/kadd-jade/iQk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/ServerBrowseView.nib /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseView.xib0#
-
-CCompileXIB /Users/sixteen/kadd-jade/iQk/MainWindow.xib
-s282126843.440112
-e282126843.822505
-r1
-xCompileXIB
-x/Users/sixteen/kadd-jade/iQk/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib282126843#282126843#0(0"0(0#0#43"/Users/sixteen/kadd-jade/iQk/MainWindow.xib4300885448#434"    cd /Users/sixteen/kadd-jade/iQk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/MainWindow.nib /Users/sixteen/kadd-jade/iQk/MainWindow.xib0#
-
-CCompileXIB /Users/sixteen/kadd-jade/iQk/iQkGooView.xib
-s282126843.909403
-e282126844.213649
-r1
-xCompileXIB
-x/Users/sixteen/kadd-jade/iQk/iQkGooView.xib
-lSLF07#2@25"CompileXIB iQkGooView.xib282126843#282126844#0(0"0(0#0#43"/Users/sixteen/kadd-jade/iQk/iQkGooView.xib4300885448#434"    cd /Users/sixteen/kadd-jade/iQk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkGooView.nib /Users/sixteen/kadd-jade/iQk/iQkGooView.xib0#
-
-CCopyPNGFile /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkGooView.png iQkGooView.png
-s282126844.237303
-e282126844.734823
-r1
-xCopyPNGFile
-x/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkGooView.png
-xiQkGooView.png
-lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/iQk.app/iQkGooView.png iQkGooView.png282126844#282126844#0(0"0(0#0#43"/Users/sixteen/kadd-jade/iQk/iQkGooView.png4300885448#534"    cd /Users/sixteen/kadd-jade/iQk    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sixteen/kadd-jade/iQk/iQkGooView.png /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkGooView.png0#
-
-CCopyPNGFile /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkMultiButton.png iQkMultiButton.png
-s282126844.213724
-e282126844.237160
-r1
-xCopyPNGFile
-x/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkMultiButton.png
-xiQkMultiButton.png
-lSLF07#2@78"CopyPNGFile build/Debug-iphoneos/iQk.app/iQkMultiButton.png iQkMultiButton.png282126844#282126844#0(0"0(0#0#47"/Users/sixteen/kadd-jade/iQk/iQkMultiButton.png4300885448#542"    cd /Users/sixteen/kadd-jade/iQk    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sixteen/kadd-jade/iQk/iQkMultiButton.png /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkMultiButton.png0#
-
-CCopyPNGFile /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkSelectionBackground.png iQkSelectionBackground.png
-s282126844.785212
-e282126844.993796
-r1
-xCopyPNGFile
-x/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkSelectionBackground.png
-xiQkSelectionBackground.png
-lSLF07#2@94"CopyPNGFile build/Debug-iphoneos/iQk.app/iQkSelectionBackground.png iQkSelectionBackground.png282126844#282126844#0(0"0(0#0#55"/Users/sixteen/kadd-jade/iQk/iQkSelectionBackground.png4300885448#558"    cd /Users/sixteen/kadd-jade/iQk    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sixteen/kadd-jade/iQk/iQkSelectionBackground.png /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkSelectionBackground.png0#
-
-CCopyPNGFile /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkSoloButton.png iQkSoloButton.png
-s282126844.753520
-e282126844.785124
-r1
-xCopyPNGFile
-x/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkSoloButton.png
-xiQkSoloButton.png
-lSLF07#2@76"CopyPNGFile build/Debug-iphoneos/iQk.app/iQkSoloButton.png iQkSoloButton.png282126844#282126844#0(0"0(0#0#46"/Users/sixteen/kadd-jade/iQk/iQkSoloButton.png4300885448#540"    cd /Users/sixteen/kadd-jade/iQk    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sixteen/kadd-jade/iQk/iQkSoloButton.png /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkSoloButton.png0#
-
-CCopyPNGFile /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkSplash.png iQkSplash.png
-s282126844.151622
-e282126845.038883
-r1
-xCopyPNGFile
-x/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkSplash.png
-xiQkSplash.png
-lSLF07#2@68"CopyPNGFile build/Debug-iphoneos/iQk.app/iQkSplash.png iQkSplash.png282126844#282126845#0(0"0(0#0#42"/Users/sixteen/kadd-jade/iQk/iQkSplash.png4300885448#532"    cd /Users/sixteen/kadd-jade/iQk    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sixteen/kadd-jade/iQk/iQkSplash.png /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQkSplash.png0#
-
-CCpResource build/Debug-iphoneos/iQk.app/BassDrum.wav BassDrum.wav
-s282126844.735588
-e282126844.746895
-r1
-xCpResource
-xbuild/Debug-iphoneos/iQk.app/BassDrum.wav
-xBassDrum.wav
-lSLF07#2@17"Copy BassDrum.wav282126844#282126844#0(0"0(0#0#41"/Users/sixteen/kadd-jade/iQk/BassDrum.wav4300885448#408"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sixteen/kadd-jade/iQk/BassDrum.wav /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app0#
-
-CCpResource build/Debug-iphoneos/iQk.app/CowBell.wav CowBell.wav
-s282126844.736090
-e282126844.746994
-r1
-xCpResource
-xbuild/Debug-iphoneos/iQk.app/CowBell.wav
-xCowBell.wav
-lSLF07#2@16"Copy CowBell.wav282126844#282126844#0(0"0(0#0#40"/Users/sixteen/kadd-jade/iQk/CowBell.wav4300885448#407"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sixteen/kadd-jade/iQk/CowBell.wav /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app0#
-
-CCpResource build/Debug-iphoneos/iQk.app/CymbalSplash.wav CymbalSplash.wav
-s282126844.750056
-e282126844.759125
-r1
-xCpResource
-xbuild/Debug-iphoneos/iQk.app/CymbalSplash.wav
-xCymbalSplash.wav
-lSLF07#2@21"Copy CymbalSplash.wav282126844#282126844#0(0"0(0#0#45"/Users/sixteen/kadd-jade/iQk/CymbalSplash.wav4300885448#412"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sixteen/kadd-jade/iQk/CymbalSplash.wav /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app0#
-
-CCpResource build/Debug-iphoneos/iQk.app/DiscoHit.wav DiscoHit.wav
-s282126844.737578
-e282126844.755164
-r1
-xCpResource
-xbuild/Debug-iphoneos/iQk.app/DiscoHit.wav
-xDiscoHit.wav
-lSLF07#2@17"Copy DiscoHit.wav282126844#282126844#0(0"0(0#0#41"/Users/sixteen/kadd-jade/iQk/DiscoHit.wav4300885448#408"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sixteen/kadd-jade/iQk/DiscoHit.wav /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app0#
-
-CCpResource build/Debug-iphoneos/iQk.app/DrumStick.wav DrumStick.wav
-s282126844.739075
-e282126844.751767
-r1
-xCpResource
-xbuild/Debug-iphoneos/iQk.app/DrumStick.wav
-xDrumStick.wav
-lSLF07#2@18"Copy DrumStick.wav282126844#282126844#0(0"0(0#0#42"/Users/sixteen/kadd-jade/iQk/DrumStick.wav4300885448#409"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sixteen/kadd-jade/iQk/DrumStick.wav /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app0#
-
-CCpResource build/Debug-iphoneos/iQk.app/HiHat.wav HiHat.wav
-s282126844.751922
-e282126844.767077
-r1
-xCpResource
-xbuild/Debug-iphoneos/iQk.app/HiHat.wav
-xHiHat.wav
-lSLF07#2@14"Copy HiHat.wav282126844#282126844#0(0"0(0#0#38"/Users/sixteen/kadd-jade/iQk/HiHat.wav4300885448#405"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sixteen/kadd-jade/iQk/HiHat.wav /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app0#
-
-CCpResource build/Debug-iphoneos/iQk.app/HiHatClose.wav HiHatClose.wav
-s282126844.740612
-e282126844.751865
-r1
-xCpResource
-xbuild/Debug-iphoneos/iQk.app/HiHatClose.wav
-xHiHatClose.wav
-lSLF07#2@19"Copy HiHatClose.wav282126844#282126844#0(0"0(0#0#43"/Users/sixteen/kadd-jade/iQk/HiHatClose.wav4300885448#410"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sixteen/kadd-jade/iQk/HiHatClose.wav /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app0#
-
-CCpResource build/Debug-iphoneos/iQk.app/JazzCymbal.wav JazzCymbal.wav
-s282126844.742149
-e282126844.755267
-r1
-xCpResource
-xbuild/Debug-iphoneos/iQk.app/JazzCymbal.wav
-xJazzCymbal.wav
-lSLF07#2@19"Copy JazzCymbal.wav282126844#282126844#0(0"0(0#0#43"/Users/sixteen/kadd-jade/iQk/JazzCymbal.wav4300885448#410"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sixteen/kadd-jade/iQk/JazzCymbal.wav /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app0#
-
-CCpResource build/Debug-iphoneos/iQk.app/PacmanDying.wav PacmanDying.wav
-s282126844.743686
-e282126844.763081
-r1
-xCpResource
-xbuild/Debug-iphoneos/iQk.app/PacmanDying.wav
-xPacmanDying.wav
-lSLF07#2@20"Copy PacmanDying.wav282126844#282126844#0(0"0(0#0#44"/Users/sixteen/kadd-jade/iQk/PacmanDying.wav4300885448#411"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sixteen/kadd-jade/iQk/PacmanDying.wav /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app0#
-
-CCpResource build/Debug-iphoneos/iQk.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
-s282126843.402084
-e282126843.440019
-r1
-xCpResource
-xbuild/Debug-iphoneos/iQk.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
-lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist282126843#282126843#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist4300885448#458"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app0#
-
-CCpResource build/Debug-iphoneos/iQk.app/ReversedCrash.wav ReversedCrash.wav
-s282126844.745190
-e282126844.760245
-r1
-xCpResource
-xbuild/Debug-iphoneos/iQk.app/ReversedCrash.wav
-xReversedCrash.wav
-lSLF07#2@22"Copy ReversedCrash.wav282126844#282126844#0(0"0(0#0#46"/Users/sixteen/kadd-jade/iQk/ReversedCrash.wav4300885448#413"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sixteen/kadd-jade/iQk/ReversedCrash.wav /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app0#
-
-CCpResource build/Debug-iphoneos/iQk.app/SnareDrum.wav SnareDrum.wav
-s282126844.734914
-e282126844.746790
-r1
-xCpResource
-xbuild/Debug-iphoneos/iQk.app/SnareDrum.wav
-xSnareDrum.wav
-lSLF07#2@18"Copy SnareDrum.wav282126844#282126844#0(0"0(0#0#42"/Users/sixteen/kadd-jade/iQk/SnareDrum.wav4300885448#409"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sixteen/kadd-jade/iQk/SnareDrum.wav /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app0#
-
-CCpResource build/Debug-iphoneos/iQk.app/Tambourine.wav Tambourine.wav
-s282126844.747045
-e282126844.756719
-r1
-xCpResource
-xbuild/Debug-iphoneos/iQk.app/Tambourine.wav
-xTambourine.wav
-lSLF07#2@19"Copy Tambourine.wav282126844#282126844#0(0"0(0#0#43"/Users/sixteen/kadd-jade/iQk/Tambourine.wav4300885448#410"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sixteen/kadd-jade/iQk/Tambourine.wav /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app0#
-
-CCpResource build/Debug-iphoneos/iQk.app/ZildjianCymbals.wav ZildjianCymbals.wav
-s282126844.748538
-e282126844.767580
-r1
-xCpResource
-xbuild/Debug-iphoneos/iQk.app/ZildjianCymbals.wav
-xZildjianCymbals.wav
-lSLF07#2@24"Copy ZildjianCymbals.wav282126844#282126844#0(0"0(0#0#48"/Users/sixteen/kadd-jade/iQk/ZildjianCymbals.wav4300885448#415"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sixteen/kadd-jade/iQk/ZildjianCymbals.wav /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app0#
-
-CGenerateDSYMFile /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app.dSYM /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQk
-s282127630.940734
-e282127630.965054
-r1
-xGenerateDSYMFile
-x/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app.dSYM
-x/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQk
-lSLF07#2@83"GenerateDSYMFile build/Debug-iphoneos/iQk.app.dSYM build/Debug-iphoneos/iQk.app/iQk282127630#282127630#0(0"0(0#0#61"/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQk4300885448#320"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQk -o /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app.dSYM0#
-
-CLd /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQk normal armv6
-s282127630.907447
-e282127630.940641
-r1
-xLd
-x/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQk
-xnormal
-xarmv6
-lSLF07#2@66"Link /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQk282127630#282127630#0(0"0(0#0#0"4300885448#871"    cd /Users/sixteen/kadd-jade/iQk    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos -F/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos -filelist /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/Objects-normal/armv6/iQk.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -framework AudioToolbox -o /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/iQk0#
-
-CProcessInfoPlistFile /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/Info.plist iQk-Info.plist
-s282126843.402785
-e282126843.405594
-r1
-xProcessInfoPlistFile
-x/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/Info.plist
-xiQk-Info.plist
-lSLF07#2@22"Process iQk-Info.plist282126843#282126843#0(0"0(0#0#43"/Users/sixteen/kadd-jade/iQk/iQk-Info.plist4300885448#506"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iQk-Info.plist -genpkginfo /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/ResourceRules.plist -o /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/Info.plist0#
-
-CProcessPCH /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-fuuephvltdihwqemuydkqypbojlm/iQk_Prefix.pch.gch iQk_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282126845.039018
-e282126845.559081
-r1
-xProcessPCH
-x/var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-fuuephvltdihwqemuydkqypbojlm/iQk_Prefix.pch.gch
-xiQk_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@25"Precompile iQk_Prefix.pch282126845#282126845#0(0"0(0#0#43"/Users/sixteen/kadd-jade/iQk/iQk_Prefix.pch4300885448#1450"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos -I/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources/armv6 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/DerivedSources -c /Users/sixteen/kadd-jade/iQk/iQk_Prefix.pch -o /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-fuuephvltdihwqemuydkqypbojlm/iQk_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/sixteen/Library/MobileDevice/Provisioning Profiles/CBEAAA8E-7C6A-4FED-B378-87CD1249AEA3.mobileprovision" /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/embedded.mobileprovision
-s282126846.475383
-e282126846.476487
-r1
-xProcessProductPackaging
-x/Users/sixteen/Library/MobileDevice/Provisioning Profiles/CBEAAA8E-7C6A-4FED-B378-87CD1249AEA3.mobileprovision
-x/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/embedded.mobileprovision
-lSLF07#2@190"ProcessProductPackaging "/Users/sixteen/Library/MobileDevice/Provisioning Profiles/CBEAAA8E-7C6A-4FED-B378-87CD1249AEA3.mobileprovision" build/Debug-iphoneos/iQk.app/embedded.mobileprovision282126846#282126846#0(0"0(0#0#82"/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/embedded.mobileprovision4300885448#401"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/sixteen/Library/MobileDevice/Provisioning Profiles/CBEAAA8E-7C6A-4FED-B378-87CD1249AEA3.mobileprovision" -o /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk.xcent
-s282126846.479754
-e282126846.497432
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
-x/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk.xcent
-lSLF07#2@165"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist build/iQk.build/Debug-iphoneos/iQk.build/iQk.xcent282126846#282126846#0(0"0(0#0#79"/Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk.xcent4300885448#402"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Debug-iphoneos/iQk.build/iQk.xcent0#
-
-CTouch /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app
-s282127630.965212
-e282127630.967428
-r1
-xTouch
-x/Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app
-lSLF07#2@63"Touch /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app282127630#282127630#0(0"0(0#0#0"4300885448#240"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/sixteen/kadd-jade/iQk/build/Debug-iphoneos/iQk.app0#
-
