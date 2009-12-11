@@ -15,6 +15,7 @@
 @implementation iQkGooViewController
 
 @synthesize game;
+@synthesize iQkAccelerometer;
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -32,12 +33,15 @@
 }
 */
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+	self.iQkAccelerometer = [UIAccelerometer sharedAccelerometer];
+	self.iQkAccelerometer.updateInterval = .5;
+	self.iQkAccelerometer.delegate = self;
 }
-*/
+
 
 /*
 // Override to allow orientations other than the default portrait orientation.
@@ -75,6 +79,14 @@
 }
 
 // OK from here we have all foo dealing with events 
+
+- (void)accelerometer:(UIAccelerometer *)iQkAccelerometer didAccelerate:(UIAcceleration *)acceleration {
+	//float x = acceleration.x;
+	//float y = acceleration.y;
+	//float z = acceleration.z;
+	printf("%i", acceleration.x);
+	NSLog(@"accel triggered");
+}
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
 	UITouch *touch = [touches anyObject];

@@ -13,13 +13,17 @@
 
 @class Game;
 
-@interface iQkGooViewController : UIViewController <GameDelegate, UITextFieldDelegate>{
+@interface iQkGooViewController : UIViewController <GameDelegate, UITextFieldDelegate, UIAccelerometerDelegate> {
 	Game* game;
 	IBOutlet UIButton* goo;
 	IBOutlet UILabel* show;
+	UIAccelerometer *iQkAccelerometer;
 }
 
 @property (nonatomic, retain) Game* game;
+
+// The following property is what is used to recieve values from HW
+@property (nonatomic, retain) UIAccelerometer *iQkAccelerometer;
 
 - (IBAction)clicked:(id)sender;
 
@@ -30,5 +34,7 @@
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event;
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event;
+
+- (void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration;
 
 @end
