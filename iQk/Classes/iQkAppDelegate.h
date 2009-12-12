@@ -41,5 +41,10 @@
 - (void) showPreferenceView;
 
 - (void) fadeView:(UIView *)id;
+
+- (void)setLang;
+
++ (id)getLang;
+
 @end
 

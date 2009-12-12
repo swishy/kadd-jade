@@ -18,9 +18,11 @@
 @synthesize iqkGooViewController;
 
 static iQkAppDelegate* _instance;
+static iQkAppDelegate* _lang;
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
 	_instance = self;
+	[self setLang];
 
 	splashView *splash = [[splashView alloc] initWithImage:
 						  [UIImage imageNamed:@"iQkSplash.png"]];
@@ -46,6 +48,15 @@ static iQkAppDelegate* _instance;
     [super dealloc];
 }
 
+- (void)setLang {
+	
+	NSUserDefaults* defs = [NSUserDefaults standardUserDefaults];
+	NSArray* languages = [defs objectForKey:@"AppleLanguages"];
+	NSString* preferredLang = [languages objectAtIndex:0];
+	printf("Whats my pref Lang? %i \n", preferredLang);
+	_lang = preferredLang;
+}
+
 - (void)fadeView:(UIView*)id{
 	[UIView beginAnimations:nil context:NULL];
 	[UIView setAnimationDuration:0.40];
@@ -66,6 +77,12 @@ static iQkAppDelegate* _instance;
 
 - (void)showPreferenceView{
 	NSLog(@"showPreferenceView reached.");
+}
+
++ (id)getLang{
+	
+	return _lang;
+	
 }
 
 - (void)showGameView:(Game*)game {

@@ -97,7 +97,7 @@
 } 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
 	NSLog(@"in touchesMoved event");
-	
+
 }
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
 	NSLog(@"in touchesEnded event");
