@@ -74,7 +74,10 @@
 
 
 - (void)dealloc {
-    self.game = nil;
+    [game release];
+	[goo release];
+	[show release];
+	[iQkAccelerometer release];
     [super dealloc];
 }
 

@@ -32,7 +32,8 @@
 }
 
 - (void)dealloc {
-	self.serverBrowser = nil;
+	[serverBrowser release];
+	[serverList release];
 	[super dealloc];
 }
 

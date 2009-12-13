@@ -98,6 +98,9 @@
 }
 
 - (void)dealloc {
+	[splashImage release];
+	[image release];
+	//[animation release];
     [super dealloc];
 }
 

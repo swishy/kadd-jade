@@ -44,7 +44,11 @@ static iQkAppDelegate* _lang;
 
 
 - (void)dealloc {
-    [window release];
+	[modeSelectViewController release];
+	[serverBrowseViewController release];
+	[preferencesViewController release];
+	[iqkGooViewController release];
+	[window release];
     [super dealloc];
 }
 
@@ -69,9 +73,9 @@ static iQkAppDelegate* _lang;
 
 - (void)showServerBrowseView{
 	//NSLog(@"showServerBrowseView reached.");
-	[serverBrowseViewController activate];
 	[window sendSubviewToBack:modeSelectViewController.view];
 	[window addSubview:serverBrowseViewController.view];
+	[serverBrowseViewController activate];
 	[window bringSubviewToFront:serverBrowseViewController.view];
 }
 
