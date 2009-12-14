@@ -14,7 +14,7 @@
 @synthesize window;
 @synthesize modeSelectViewController;
 @synthesize serverBrowseViewController;
-@synthesize preferencesViewController;
+@synthesize preferenceViewController;
 @synthesize iqkGooViewController;
 
 static iQkAppDelegate* _instance;
@@ -46,7 +46,7 @@ static iQkAppDelegate* _lang;
 - (void)dealloc {
 	[modeSelectViewController release];
 	[serverBrowseViewController release];
-	[preferencesViewController release];
+	[preferenceViewController release];
 	[iqkGooViewController release];
 	[window release];
     [super dealloc];
@@ -80,7 +80,13 @@ static iQkAppDelegate* _lang;
 }
 
 - (void)showPreferenceView{
-	NSLog(@"showPreferenceView reached.");
+	preferenceViewController = [PreferenceViewController alloc];
+	[window addSubview:preferenceViewController.view];
+}
+
+- (void)unloadPreferenceView{
+	[preferenceViewController save];
+	[window sendSubviewToBack:preferenceViewController.view];
 }
 
 + (id)getLang{

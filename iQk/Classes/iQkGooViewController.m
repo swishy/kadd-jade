@@ -10,6 +10,7 @@
 #import "AppConfig.h"
 #import "Gesture.h"
 #import "Audio.h"
+#import "iQkAppDelegate.h"
 
 
 @implementation iQkGooViewController
@@ -18,7 +19,7 @@
 @synthesize iQkAccelerometer;
 
 static NSString *tilt;
-static NSString *preferenceLoaded;
+static BOOL preferenceLoaded = NO;
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -104,7 +105,14 @@ static NSString *preferenceLoaded;
 	
 	if (shake)
 	{
-		NSLog(@"Into shake");
+		if (preferenceLoaded == NO){
+			preferenceLoaded = YES;
+			[[iQkAppDelegate getInstance] showPreferenceView];
+		}
+		else if (preferenceLoaded == YES) {
+			[[iQkAppDelegate getInstance] unloadPreferenceView];
+			preferenceLoaded = NO;
+		}
 		[Audio playSound:@"shake"];
 	}
 	if (acceleration.x >= 0.8) {

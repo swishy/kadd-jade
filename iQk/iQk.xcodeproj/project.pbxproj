@@ -22,6 +22,9 @@
 		1E6B219910B12F8A00BA14AD /* ServerBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B218D10B12F8A00BA14AD /* ServerBrowser.m */; };
 		1E6B219B10B12F8A00BA14AD /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B219210B12F8A00BA14AD /* Game.m */; };
 		1E6B21BE10B131F200BA14AD /* AppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B21BD10B131F200BA14AD /* AppConfig.m */; };
+		1EEE874C10D6334A002DEF6F /* PreferenceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EEE874B10D6334A002DEF6F /* PreferenceView.xib */; };
+		1EEE874F10D63355002DEF6F /* PreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE874E10D63355002DEF6F /* PreferenceViewController.m */; };
+		1EEE87AF10D63BCF002DEF6F /* Preference.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1EEE87AE10D63BCF002DEF6F /* Preference.bundle */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		4680DE9D10D0BAD10015D2C3 /* CowBell.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4680DE9C10D0BAD10015D2C3 /* CowBell.wav */; };
@@ -36,7 +39,6 @@
 		4680DED810D0DB7A0015D2C3 /* CymbalSplash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4680DED710D0DB7A0015D2C3 /* CymbalSplash.wav */; };
 		4680DEDC10D0DC6A0015D2C3 /* HiHat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4680DEDB10D0DC6A0015D2C3 /* HiHat.wav */; };
 		6A21A8DC10ABF54700994931 /* ModeSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A8DB10ABF54700994931 /* ModeSelectViewController.m */; };
-		6A21A8DF10ABF55600994931 /* PreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A8DE10ABF55600994931 /* PreferencesViewController.m */; };
 		6A21A8E510ABF57B00994931 /* iQkGooViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A8E410ABF57B00994931 /* iQkGooViewController.m */; };
 		6A21A90B10ABFD0F00994931 /* ModeSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A90910ABFD0F00994931 /* ModeSelectView.m */; };
 		CD10982F10C78E5C00993154 /* gridMap.m in Sources */ = {isa = PBXBuildFile; fileRef = CD10982E10C78E5C00993154 /* gridMap.m */; };
@@ -98,6 +100,10 @@
 		1E6B219310B12F8A00BA14AD /* GameDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDelegate.h; sourceTree = "<group>"; };
 		1E6B21BC10B131F200BA14AD /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
 		1E6B21BD10B131F200BA14AD /* AppConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConfig.m; sourceTree = "<group>"; };
+		1EEE874B10D6334A002DEF6F /* PreferenceView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreferenceView.xib; sourceTree = "<group>"; };
+		1EEE874D10D63355002DEF6F /* PreferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceViewController.h; sourceTree = "<group>"; };
+		1EEE874E10D63355002DEF6F /* PreferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceViewController.m; sourceTree = "<group>"; };
+		1EEE87AE10D63BCF002DEF6F /* Preference.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Preference.bundle; sourceTree = "<group>"; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -115,8 +121,6 @@
 		4680DEDB10D0DC6A0015D2C3 /* HiHat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HiHat.wav; sourceTree = "<group>"; };
 		6A21A8DA10ABF54700994931 /* ModeSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeSelectViewController.h; sourceTree = "<group>"; };
 		6A21A8DB10ABF54700994931 /* ModeSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModeSelectViewController.m; sourceTree = "<group>"; };
-		6A21A8DD10ABF55600994931 /* PreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesViewController.h; sourceTree = "<group>"; };
-		6A21A8DE10ABF55600994931 /* PreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesViewController.m; sourceTree = "<group>"; };
 		6A21A8E310ABF57B00994931 /* iQkGooViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iQkGooViewController.h; sourceTree = "<group>"; };
 		6A21A8E410ABF57B00994931 /* iQkGooViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iQkGooViewController.m; sourceTree = "<group>"; };
 		6A21A90810ABFD0F00994931 /* ModeSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeSelectView.h; sourceTree = "<group>"; };
@@ -236,6 +240,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				1EEE87AE10D63BCF002DEF6F /* Preference.bundle */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1EEE874B10D6334A002DEF6F /* PreferenceView.xib */,
 				CDA83B8110CF719F0050F857 /* Audio */,
 				1E6B216C10B12DB400BA14AD /* ServerBrowseView.xib */,
 				1E27935510AC015A00BE4F6C /* ModeSelectView.xib */,
@@ -283,14 +289,14 @@
 		6A21A8D010ABF47D00994931 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1EEE874D10D63355002DEF6F /* PreferenceViewController.h */,
+				1EEE874E10D63355002DEF6F /* PreferenceViewController.m */,
 				1E6B216A10B12DB400BA14AD /* ServerBrowseViewController.h */,
 				1E6B216B10B12DB400BA14AD /* ServerBrowseViewController.m */,
 				6A21A90810ABFD0F00994931 /* ModeSelectView.h */,
 				6A21A90910ABFD0F00994931 /* ModeSelectView.m */,
 				6A21A8DA10ABF54700994931 /* ModeSelectViewController.h */,
 				6A21A8DB10ABF54700994931 /* ModeSelectViewController.m */,
-				6A21A8DD10ABF55600994931 /* PreferencesViewController.h */,
-				6A21A8DE10ABF55600994931 /* PreferencesViewController.m */,
 				6A21A8E310ABF57B00994931 /* iQkGooViewController.h */,
 				6A21A8E410ABF57B00994931 /* iQkGooViewController.m */,
 				CDDC912810C7730F0054F2A5 /* splashView.h */,
@@ -418,6 +424,8 @@
 				CD92DF8610D6250E00717A9F /* NuSkoolBass.wav in Resources */,
 				CD92DF8810D6254400717A9F /* RedBass.wav in Resources */,
 				CD92DF8A10D6256A00717A9F /* ThickBass.wav in Resources */,
+				1EEE874C10D6334A002DEF6F /* PreferenceView.xib in Resources */,
+				1EEE87AF10D63BCF002DEF6F /* Preference.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +439,6 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* iQkAppDelegate.m in Sources */,
 				6A21A8DC10ABF54700994931 /* ModeSelectViewController.m in Sources */,
-				6A21A8DF10ABF55600994931 /* PreferencesViewController.m in Sources */,
 				6A21A8E510ABF57B00994931 /* iQkGooViewController.m in Sources */,
 				6A21A90B10ABFD0F00994931 /* ModeSelectView.m in Sources */,
 				1E6B216D10B12DB400BA14AD /* ServerBrowseViewController.m in Sources */,
@@ -446,6 +453,7 @@
 				CDDC912A10C7730F0054F2A5 /* splashView.m in Sources */,
 				CD10982F10C78E5C00993154 /* gridMap.m in Sources */,
 				CDA83BAD10CF75490050F857 /* Audio.m in Sources */,
+				1EEE874F10D63355002DEF6F /* PreferenceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,13 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "ModeSelectViewController.h"
-#import "PreferencesViewController.h"
+#import "PreferenceViewController.h"
 #import "ServerBrowseViewController.h"
 #import "iQkGooViewController.h"
 #import "Game.h"
 
 @class ModeSelectViewController;
-@class PreferencesViewController;
+@class PreferenceViewController;
 @class ServerBrowseViewController;
 @class iQkGooViewController;
 
@@ -22,14 +22,14 @@
     UIWindow *window;
 	ModeSelectViewController *modeSelectViewController;
 	ServerBrowseViewController *serverBrowseViewController;
-	PreferencesViewController *preferencesViewController;
+	PreferenceViewController *preferenceViewController;
 	iQkGooViewController *iqkGooViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet ModeSelectViewController *modeSelectViewController;
 @property (nonatomic, retain) IBOutlet ServerBrowseViewController *serverBrowseViewController;
-@property (nonatomic, retain) IBOutlet PreferencesViewController *preferencesViewController;
+@property (nonatomic, retain) IBOutlet PreferenceViewController *preferenceViewController;
 @property (nonatomic, retain) IBOutlet iQkGooViewController *iqkGooViewController;
 
 + (iQkAppDelegate*)getInstance;
@@ -39,6 +39,8 @@
 - (void) showServerBrowseView;
 
 - (void) showPreferenceView;
+
+- (void) unloadPreferenceView;
 
 - (void) fadeView:(UIView *)id;
 
