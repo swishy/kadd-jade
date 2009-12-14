@@ -57,7 +57,7 @@ static iQkAppDelegate* _lang;
 	NSUserDefaults* defs = [NSUserDefaults standardUserDefaults];
 	NSArray* languages = [defs objectForKey:@"AppleLanguages"];
 	NSString* preferredLang = [languages objectAtIndex:0];
-	printf("Whats my pref Lang? %i \n", preferredLang);
+	NSLog(@"%@\n", languages);
 	_lang = preferredLang;
 }
 

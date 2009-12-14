@@ -12,6 +12,17 @@
 
 @synthesize modeSelectView, soloButton, multiButton;
 - (void)viewDidLoad{
+	
+	NSString *lang = [iQkAppDelegate getLang];
+	
+	NSLog(@" in show mode select ");
+	NSLog(lang);
+	if ([lang isEqualToString: @"en" ]) {
+		NSLog(@"Into if statement");
+		UIImage *soloImg = [UIImage imageNamed:@"iQkSoloButtonEn.png"];
+		[soloButton setImage:soloImg forState:UIControlStateNormal];
+		[soloImg release];
+	}
 	/*
 	CGRect frame = modeSelectView.frame;
 	frame.origin.x = round((self.view.frame.size.width - frame.size.width) / 2.0);
@@ -23,6 +34,7 @@
 }
 
 - (void)showModeSelectView:(BOOL)show{
+	
 	[UIView beginAnimations:nil context:NULL];
 	[UIView setAnimationDuration:0.40];
 	
@@ -54,6 +66,15 @@
 	// but the principle is the important thing
 	//
 	[super didReceiveMemoryWarning];
+}
+
+- (void)awakeFromNib
+{
+	NSString *lang = [iQkAppDelegate getLang];
+	NSLog(@" in awak from Nib");
+	if (lang == @"en") {
+		[soloButton setBackgroundImage: [UIImage imageNamed:@"iQkSoloButtonEn.png"] forState: UIControlStateNormal];
+	}
 }
 
 - (void)soloButton:(id)sender{

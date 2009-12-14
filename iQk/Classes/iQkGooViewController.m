@@ -87,7 +87,25 @@
 	//float x = acceleration.x;
 	//float y = acceleration.y;
 	//float z = acceleration.z;
-	printf("%i", acceleration.x);
+	
+	//check for shake first
+	const float violence = 1.8;   // earth gravitation value sensibility
+	BOOL shake = NO;
+	// X, Y und Z
+	if (acceleration.x > violence || acceleration.x < (-1* violence))
+		shake = YES;
+	if (acceleration.y > violence || acceleration.y < (-1* violence))
+		shake = YES;
+	if (acceleration.z > violence || acceleration.z < (-1* violence))
+		shake = YES;
+	
+	if (shake)
+	{
+		NSLog(@"Into shake");
+		[Audio playSound:@"shake"];
+	}
+	
+	//printf("%i", acceleration.x);
 	NSLog(@"accel triggered");
 }
 

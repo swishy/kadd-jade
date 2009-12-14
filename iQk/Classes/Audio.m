@@ -15,6 +15,7 @@
 + (void)playSound:(NSString*)sound {
 	
 	NSDictionary *gridAudio = [NSDictionary dictionaryWithObjectsAndKeys:
+					  @"/Pacman.wav", @"shake",
 					  @"/SnareDrum.wav", @"grid00", 
 					  @"/BassDrum.wav", @"grid10", 
 					  @"/CowBell.wav", @"grid20",
