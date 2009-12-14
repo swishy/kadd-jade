@@ -12,7 +12,7 @@
 @implementation gridMap
 
 
-+ (id)getGridID:(CGPoint)theTouchPoint {
++ (id)getGridID:(CGPoint)theTouchPoint :(NSString*)tilt{
 	
 	float coordx = [[NSNumber numberWithInt:theTouchPoint.x] floatValue];
 	float coordy = [[NSNumber numberWithInt:theTouchPoint.y] floatValue];
@@ -43,6 +43,7 @@
 	NSString *grid = @"grid";
 	grid = [ grid stringByAppendingString:columnID];
 	grid = [ grid stringByAppendingString:rowID];
+	grid = [ grid stringByAppendingString:tilt];
 
 	return grid;
 	

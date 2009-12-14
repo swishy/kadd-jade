@@ -18,6 +18,6 @@
 
 @property(nonatomic,readonly) CGPoint* touchPoint;
 
-+(id)getGridID:(CGPoint)theTouchPoint;
++(id)getGridID:(CGPoint)theTouchPoint :tilt;
 
 @end

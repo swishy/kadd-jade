@@ -17,6 +17,9 @@
 @synthesize game;
 @synthesize iQkAccelerometer;
 
+static NSString *tilt;
+static NSString *preferenceLoaded;
+
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -38,7 +41,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	self.iQkAccelerometer = [UIAccelerometer sharedAccelerometer];
-	self.iQkAccelerometer.updateInterval = .5;
+	self.iQkAccelerometer.updateInterval = .1;
 	self.iQkAccelerometer.delegate = self;
 }
 
@@ -84,19 +87,19 @@
 // OK from here we have all foo dealing with events 
 
 - (void)accelerometer:(UIAccelerometer *)iQkAccelerometer didAccelerate:(UIAcceleration *)acceleration {
-	//float x = acceleration.x;
-	//float y = acceleration.y;
-	//float z = acceleration.z;
+	
+	// set tilt now overide in method
+	tilt = @"d";
 	
 	//check for shake first
-	const float violence = 1.8;   // earth gravitation value sensibility
+	const float violence = 2.3;   // earth gravitation value sensibility
 	BOOL shake = NO;
 	// X, Y und Z
 	if (acceleration.x > violence || acceleration.x < (-1* violence))
 		shake = YES;
 	if (acceleration.y > violence || acceleration.y < (-1* violence))
 		shake = YES;
-	if (acceleration.z > violence || acceleration.z < (-1* violence))
+	if (acceleration.z > violence || acceleration.z < (-3* violence))
 		shake = YES;
 	
 	if (shake)
@@ -104,16 +107,30 @@
 		NSLog(@"Into shake");
 		[Audio playSound:@"shake"];
 	}
-	
-	//printf("%i", acceleration.x);
-	NSLog(@"accel triggered");
+	if (acceleration.x >= 0.8) {
+		// Tilt right
+		tilt = @"r";
+		NSLog(@"activating new grid");
+	}
+	if (acceleration.y >= 0.8) {
+		// Tilt forward
+		NSLog(@"activating new grid again");
+	}
+	if (acceleration.x <= -0.8) {
+		// Tilt left
+		NSLog(@"activating new grid 2");
+	}
+	if (acceleration.y <= -0.8) {
+		// Tilt backward
+		NSLog(@"activating new grid 3 again");
+	}
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
 	UITouch *touch = [touches anyObject];
 	CGPoint touchCoordinates = [touch locationInView:self.view];
 	NSLog(@"in touchesBegan event");
-	NSString *grid = [gridMap getGridID:touchCoordinates];
+	NSString *grid = [gridMap getGridID:touchCoordinates :tilt];
 	[game broadcastGesture:[[Gesture alloc] init:grid] fromUser:[AppConfig getInstance].name];
 } 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {

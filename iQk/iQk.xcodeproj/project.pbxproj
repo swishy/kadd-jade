@@ -42,6 +42,20 @@
 		CD10982F10C78E5C00993154 /* gridMap.m in Sources */ = {isa = PBXBuildFile; fileRef = CD10982E10C78E5C00993154 /* gridMap.m */; };
 		CD8B07A910D0E43000280D4C /* iQkSoloButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8B07A810D0E43000280D4C /* iQkSoloButton.png */; };
 		CD8B07B710D0E5DC00280D4C /* iQkSelectionBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8B07B610D0E5DC00280D4C /* iQkSelectionBackground.png */; };
+		CD92DE7F10D5FC9900717A9F /* iQkSoloButtonEn.png in Resources */ = {isa = PBXBuildFile; fileRef = CD92DE7E10D5FC9900717A9F /* iQkSoloButtonEn.png */; };
+		CD92DEE310D609C600717A9F /* Pacman.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD92DEE210D609C600717A9F /* Pacman.wav */; };
+		CD92DF6F10D622BD00717A9F /* AcidBass.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD92DF6E10D622BD00717A9F /* AcidBass.wav */; };
+		CD92DF7110D622E800717A9F /* BassAcid.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD92DF7010D622E800717A9F /* BassAcid.wav */; };
+		CD92DF7310D6236D00717A9F /* BassGuitarSlap.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD92DF7210D6236D00717A9F /* BassGuitarSlap.wav */; };
+		CD92DF7510D623B300717A9F /* BassInD.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD92DF7410D623B300717A9F /* BassInD.wav */; };
+		CD92DF7710D623FC00717A9F /* BassTremelo.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD92DF7610D623FC00717A9F /* BassTremelo.wav */; };
+		CD92DF7910D6242E00717A9F /* DarkEdgyBass.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD92DF7810D6242E00717A9F /* DarkEdgyBass.wav */; };
+		CD92DF7E10D6245E00717A9F /* HipHopBass.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD92DF7D10D6245E00717A9F /* HipHopBass.wav */; };
+		CD92DF8010D6249100717A9F /* MarimbaBass.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD92DF7F10D6249100717A9F /* MarimbaBass.wav */; };
+		CD92DF8210D624CF00717A9F /* NuSchoolBass.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD92DF8110D624CF00717A9F /* NuSchoolBass.wav */; };
+		CD92DF8610D6250E00717A9F /* NuSkoolBass.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD92DF8510D6250E00717A9F /* NuSkoolBass.wav */; };
+		CD92DF8810D6254400717A9F /* RedBass.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD92DF8710D6254400717A9F /* RedBass.wav */; };
+		CD92DF8A10D6256A00717A9F /* ThickBass.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD92DF8910D6256A00717A9F /* ThickBass.wav */; };
 		CDA83B7A10CF70040050F857 /* iQkGooView.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA83B7910CF70040050F857 /* iQkGooView.png */; };
 		CDA83B8410CF71CD0050F857 /* SnareDrum.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDA83B8310CF71CD0050F857 /* SnareDrum.wav */; };
 		CDA83B8E10CF72280050F857 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA83B8D10CF72280050F857 /* AudioToolbox.framework */; };
@@ -112,6 +126,20 @@
 		CD10982E10C78E5C00993154 /* gridMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gridMap.m; sourceTree = "<group>"; };
 		CD8B07A810D0E43000280D4C /* iQkSoloButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iQkSoloButton.png; sourceTree = "<group>"; };
 		CD8B07B610D0E5DC00280D4C /* iQkSelectionBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iQkSelectionBackground.png; sourceTree = "<group>"; };
+		CD92DE7E10D5FC9900717A9F /* iQkSoloButtonEn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iQkSoloButtonEn.png; sourceTree = "<group>"; };
+		CD92DEE210D609C600717A9F /* Pacman.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Pacman.wav; sourceTree = "<group>"; };
+		CD92DF6E10D622BD00717A9F /* AcidBass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AcidBass.wav; sourceTree = "<group>"; };
+		CD92DF7010D622E800717A9F /* BassAcid.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BassAcid.wav; sourceTree = "<group>"; };
+		CD92DF7210D6236D00717A9F /* BassGuitarSlap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BassGuitarSlap.wav; sourceTree = "<group>"; };
+		CD92DF7410D623B300717A9F /* BassInD.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BassInD.wav; sourceTree = "<group>"; };
+		CD92DF7610D623FC00717A9F /* BassTremelo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BassTremelo.wav; sourceTree = "<group>"; };
+		CD92DF7810D6242E00717A9F /* DarkEdgyBass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DarkEdgyBass.wav; sourceTree = "<group>"; };
+		CD92DF7D10D6245E00717A9F /* HipHopBass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HipHopBass.wav; sourceTree = "<group>"; };
+		CD92DF7F10D6249100717A9F /* MarimbaBass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MarimbaBass.wav; sourceTree = "<group>"; };
+		CD92DF8110D624CF00717A9F /* NuSchoolBass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = NuSchoolBass.wav; sourceTree = "<group>"; };
+		CD92DF8510D6250E00717A9F /* NuSkoolBass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = NuSkoolBass.wav; sourceTree = "<group>"; };
+		CD92DF8710D6254400717A9F /* RedBass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = RedBass.wav; sourceTree = "<group>"; };
+		CD92DF8910D6256A00717A9F /* ThickBass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ThickBass.wav; sourceTree = "<group>"; };
 		CDA83B7910CF70040050F857 /* iQkGooView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iQkGooView.png; sourceTree = "<group>"; };
 		CDA83B8310CF71CD0050F857 /* SnareDrum.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SnareDrum.wav; sourceTree = "<group>"; };
 		CDA83B8D10CF72280050F857 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -230,6 +258,7 @@
 				CDA83B7910CF70040050F857 /* iQkGooView.png */,
 				CD8B07B610D0E5DC00280D4C /* iQkSelectionBackground.png */,
 				CD8B07A810D0E43000280D4C /* iQkSoloButton.png */,
+				CD92DE7E10D5FC9900717A9F /* iQkSoloButtonEn.png */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* iQk-Info.plist */,
 				EA7EBAC710B91BF700CC3F9A /* iQkGooView.xib */,
@@ -281,6 +310,7 @@
 		CDA83B8210CF71B70050F857 /* Default */ = {
 			isa = PBXGroup;
 			children = (
+				CD92DEE210D609C600717A9F /* Pacman.wav */,
 				4680DED710D0DB7A0015D2C3 /* CymbalSplash.wav */,
 				4680DEB010D0D97E0015D2C3 /* DiscoHit.wav */,
 				4680DEDB10D0DC6A0015D2C3 /* HiHat.wav */,
@@ -294,6 +324,18 @@
 				CDA83BBC10CF7F2A0050F857 /* BassDrum.wav */,
 				CDA83B8310CF71CD0050F857 /* SnareDrum.wav */,
 				4680DEC110D0D9FD0015D2C3 /* ZildjianCymbals.wav */,
+				CD92DF6E10D622BD00717A9F /* AcidBass.wav */,
+				CD92DF7010D622E800717A9F /* BassAcid.wav */,
+				CD92DF7210D6236D00717A9F /* BassGuitarSlap.wav */,
+				CD92DF7410D623B300717A9F /* BassInD.wav */,
+				CD92DF7610D623FC00717A9F /* BassTremelo.wav */,
+				CD92DF7810D6242E00717A9F /* DarkEdgyBass.wav */,
+				CD92DF7D10D6245E00717A9F /* HipHopBass.wav */,
+				CD92DF7F10D6249100717A9F /* MarimbaBass.wav */,
+				CD92DF8110D624CF00717A9F /* NuSchoolBass.wav */,
+				CD92DF8510D6250E00717A9F /* NuSkoolBass.wav */,
+				CD92DF8710D6254400717A9F /* RedBass.wav */,
+				CD92DF8910D6256A00717A9F /* ThickBass.wav */,
 			);
 			name = Default;
 			sourceTree = "<group>";
@@ -362,6 +404,20 @@
 				4680DEDC10D0DC6A0015D2C3 /* HiHat.wav in Resources */,
 				CD8B07A910D0E43000280D4C /* iQkSoloButton.png in Resources */,
 				CD8B07B710D0E5DC00280D4C /* iQkSelectionBackground.png in Resources */,
+				CD92DE7F10D5FC9900717A9F /* iQkSoloButtonEn.png in Resources */,
+				CD92DEE310D609C600717A9F /* Pacman.wav in Resources */,
+				CD92DF6F10D622BD00717A9F /* AcidBass.wav in Resources */,
+				CD92DF7110D622E800717A9F /* BassAcid.wav in Resources */,
+				CD92DF7310D6236D00717A9F /* BassGuitarSlap.wav in Resources */,
+				CD92DF7510D623B300717A9F /* BassInD.wav in Resources */,
+				CD92DF7710D623FC00717A9F /* BassTremelo.wav in Resources */,
+				CD92DF7910D6242E00717A9F /* DarkEdgyBass.wav in Resources */,
+				CD92DF7E10D6245E00717A9F /* HipHopBass.wav in Resources */,
+				CD92DF8010D6249100717A9F /* MarimbaBass.wav in Resources */,
+				CD92DF8210D624CF00717A9F /* NuSchoolBass.wav in Resources */,
+				CD92DF8610D6250E00717A9F /* NuSkoolBass.wav in Resources */,
+				CD92DF8810D6254400717A9F /* RedBass.wav in Resources */,
+				CD92DF8A10D6256A00717A9F /* ThickBass.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
