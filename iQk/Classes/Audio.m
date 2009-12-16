@@ -5,6 +5,7 @@
 //  Created by sixteen on 9/12/09.
 //  Copyright 2009 __MyCompanyName__. All rights reserved.
 //
+// http://creativecommons.org/licenses/sampling+/1.0/
 
 #import "Audio.h"
 #import "AudioToolbox/AudioServices.h"
@@ -39,7 +40,20 @@
 					  @"/NuSchoolBass.wav", @"grid22r",
 					  @"/NuSkoolBass.wav", @"grid03r",
 					  @"/RedBass.wav", @"grid13r",
-					  @"/ThickBass", @"grid23r", nil ];
+					  @"/ThickBass", @"grid23r",
+					  @"/CountryGuitar.wav", @"grid00l", 
+					  @"/GrandPianoD.wav", @"grid10l", 
+					  @"/GrandPianoRock.wav", @"grid20l",
+				      @"/OrganWalkingDog.wav", @"grid01l",
+					  @"/PopGuitar.wav", @"grid11l",
+					  @"/RhodesBallad.wav", @"grid12l",
+				      @"/RockPianoG.wav", @"grid02l",
+					  @"/SkaLoopGuitar.wav", @"grid21l",
+					  @"/Takamine.wav", @"grid22l", 
+					  @"/VibraphoneFunk.wav", @"grid03l", 
+					  @"/AcousticGuitarMute.wav", @"grid13l", 
+					  @"/PopRockGtrSound.wav", @"grid23l", nil ];
+	
 	NSString *track = [gridAudio valueForKey:sound];
 	
 	NSString *path = [NSString stringWithFormat:@"%@%@",

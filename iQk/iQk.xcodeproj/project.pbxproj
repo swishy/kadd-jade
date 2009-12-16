@@ -42,6 +42,19 @@
 		6A21A8E510ABF57B00994931 /* iQkGooViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A8E410ABF57B00994931 /* iQkGooViewController.m */; };
 		6A21A90B10ABFD0F00994931 /* ModeSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A90910ABFD0F00994931 /* ModeSelectView.m */; };
 		CD10982F10C78E5C00993154 /* gridMap.m in Sources */ = {isa = PBXBuildFile; fileRef = CD10982E10C78E5C00993154 /* gridMap.m */; };
+		CD43996F10D8DC59002D598B /* CountryGuitar.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD43996E10D8DC59002D598B /* CountryGuitar.wav */; };
+		CD43997110D8DC7B002D598B /* GrandPianoD.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD43997010D8DC7B002D598B /* GrandPianoD.wav */; };
+		CD43997310D8DC9E002D598B /* GrandPianoRock.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD43997210D8DC9E002D598B /* GrandPianoRock.wav */; };
+		CD43997510D8DCE9002D598B /* IndianMelody.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD43997410D8DCE9002D598B /* IndianMelody.wav */; };
+		CD43997710D8DD03002D598B /* OrganWalkingDog.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD43997610D8DD03002D598B /* OrganWalkingDog.wav */; };
+		CD43997910D8DD4E002D598B /* PopGuitar.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD43997810D8DD4E002D598B /* PopGuitar.wav */; };
+		CD43997B10D8DD66002D598B /* RhodesBallad.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD43997A10D8DD66002D598B /* RhodesBallad.wav */; };
+		CD43997D10D8DD7E002D598B /* RockPianoG.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD43997C10D8DD7E002D598B /* RockPianoG.wav */; };
+		CD43997F10D8DD96002D598B /* SkaLoopGuitar.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD43997E10D8DD96002D598B /* SkaLoopGuitar.wav */; };
+		CD43998110D8DDAB002D598B /* Takamine.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD43998010D8DDAB002D598B /* Takamine.wav */; };
+		CD43998310D8DDC0002D598B /* VibraphoneFunk.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD43998210D8DDC0002D598B /* VibraphoneFunk.wav */; };
+		CD43998710D8E05E002D598B /* AcousticGuitarMute.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD43998610D8E05E002D598B /* AcousticGuitarMute.wav */; };
+		CD43998910D8E07D002D598B /* PopRockGtrSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD43998810D8E07D002D598B /* PopRockGtrSound.wav */; };
 		CD8B07A910D0E43000280D4C /* iQkSoloButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8B07A810D0E43000280D4C /* iQkSoloButton.png */; };
 		CD8B07B710D0E5DC00280D4C /* iQkSelectionBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8B07B610D0E5DC00280D4C /* iQkSelectionBackground.png */; };
 		CD92DE7F10D5FC9900717A9F /* iQkSoloButtonEn.png in Resources */ = {isa = PBXBuildFile; fileRef = CD92DE7E10D5FC9900717A9F /* iQkSoloButtonEn.png */; };
@@ -128,6 +141,19 @@
 		8D1107310486CEB800E47090 /* iQk-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iQk-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		CD10982D10C78E5C00993154 /* gridMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gridMap.h; sourceTree = "<group>"; };
 		CD10982E10C78E5C00993154 /* gridMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gridMap.m; sourceTree = "<group>"; };
+		CD43996E10D8DC59002D598B /* CountryGuitar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CountryGuitar.wav; sourceTree = "<group>"; };
+		CD43997010D8DC7B002D598B /* GrandPianoD.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GrandPianoD.wav; sourceTree = "<group>"; };
+		CD43997210D8DC9E002D598B /* GrandPianoRock.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GrandPianoRock.wav; sourceTree = "<group>"; };
+		CD43997410D8DCE9002D598B /* IndianMelody.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = IndianMelody.wav; sourceTree = "<group>"; };
+		CD43997610D8DD03002D598B /* OrganWalkingDog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = OrganWalkingDog.wav; sourceTree = "<group>"; };
+		CD43997810D8DD4E002D598B /* PopGuitar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PopGuitar.wav; sourceTree = "<group>"; };
+		CD43997A10D8DD66002D598B /* RhodesBallad.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = RhodesBallad.wav; sourceTree = "<group>"; };
+		CD43997C10D8DD7E002D598B /* RockPianoG.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = RockPianoG.wav; sourceTree = "<group>"; };
+		CD43997E10D8DD96002D598B /* SkaLoopGuitar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SkaLoopGuitar.wav; sourceTree = "<group>"; };
+		CD43998010D8DDAB002D598B /* Takamine.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Takamine.wav; sourceTree = "<group>"; };
+		CD43998210D8DDC0002D598B /* VibraphoneFunk.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = VibraphoneFunk.wav; sourceTree = "<group>"; };
+		CD43998610D8E05E002D598B /* AcousticGuitarMute.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AcousticGuitarMute.wav; sourceTree = "<group>"; };
+		CD43998810D8E07D002D598B /* PopRockGtrSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PopRockGtrSound.wav; sourceTree = "<group>"; };
 		CD8B07A810D0E43000280D4C /* iQkSoloButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iQkSoloButton.png; sourceTree = "<group>"; };
 		CD8B07B610D0E5DC00280D4C /* iQkSelectionBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iQkSelectionBackground.png; sourceTree = "<group>"; };
 		CD92DE7E10D5FC9900717A9F /* iQkSoloButtonEn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iQkSoloButtonEn.png; sourceTree = "<group>"; };
@@ -342,6 +368,19 @@
 				CD92DF8510D6250E00717A9F /* NuSkoolBass.wav */,
 				CD92DF8710D6254400717A9F /* RedBass.wav */,
 				CD92DF8910D6256A00717A9F /* ThickBass.wav */,
+				CD43996E10D8DC59002D598B /* CountryGuitar.wav */,
+				CD43997010D8DC7B002D598B /* GrandPianoD.wav */,
+				CD43997210D8DC9E002D598B /* GrandPianoRock.wav */,
+				CD43997410D8DCE9002D598B /* IndianMelody.wav */,
+				CD43997610D8DD03002D598B /* OrganWalkingDog.wav */,
+				CD43997810D8DD4E002D598B /* PopGuitar.wav */,
+				CD43997A10D8DD66002D598B /* RhodesBallad.wav */,
+				CD43997C10D8DD7E002D598B /* RockPianoG.wav */,
+				CD43997E10D8DD96002D598B /* SkaLoopGuitar.wav */,
+				CD43998010D8DDAB002D598B /* Takamine.wav */,
+				CD43998210D8DDC0002D598B /* VibraphoneFunk.wav */,
+				CD43998610D8E05E002D598B /* AcousticGuitarMute.wav */,
+				CD43998810D8E07D002D598B /* PopRockGtrSound.wav */,
 			);
 			name = Default;
 			sourceTree = "<group>";
@@ -426,6 +465,19 @@
 				CD92DF8A10D6256A00717A9F /* ThickBass.wav in Resources */,
 				1EEE874C10D6334A002DEF6F /* PreferenceView.xib in Resources */,
 				1EEE87AF10D63BCF002DEF6F /* Preference.bundle in Resources */,
+				CD43996F10D8DC59002D598B /* CountryGuitar.wav in Resources */,
+				CD43997110D8DC7B002D598B /* GrandPianoD.wav in Resources */,
+				CD43997310D8DC9E002D598B /* GrandPianoRock.wav in Resources */,
+				CD43997510D8DCE9002D598B /* IndianMelody.wav in Resources */,
+				CD43997710D8DD03002D598B /* OrganWalkingDog.wav in Resources */,
+				CD43997910D8DD4E002D598B /* PopGuitar.wav in Resources */,
+				CD43997B10D8DD66002D598B /* RhodesBallad.wav in Resources */,
+				CD43997D10D8DD7E002D598B /* RockPianoG.wav in Resources */,
+				CD43997F10D8DD96002D598B /* SkaLoopGuitar.wav in Resources */,
+				CD43998110D8DDAB002D598B /* Takamine.wav in Resources */,
+				CD43998310D8DDC0002D598B /* VibraphoneFunk.wav in Resources */,
+				CD43998710D8E05E002D598B /* AcousticGuitarMute.wav in Resources */,
+				CD43998910D8E07D002D598B /* PopRockGtrSound.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

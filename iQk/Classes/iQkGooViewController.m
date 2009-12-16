@@ -44,6 +44,7 @@ static BOOL preferenceLoaded = NO;
 	self.iQkAccelerometer = [UIAccelerometer sharedAccelerometer];
 	self.iQkAccelerometer.updateInterval = .1;
 	self.iQkAccelerometer.delegate = self;
+	tilt = @"d";
 }
 
 
@@ -126,6 +127,7 @@ static BOOL preferenceLoaded = NO;
 	}
 	if (acceleration.x <= -0.8) {
 		// Tilt left
+		tilt = @"l";
 		NSLog(@"activating new grid 2");
 	}
 	if (acceleration.y <= -0.8) {
