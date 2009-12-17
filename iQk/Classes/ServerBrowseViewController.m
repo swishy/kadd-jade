@@ -16,7 +16,7 @@
 @end
 
 @implementation ServerBrowseViewController
-@synthesize serverBrowser;
+@synthesize serverBrowser, serverButton, joinButton;;
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -29,6 +29,16 @@
 - (void)viewDidLoad {
 	serverBrowser = [[ServerBrowser alloc] init];
 	serverBrowser.delegate = self;
+	NSString *lang = [iQkAppDelegate getLang];
+	if ([lang isEqualToString: @"zh-Hans" ]) {
+		NSLog(@"Into if statement");
+		UIImage *serverImg = [UIImage imageNamed:@"iQkCreateServer.png"];
+		UIImage *joinImg = [UIImage imageNamed:@"iQkJoinButton.png"];
+		[serverButton setImage:serverImg forState:UIControlStateNormal];
+		[joinButton setImage:joinImg forState:UIControlStateNormal];
+		[serverImg release];
+		[joinImg release];
+	}
 }
 
 - (void)dealloc {

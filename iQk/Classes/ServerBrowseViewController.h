@@ -14,10 +14,16 @@
 @interface ServerBrowseViewController : UIViewController <UITableViewDataSource, ServerBrowserDelegate>{
 	ServerBrowser* serverBrowser;
 	IBOutlet UITableView* serverList;
+	IBOutlet UIButton *serverButton;
+	IBOutlet UIButton *joinButton;
 }
+
+@property (nonatomic, retain) UIButton *serverButton;
+@property (nonatomic, retain) UIButton *joinButton;
 
 - (IBAction)createNewServerHost:(id)sender;
 - (IBAction)joinRemoteServerHost:(id)sender;
+
 
 - (void)activate;
 /*

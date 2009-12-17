@@ -14,14 +14,15 @@
 - (void)viewDidLoad{
 	
 	NSString *lang = [iQkAppDelegate getLang];
-	
-	NSLog(@" in show mode select ");
-	NSLog(lang);
-	if ([lang isEqualToString: @"en" ]) {
+
+	if ([lang isEqualToString: @"zh-Hans" ]) {
 		NSLog(@"Into if statement");
-		UIImage *soloImg = [UIImage imageNamed:@"iQkSoloButtonEn.png"];
+		UIImage *soloImg = [UIImage imageNamed:@"iQkSoloButton.png"];
+		UIImage *multiImg = [UIImage imageNamed:@"iQkMultiButton.png"];
 		[soloButton setImage:soloImg forState:UIControlStateNormal];
+		[multiButton setImage:multiImg forState:UIControlStateNormal];
 		[soloImg release];
+		[multiImg release];
 	}
 	/*
 	CGRect frame = modeSelectView.frame;

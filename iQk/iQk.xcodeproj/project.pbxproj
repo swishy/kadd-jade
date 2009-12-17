@@ -38,6 +38,12 @@
 		4680DEC210D0D9FD0015D2C3 /* ZildjianCymbals.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4680DEC110D0D9FD0015D2C3 /* ZildjianCymbals.wav */; };
 		4680DED810D0DB7A0015D2C3 /* CymbalSplash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4680DED710D0DB7A0015D2C3 /* CymbalSplash.wav */; };
 		4680DEDC10D0DC6A0015D2C3 /* HiHat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4680DEDB10D0DC6A0015D2C3 /* HiHat.wav */; };
+		468813B310DA08650035B2CF /* iQkJoinButtonEn.png in Resources */ = {isa = PBXBuildFile; fileRef = 468813B210DA08650035B2CF /* iQkJoinButtonEn.png */; };
+		468813B510DA08740035B2CF /* iQkMenuButtonEn.png in Resources */ = {isa = PBXBuildFile; fileRef = 468813B410DA08740035B2CF /* iQkMenuButtonEn.png */; };
+		468813B710DA08800035B2CF /* iQkMultiButtonEN.png in Resources */ = {isa = PBXBuildFile; fileRef = 468813B610DA08800035B2CF /* iQkMultiButtonEN.png */; };
+		468813B910DA08890035B2CF /* iQkNewServerEN.png in Resources */ = {isa = PBXBuildFile; fileRef = 468813B810DA08890035B2CF /* iQkNewServerEN.png */; };
+		468813BB10DA08920035B2CF /* iQkNickButtonEN.png in Resources */ = {isa = PBXBuildFile; fileRef = 468813BA10DA08920035B2CF /* iQkNickButtonEN.png */; };
+		468813BF10DA0BAB0035B2CF /* iQkCreateServer.png in Resources */ = {isa = PBXBuildFile; fileRef = 468813BE10DA0BAB0035B2CF /* iQkCreateServer.png */; };
 		6A21A8DC10ABF54700994931 /* ModeSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A8DB10ABF54700994931 /* ModeSelectViewController.m */; };
 		6A21A8E510ABF57B00994931 /* iQkGooViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A8E410ABF57B00994931 /* iQkGooViewController.m */; };
 		6A21A90B10ABFD0F00994931 /* ModeSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A21A90910ABFD0F00994931 /* ModeSelectView.m */; };
@@ -132,6 +138,12 @@
 		4680DEC110D0D9FD0015D2C3 /* ZildjianCymbals.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ZildjianCymbals.wav; sourceTree = "<group>"; };
 		4680DED710D0DB7A0015D2C3 /* CymbalSplash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CymbalSplash.wav; sourceTree = "<group>"; };
 		4680DEDB10D0DC6A0015D2C3 /* HiHat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HiHat.wav; sourceTree = "<group>"; };
+		468813B210DA08650035B2CF /* iQkJoinButtonEn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iQkJoinButtonEn.png; sourceTree = "<group>"; };
+		468813B410DA08740035B2CF /* iQkMenuButtonEn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iQkMenuButtonEn.png; sourceTree = "<group>"; };
+		468813B610DA08800035B2CF /* iQkMultiButtonEN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iQkMultiButtonEN.png; sourceTree = "<group>"; };
+		468813B810DA08890035B2CF /* iQkNewServerEN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iQkNewServerEN.png; sourceTree = "<group>"; };
+		468813BA10DA08920035B2CF /* iQkNickButtonEN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iQkNickButtonEN.png; sourceTree = "<group>"; };
+		468813BE10DA0BAB0035B2CF /* iQkCreateServer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iQkCreateServer.png; sourceTree = "<group>"; };
 		6A21A8DA10ABF54700994931 /* ModeSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeSelectViewController.h; sourceTree = "<group>"; };
 		6A21A8DB10ABF54700994931 /* ModeSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModeSelectViewController.m; sourceTree = "<group>"; };
 		6A21A8E310ABF57B00994931 /* iQkGooViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iQkGooViewController.h; sourceTree = "<group>"; };
@@ -287,6 +299,12 @@
 				CDA83B8110CF719F0050F857 /* Audio */,
 				1E6B216C10B12DB400BA14AD /* ServerBrowseView.xib */,
 				1E27935510AC015A00BE4F6C /* ModeSelectView.xib */,
+				468813BE10DA0BAB0035B2CF /* iQkCreateServer.png */,
+				468813B210DA08650035B2CF /* iQkJoinButtonEn.png */,
+				468813B410DA08740035B2CF /* iQkMenuButtonEn.png */,
+				468813B610DA08800035B2CF /* iQkMultiButtonEN.png */,
+				468813B810DA08890035B2CF /* iQkNewServerEN.png */,
+				468813BA10DA08920035B2CF /* iQkNickButtonEN.png */,
 				CDA83B7910CF70040050F857 /* iQkGooView.png */,
 				CD8B07B610D0E5DC00280D4C /* iQkSelectionBackground.png */,
 				CD8B07A810D0E43000280D4C /* iQkSoloButton.png */,
@@ -478,6 +496,12 @@
 				CD43998310D8DDC0002D598B /* VibraphoneFunk.wav in Resources */,
 				CD43998710D8E05E002D598B /* AcousticGuitarMute.wav in Resources */,
 				CD43998910D8E07D002D598B /* PopRockGtrSound.wav in Resources */,
+				468813B310DA08650035B2CF /* iQkJoinButtonEn.png in Resources */,
+				468813B510DA08740035B2CF /* iQkMenuButtonEn.png in Resources */,
+				468813B710DA08800035B2CF /* iQkMultiButtonEN.png in Resources */,
+				468813B910DA08890035B2CF /* iQkNewServerEN.png in Resources */,
+				468813BB10DA08920035B2CF /* iQkNickButtonEN.png in Resources */,
+				468813BF10DA0BAB0035B2CF /* iQkCreateServer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
