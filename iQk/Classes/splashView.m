@@ -13,6 +13,7 @@
 //
 
 #import "splashView.h"
+#import "iQkAppDelegate.h"
 
 @implementation splashView
 @synthesize delegate;
@@ -83,6 +84,7 @@
 		[splashImage removeFromSuperview];
 		[self removeFromSuperview];
 		[image release];
+		[super showModeSelectView];
 	}               
 	if (self.delegate != NULL && [self.delegate respondsToSelector:@selector(splashIsDone)]) {
 		[delegate splashIsDone];

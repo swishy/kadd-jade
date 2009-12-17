@@ -43,7 +43,7 @@
 					<object class="IBUITableView" id="274767736">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrame">{{14, 60}, {286, 311}}</string>
+						<string key="NSFrame">{{14, 64}, {286, 311}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
@@ -200,8 +200,8 @@
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="461263453"/>
-							<reference ref="274767736"/>
 							<reference ref="822216245"/>
+							<reference ref="274767736"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -249,7 +249,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>ServerBrowseViewController</string>
 					<string>UIResponder</string>
-					<string>{{991, 414}, {320, 480}}</string>
+					<string>{{729, 414}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>

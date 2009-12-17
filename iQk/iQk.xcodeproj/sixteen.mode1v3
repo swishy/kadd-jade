@@ -197,7 +197,48 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>CDEBC6C610DA403F008B134E</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>splashView.m</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>CDEBC6C710DA403F008B134E</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>splashView.m</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>CDEBC6F910DA44FE008B134E</string>
+						<key>history</key>
+						<array>
+							<string>CDEBC6B110DA3FC3008B134E</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {712, 458}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>15 524 712 499 0 0 1680 1028 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -229,6 +270,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -282,13 +325,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>40</integer>
-									<integer>1</integer>
+									<integer>89</integer>
+									<integer>46</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 1546}, {186, 834}}</string>
+							<string>{{0, 1343}, {186, 834}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -318,14 +361,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>iQkAppDelegate.m</string>
+								<string>splashView.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -333,11 +374,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>iQkAppDelegate.m</string>
+										<string>splashView.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CDEBC66D10DA378E008B134E</string>
+										<string>CDEBC6F810DA44FE008B134E</string>
 										<key>history</key>
 										<array>
 											<string>CDDC913E10C778960054F2A5</string>
@@ -356,35 +397,35 @@
 											<string>CD282F2810D5A8A4003EEF38</string>
 											<string>CD282F2910D5A8A4003EEF38</string>
 											<string>CD282F2A10D5A8A4003EEF38</string>
-											<string>CD92DECF10D6078200717A9F</string>
-											<string>CD92DED310D6078200717A9F</string>
 											<string>CD92DED510D6078200717A9F</string>
 											<string>CD92DED610D6078200717A9F</string>
 											<string>CD92DED710D6078200717A9F</string>
 											<string>CD92DED810D6078200717A9F</string>
-											<string>CD92DF3810D61EE600717A9F</string>
 											<string>CD43994210D8D0A5002D598B</string>
-											<string>CD43998D10D8E0CF002D598B</string>
 											<string>CDEBC5CE10DA20D3008B134E</string>
 											<string>CDEBC5CF10DA20D3008B134E</string>
 											<string>CDEBC5D010DA20D3008B134E</string>
 											<string>CDEBC5D110DA20D3008B134E</string>
-											<string>CDEBC61710DA25C5008B134E</string>
-											<string>CDEBC61810DA25C5008B134E</string>
-											<string>CDEBC61910DA25C5008B134E</string>
-											<string>CDEBC61A10DA25C5008B134E</string>
 											<string>CDEBC61B10DA25C5008B134E</string>
-											<string>CDEBC62910DA2725008B134E</string>
-											<string>CDEBC63710DA2F46008B134E</string>
 											<string>CDEBC63810DA2F46008B134E</string>
 											<string>CDEBC63910DA2F46008B134E</string>
 											<string>CDEBC63A10DA2F46008B134E</string>
 											<string>CDEBC63B10DA2F46008B134E</string>
 											<string>CDEBC63C10DA2F46008B134E</string>
 											<string>CDEBC63D10DA2F46008B134E</string>
-											<string>CDEBC66A10DA378E008B134E</string>
-											<string>CDEBC66B10DA378E008B134E</string>
-											<string>CDEBC66C10DA378E008B134E</string>
+											<string>CDEBC6B810DA403F008B134E</string>
+											<string>CDEBC6B910DA403F008B134E</string>
+											<string>CDEBC6BA10DA403F008B134E</string>
+											<string>CDEBC6BB10DA403F008B134E</string>
+											<string>CDEBC6BC10DA403F008B134E</string>
+											<string>CDEBC6BD10DA403F008B134E</string>
+											<string>CDEBC6BE10DA403F008B134E</string>
+											<string>CDEBC6BF10DA403F008B134E</string>
+											<string>CDEBC6C010DA403F008B134E</string>
+											<string>CDEBC6C110DA403F008B134E</string>
+											<string>CDEBC6C210DA403F008B134E</string>
+											<string>CDEBC6C310DA403F008B134E</string>
+											<string>CDEBC6D410DA4136008B134E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -584,9 +625,10 @@
 	<array>
 		<string>CDEBC5FA10DA2161008B134E</string>
 		<string>CDEBC5FB10DA2161008B134E</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>CDDC911810C771E60054F2A5</string>
-		<string>1C78EAAD065D492600B07095</string>
+		<string>CDEBC6C610DA403F008B134E</string>
 		<string>/Users/sixteen/kadd-jade/iQk/iQk.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -611,7 +653,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>PreferenceViewController.m</string>
+								<string>splashView.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -971,7 +1013,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

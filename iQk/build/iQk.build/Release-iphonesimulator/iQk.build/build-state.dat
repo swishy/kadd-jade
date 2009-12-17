@@ -1,7 +1,7 @@
 TiQk
 v7
 r0
-t282731973.342363
+t282739345.607375
 cCheck dependencies
 cProcessInfoPlistFile /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/Info.plist iQk-Info.plist
 cCompileXIB /Users/sixteen/kadd-jade/iQk/MainWindow.xib
@@ -63,7 +63,8 @@ cCpResource build/Release-iphonesimulator/iQk.app/iQkNickButtonEN.png iQkNickBut
 cCpResource build/Release-iphonesimulator/iQk.app/iQkCreateServer.png iQkCreateServer.png
 cCpResource build/Release-iphonesimulator/iQk.app/iQkJoinButton.png iQkJoinButton.png
 cCpResource build/Release-iphonesimulator/iQk.app/iQkNickButton.png iQkNickButton.png
-cProcessPCH /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-gbkictbhgsoyxnfetrnzlfjjkrty/iQk_Prefix.pch.gch iQk_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCpResource build/Release-iphonesimulator/iQk.app/gooView.mov gooView.mov
+cProcessPCH /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-faokwbaeizvhobbeswzkgeohunxs/iQk_Prefix.pch.gch iQk_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/main.o /Users/sixteen/kadd-jade/iQk/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/iQkAppDelegate.o /Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/ModeSelectViewController.o /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -85,6 +86,86 @@ cCompileC build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/
 cLd /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/iQk normal i386
 cGenerateDSYMFile /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app.dSYM /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/iQk
 cTouch /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
+c000000004AD3C0EB00000000000000EE
+t1255391467
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004ABDC8DB0000000000193960
+t1253951707
+s1653088
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioServices.h
+c000000004ABDC8C5000000000000E37C
+t1253951685
+s58236
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFSocketStream.h
+c000000004ABDC89C00000000000060BB
+t1253951644
+s24763
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDC853000000000026EE30
+t1253951571
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDC952000000000027E880
+t1253951826
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDC93F0000000000001355
+t1253951807
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.h
+c000000004ABDF09F000000000000022F
+t1253961887
+s559
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004ABDF0B500000000000CB600
+t1253961909
+s833024
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004ABDCAC8000000000000007D
+t1253952200
+s125
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004ABDCB2000000000000E5890
+t1253952288
+s940176
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDEE1D0000000000000788
+t1253961245
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDEEE200000000016721E0
+t1253961442
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/netinet/in.h
+c00000000476344B700000000000052AA
+t1197687991
+s21162
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/sys/socket.h
+c00000000476344C000000000000055F1
+t1197688000
+s22001
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/unistd.h
+c000000004748A13300000000000053FF
+t1195942195
+s21503
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk
 c000000004AD3C0F100000000000000EE
@@ -120,6 +201,16 @@ N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1
 c000000004A7650820000000000001355
 t1249267842
 s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.h
+c000000004A860FD3000000000000022F
+t1250299859
+s559
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004A860FEA00000000000CA290
+t1250299882
+s828048
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
 c000000004A7655B1000000000000007D
@@ -330,15 +421,15 @@ i"ModeSelectViewController.h"
 i"iQkAppDelegate.h"
 
 N/Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.h
-c000000004B29EE42000000000000021E
-t1261039170
-s542
+c000000004B29EFA2000000000000026F
+t1261039522
+s623
 i<UIKit/UIKit.h>
 
 N/Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m
-c000000004B29EDCA0000000000000E8E
-t1261039050
-s3726
+c000000004B29EF590000000000000EB3
+t1261039449
+s3763
 i"PreferenceViewController.h"
 i"iQkAppDelegate.h"
 
@@ -379,8 +470,8 @@ i"Connection.h"
 i"AppConfig.h"
 
 N/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseView.xib
-c000000004B29E84E000000000000623B
-t1261037646
+c000000004B2A0947000000000000623B
+t1261046087
 s25147
 
 N/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.h
@@ -438,9 +529,9 @@ s1189
 i"gridMap.h"
 
 N/Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.h
-c000000004B29E84E000000000000057C
-t1261037646
-s1404
+c000000004B2A08940000000000000599
+t1261045908
+s1433
 i<UIKit/UIKit.h>
 i"ModeSelectViewController.h"
 i"PreferenceViewController.h"
@@ -449,11 +540,12 @@ i"iQkGooViewController.h"
 i"Game.h"
 
 N/Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.m
-c000000004B29E84E0000000000000C18
-t1261037646
-s3096
+c000000004B2A08AD0000000000000C7F
+t1261045933
+s3199
 i"iQkAppDelegate.h"
 i"splashView.h"
+i"MediaPlayer/MediaPlayer.h"
 
 N/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.h
 c000000004B29E84E00000000000003E8
@@ -465,9 +557,9 @@ i"GameDelegate.h"
 i"gridMap.h"
 
 N/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m
-c000000004B29E84E0000000000001080
-t1261037646
-s4224
+c000000004B29F0CF0000000000000F74
+t1261039823
+s3956
 i"iQkGooViewController.h"
 i"AppConfig.h"
 i"Gesture.h"
@@ -482,10 +574,11 @@ i<UIKit/UIKit.h>
 i<QuartzCore/QuartzCore.h>
 
 N/Users/sixteen/kadd-jade/iQk/Classes/splashView.m
-c000000004B29E84E0000000000000BE1
-t1261037646
-s3041
+c000000004B2A08B90000000000000C1A
+t1261045945
+s3098
 i"splashView.h"
+i"iQkAppDelegate.h"
 
 N/Users/sixteen/kadd-jade/iQk/CountryGuitar.wav
 c000000004B29E84E00000000000E5B30
@@ -663,11 +756,11 @@ t1261037646
 s255012
 
 N/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app
-t1261039173
-s2176
+t1261046500
+s2210
 
 N/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app.dSYM
-t1261039173
+t1261046500
 s102
 
 N/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/AcidBass.wav
@@ -763,16 +856,16 @@ t1261037788
 s266796
 
 N/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/MainWindow.nib
-t1261037788
-s961
+t1261046497
+s1339
 
 N/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/MarimbaBass.wav
 t1261037788
 s384918
 
 N/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/ModeSelectView.nib
-t1261037788
-s2180
+t1261046497
+s3361
 
 N/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/NuSchoolBass.wav
 t1261037788
@@ -811,8 +904,8 @@ t1261037788
 s136
 
 N/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/PreferenceView.nib
-t1261039171
-s2156
+t1261046497
+s3334
 
 N/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/RedBass.wav
 t1261037788
@@ -831,8 +924,8 @@ t1261037788
 s302444
 
 N/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/ServerBrowseView.nib
-t1261037788
-s2132
+t1261046497
+s3366
 
 N/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/SkaLoopGuitar.wav
 t1261037788
@@ -862,17 +955,21 @@ N/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/ZildjianCymb
 t1261037788
 s255012
 
+N/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/gooView.mov
+t1261044296
+s8527470
+
 N/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/iQk
-t1261039173
-s86504
+t1261046500
+s86852
 
 N/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/iQkCreateServer.png
 t1261037788
 s11726
 
 N/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/iQkGooView.nib
-t1261037788
-s1419
+t1261046497
+s1929
 
 N/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/iQkGooView.png
 t1261037788
@@ -927,60 +1024,60 @@ t1261037788
 s229246
 
 N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/AppConfig.o
-t1261039172
-s9448
+t1261046500
+s9456
 
 N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Audio.o
-t1261039173
-s13524
+t1261046500
+s13532
 
 N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Connection.o
-t1261039172
-s28344
+t1261046500
+s28356
 
 N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Game.o
-t1261039172
-s8960
+t1261046500
+s8968
 
 N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Gesture.o
-t1261039172
-s9864
+t1261046500
+s9872
 
 N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/LocalGameHost.o
-t1261039172
-s16060
+t1261046500
+s16072
 
 N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/ModeSelectView.o
-t1261039172
-s8412
+t1261046499
+s8424
 
 N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/ModeSelectViewController.o
-t1261039172
-s40032
+t1261046499
+s40048
 
 N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/PreferenceViewController.o
-t1261039173
-s40632
+t1261046500
+s41492
 
 N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/RemoteGameHost.o
-t1261039172
-s14204
+t1261046500
+s14216
 
 N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Server.o
-t1261039172
-s21292
+t1261046500
+s21308
 
 N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/ServerBrowseViewController.o
-t1261039172
-s49344
+t1261046500
+s49360
 
 N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/ServerBrowser.o
-t1261039172
-s14052
+t1261046500
+s14060
 
 N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/gridMap.o
-t1261039172
-s9472
+t1261046500
+s9480
 
 N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/iQk.LinkFileList
 c000000004B29E8DB000000000000080C
@@ -988,20 +1085,25 @@ t1261037787
 s2060
 
 N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/iQkAppDelegate.o
-t1261039172
-s49068
+t1261046499
+s49368
 
 N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/iQkGooViewController.o
-t1261039172
-s45804
+t1261046499
+s44984
 
 N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/main.o
-t1261039171
-s5912
+t1261046499
+s5916
 
 N/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/splashView.o
-t1261039173
-s25480
+t1261046500
+s25596
+
+N/Users/sixteen/kadd-jade/iQk/gooView.mov
+c000000004B2A019C0000000000821E6E
+t1261044124
+s8527470
 
 N/Users/sixteen/kadd-jade/iQk/iQkCreateServer.png
 c000000004B29E84F0000000000002DCE
@@ -1014,9 +1116,9 @@ t1261037647
 s204682
 
 N/Users/sixteen/kadd-jade/iQk/iQkGooView.xib
-c000000004B29E84F000000000000254B
-t1261037647
-s9547
+c000000004B2A08EB00000000000051D4
+t1261045995
+s20948
 
 N/Users/sixteen/kadd-jade/iQk/iQkJoinButton.png
 c000000004B29E84E0000000000002CE8
@@ -1091,6 +1193,10 @@ t1261037647
 s354
 i<UIKit/UIKit.h>
 
+N/var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-faokwbaeizvhobbeswzkgeohunxs/iQk_Prefix.pch.gch
+t1261046499
+s12740048
+
 N/var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-gbkictbhgsoyxnfetrnzlfjjkrty/iQk_Prefix.pch.gch
 t1261039171
 s12740048
@@ -1102,11 +1208,11 @@ s872
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies282731970#282731970#0(0"0(0#1#0"4300885448#0"0#
+lSLF07#2@18"Check dependencies282739345#282739345#0(0"0(0#1#0"4300885448#0"0#
 
 CCompileC build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/AppConfig.o /Users/sixteen/kadd-jade/iQk/Classes/AppConfig.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282731972.776993
-e282731972.850576
+s282739300.360275
+e282739300.432436
 r1
 xCompileC
 xbuild/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/AppConfig.o
@@ -1115,11 +1221,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/sixteen/kadd-jade/iQk/Classes/AppConfig.m282731972#282731972#0(0"0(0#0#48"/Users/sixteen/kadd-jade/iQk/Classes/AppConfig.m4300885448#1720"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-gbkictbhgsoyxnfetrnzlfjjkrty/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/AppConfig.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/AppConfig.o0#
+lSLF07#2@56"Compile /Users/sixteen/kadd-jade/iQk/Classes/AppConfig.m282739300#282739300#0(0"0(0#0#48"/Users/sixteen/kadd-jade/iQk/Classes/AppConfig.m4300885448#1722"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-faokwbaeizvhobbeswzkgeohunxs/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/AppConfig.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/AppConfig.o0#
 
 CCompileC build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Audio.o /Users/sixteen/kadd-jade/iQk/Classes/Audio.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282731972.929317
-e282731973.023686
+s282739300.516110
+e282739300.614398
 r1
 xCompileC
 xbuild/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Audio.o
@@ -1128,11 +1234,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /Users/sixteen/kadd-jade/iQk/Classes/Audio.m282731972#282731973#0(0"0(0#0#44"/Users/sixteen/kadd-jade/iQk/Classes/Audio.m4300885448#1712"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-gbkictbhgsoyxnfetrnzlfjjkrty/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/Audio.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Audio.o0#
+lSLF07#2@52"Compile /Users/sixteen/kadd-jade/iQk/Classes/Audio.m282739300#282739300#0(0"0(0#0#44"/Users/sixteen/kadd-jade/iQk/Classes/Audio.m4300885448#1714"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-faokwbaeizvhobbeswzkgeohunxs/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/Audio.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Audio.o0#
 
 CCompileC build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Connection.o /Users/sixteen/kadd-jade/iQk/Classes/Connection.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282731972.268254
-e282731972.573601
+s282739299.864212
+e282739300.109932
 r1
 xCompileC
 xbuild/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Connection.o
@@ -1144,11 +1250,11 @@ xcom.apple.compilers.gcc.4_2
 oIn file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.h:11,
 o                 from /Users/sixteen/kadd-jade/iQk/Classes/Connection.m:9:
 o/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h:23: warning: '@end' must appear in an @implementation context
-lSLF07#2@57"Compile /Users/sixteen/kadd-jade/iQk/Classes/Connection.m282731972#282731972#0(271"In file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.h:11,                 from /Users/sixteen/kadd-jade/iQk/Classes/Connection.m:9:/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h:23: warning: '@end' must appear in an @implementation context1(22@48"'@end' must appear in an @implementation context282731972#151#120#3(7@71"In file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.m282731972#18446744073709551615#0#0(6@49"/Users/sixteen/kadd-jade/iQk/Classes/Connection.m282730446#9#0#9#0#0"0(7@71"In file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.h282731972#18446744073709551615#0#0(6@49"/Users/sixteen/kadd-jade/iQk/Classes/Connection.h282730446#11#0#11#0#0"0(13@109"'@end' must appear in an @implementation context in /Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282731972#18446744073709551615#0#0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282730446#23#0#23#0#0"0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282730446#23#0#23#0#0"0(0#0#49"/Users/sixteen/kadd-jade/iQk/Classes/Connection.m4300885448#1722"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-gbkictbhgsoyxnfetrnzlfjjkrty/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/Connection.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Connection.o0#
+lSLF07#2@57"Compile /Users/sixteen/kadd-jade/iQk/Classes/Connection.m282739299#282739300#0(271"In file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.h:11,                 from /Users/sixteen/kadd-jade/iQk/Classes/Connection.m:9:/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h:23: warning: '@end' must appear in an @implementation context1(22@48"'@end' must appear in an @implementation context282739299#151#120#3(7@71"In file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.m282739299#18446744073709551615#0#0(6@49"/Users/sixteen/kadd-jade/iQk/Classes/Connection.m282730446#9#0#9#0#0"0(7@71"In file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.h282739299#18446744073709551615#0#0(6@49"/Users/sixteen/kadd-jade/iQk/Classes/Connection.h282730446#11#0#11#0#0"0(13@109"'@end' must appear in an @implementation context in /Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282739299#18446744073709551615#0#0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282730446#23#0#23#0#0"0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282730446#23#0#23#0#0"0(0#0#49"/Users/sixteen/kadd-jade/iQk/Classes/Connection.m4300885448#1724"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-faokwbaeizvhobbeswzkgeohunxs/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/Connection.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Connection.o0#
 
 CCompileC build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Game.o /Users/sixteen/kadd-jade/iQk/Classes/Game.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282731972.755788
-e282731972.854015
+s282739300.314983
+e282739300.381918
 r1
 xCompileC
 xbuild/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Game.o
@@ -1157,11 +1263,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@51"Compile /Users/sixteen/kadd-jade/iQk/Classes/Game.m282731972#282731972#0(0"0(0#0#43"/Users/sixteen/kadd-jade/iQk/Classes/Game.m4300885448#1710"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-gbkictbhgsoyxnfetrnzlfjjkrty/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/Game.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Game.o0#
+lSLF07#2@51"Compile /Users/sixteen/kadd-jade/iQk/Classes/Game.m282739300#282739300#0(0"0(0#0#43"/Users/sixteen/kadd-jade/iQk/Classes/Game.m4300885448#1712"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-faokwbaeizvhobbeswzkgeohunxs/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/Game.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Game.o0#
 
 CCompileC build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Gesture.o /Users/sixteen/kadd-jade/iQk/Classes/Gesture.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282731972.281460
-e282731972.385055
+s282739300.044153
+e282739300.113093
 r1
 xCompileC
 xbuild/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Gesture.o
@@ -1172,11 +1278,11 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/sixteen/kadd-jade/iQk/Classes/Gesture.m:37: warning: incomplete implementation of class 'Gesture'
 o/Users/sixteen/kadd-jade/iQk/Classes/Gesture.m:37: warning: method definition for '-init' not found
-lSLF07#2@54"Compile /Users/sixteen/kadd-jade/iQk/Classes/Gesture.m282731972#282731972#0(205"/Users/sixteen/kadd-jade/iQk/Classes/Gesture.m:37: warning: incomplete implementation of class 'Gesture'/Users/sixteen/kadd-jade/iQk/Classes/Gesture.m:37: warning: method definition for '-init' not found2(22@44"Incomplete implementation of class 'Gesture'282731972#0#105#0(6@46"/Users/sixteen/kadd-jade/iQk/Classes/Gesture.m282730446#37#0#37#0#38"incomplete implementation of class '*'0(22@39"Method definition for '-init' not found282731972#105#100#0(6@46"/Users/sixteen/kadd-jade/iQk/Classes/Gesture.m282730446#37#0#37#0#35"method definition for '*' not found0(0#0#46"/Users/sixteen/kadd-jade/iQk/Classes/Gesture.m4300885448#1716"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-gbkictbhgsoyxnfetrnzlfjjkrty/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/Gesture.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Gesture.o0#
+lSLF07#2@54"Compile /Users/sixteen/kadd-jade/iQk/Classes/Gesture.m282739300#282739300#0(205"/Users/sixteen/kadd-jade/iQk/Classes/Gesture.m:37: warning: incomplete implementation of class 'Gesture'/Users/sixteen/kadd-jade/iQk/Classes/Gesture.m:37: warning: method definition for '-init' not found2(22@44"Incomplete implementation of class 'Gesture'282739300#0#105#0(6@46"/Users/sixteen/kadd-jade/iQk/Classes/Gesture.m282730446#37#0#37#0#38"incomplete implementation of class '*'0(22@39"Method definition for '-init' not found282739300#105#100#0(6@46"/Users/sixteen/kadd-jade/iQk/Classes/Gesture.m282730446#37#0#37#0#35"method definition for '*' not found0(0#0#46"/Users/sixteen/kadd-jade/iQk/Classes/Gesture.m4300885448#1718"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-faokwbaeizvhobbeswzkgeohunxs/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/Gesture.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Gesture.o0#
 
 CCompileC build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/LocalGameHost.o /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282731972.385140
-e282731972.487876
+s282739300.110026
+e282739300.228694
 r1
 xCompileC
 xbuild/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/LocalGameHost.o
@@ -1195,11 +1301,11 @@ o/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:135: warning: incomplete i
 o/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:135: warning: method definition for '-serverHostTerminated:reason:' not found
 o/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:135: warning: method definition for '-reactByGesture:fromUser:' not found
 o/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:135: warning: class 'LocalGameHost' does not fully implement the 'GameDelegate' protocol
-lSLF07#2@60"Compile /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282731972#282731972#0(1092"In file included from /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.h:13,                 from /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:9:/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h:23: warning: '@end' must appear in an @implementation context/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m: In function '-[LocalGameHost start]':/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:44: warning: class 'LocalGameHost' does not implement the 'ServerDelegate' protocol/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m: At top level:/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:135: warning: incomplete implementation of class 'LocalGameHost'/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:135: warning: method definition for '-serverHostTerminated:reason:' not found/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:135: warning: method definition for '-reactByGesture:fromUser:' not found/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:135: warning: class 'LocalGameHost' does not fully implement the 'GameDelegate' protocol7(22@48"'@end' must appear in an @implementation context282731972#157#120#3(7@74"In file included from /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282731972#18446744073709551615#0#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282730446#9#0#9#0#0"0(7@74"In file included from /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.h282731972#18446744073709551615#0#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.h282730446#13#0#13#0#0"0(13@109"'@end' must appear in an @implementation context in /Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282731972#18446744073709551615#0#0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282730446#23#0#23#0#0"0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282730446#23#0#23#0#0"0(22@70"Class 'LocalGameHost' does not implement the 'ServerDelegate' protocol282731972#369#137#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282730446#44#0#44#0#45"class '*' does not implement the '*' protocol0(23@13"At top level:282731972#506#68#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282730446#0#0#0#0#0"0(22@50"Incomplete implementation of class 'LocalGameHost'282731972#574#118#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282730446#135#0#135#0#38"incomplete implementation of class '*'0(22@63"Method definition for '-serverHostTerminated:reason:' not found282731972#692#131#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282730446#135#0#135#0#35"method definition for '*' not found0(22@59"Method definition for '-reactByGesture:fromUser:' not found282731972#823#127#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282730446#135#0#135#0#35"method definition for '*' not found0(22@74"Class 'LocalGameHost' does not fully implement the 'GameDelegate' protocol282731972#950#142#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282730446#135#0#135#0#51"class '*' does not fully implement the '*' protocol0(0#0#52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m4300885448#1728"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-gbkictbhgsoyxnfetrnzlfjjkrty/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/LocalGameHost.o0#
+lSLF07#2@60"Compile /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282739300#282739300#0(1092"In file included from /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.h:13,                 from /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:9:/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h:23: warning: '@end' must appear in an @implementation context/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m: In function '-[LocalGameHost start]':/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:44: warning: class 'LocalGameHost' does not implement the 'ServerDelegate' protocol/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m: At top level:/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:135: warning: incomplete implementation of class 'LocalGameHost'/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:135: warning: method definition for '-serverHostTerminated:reason:' not found/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:135: warning: method definition for '-reactByGesture:fromUser:' not found/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m:135: warning: class 'LocalGameHost' does not fully implement the 'GameDelegate' protocol7(22@48"'@end' must appear in an @implementation context282739300#157#120#3(7@74"In file included from /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282739300#18446744073709551615#0#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282730446#9#0#9#0#0"0(7@74"In file included from /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.h282739300#18446744073709551615#0#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.h282730446#13#0#13#0#0"0(13@109"'@end' must appear in an @implementation context in /Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282739300#18446744073709551615#0#0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282730446#23#0#23#0#0"0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282730446#23#0#23#0#0"0(22@70"Class 'LocalGameHost' does not implement the 'ServerDelegate' protocol282739300#369#137#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282730446#44#0#44#0#45"class '*' does not implement the '*' protocol0(23@13"At top level:282739300#506#68#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282730446#0#0#0#0#0"0(22@50"Incomplete implementation of class 'LocalGameHost'282739300#574#118#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282730446#135#0#135#0#38"incomplete implementation of class '*'0(22@63"Method definition for '-serverHostTerminated:reason:' not found282739300#692#131#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282730446#135#0#135#0#35"method definition for '*' not found0(22@59"Method definition for '-reactByGesture:fromUser:' not found282739300#823#127#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282730446#135#0#135#0#35"method definition for '*' not found0(22@74"Class 'LocalGameHost' does not fully implement the 'GameDelegate' protocol282739300#950#142#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m282730446#135#0#135#0#51"class '*' does not fully implement the '*' protocol0(0#0#52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m4300885448#1730"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-faokwbaeizvhobbeswzkgeohunxs/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/LocalGameHost.o0#
 
 CCompileC build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/ModeSelectView.o /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282731972.065065
-e282731972.114189
+s282739299.812749
+e282739299.864123
 r1
 xCompileC
 xbuild/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/ModeSelectView.o
@@ -1208,11 +1314,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@61"Compile /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.m282731972#282731972#0(0"0(0#0#53"/Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.m4300885448#1730"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-gbkictbhgsoyxnfetrnzlfjjkrty/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/ModeSelectView.o0#
+lSLF07#2@61"Compile /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.m282739299#282739299#0(0"0(0#0#53"/Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.m4300885448#1732"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-faokwbaeizvhobbeswzkgeohunxs/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/ModeSelectView.o0#
 
 CCompileC build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/ModeSelectViewController.o /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282731971.918867
-e282731972.064972
+s282739299.561974
+e282739299.677214
 r1
 xCompileC
 xbuild/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/ModeSelectViewController.o
@@ -1221,11 +1327,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectViewController.m282731971#282731972#0(0"0(0#0#63"/Users/sixteen/kadd-jade/iQk/Classes/ModeSelectViewController.m4300885448#1750"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-gbkictbhgsoyxnfetrnzlfjjkrty/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectViewController.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/ModeSelectViewController.o0#
+lSLF07#2@71"Compile /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectViewController.m282739299#282739299#0(0"0(0#0#63"/Users/sixteen/kadd-jade/iQk/Classes/ModeSelectViewController.m4300885448#1752"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-faokwbaeizvhobbeswzkgeohunxs/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectViewController.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/ModeSelectViewController.o0#
 
 CCompileC build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/PreferenceViewController.o /Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282731973.023770
-e282731973.150004
+s282739300.546093
+e282739300.674947
 r1
 xCompileC
 xbuild/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/PreferenceViewController.o
@@ -1239,11 +1345,11 @@ o/Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m:39: warning: 'U
 o/Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m:39: warning: (Messages without a matching method signature
 o/Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m:39: warning: will be assumed to return 'id' and accept
 o/Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m:39: warning: '...' as arguments.)
-lSLF07#2@71"Compile /Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m282731973#282731973#0(579"/Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m: In function '-[PreferenceViewController viewDidLoad]':/Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m:39: warning: 'UIImage' may not respond to '-setImage:'/Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m:39: warning: (Messages without a matching method signature/Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m:39: warning: will be assumed to return 'id' and accept/Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m:39: warning: '...' as arguments.)2(22@41"'UIImage' may not respond to '-setImage:'282731973#120#119#0(6@63"/Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m282731850#39#0#39#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)282731973#239#123#0(6@63"/Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m282731850#39#0#39#0#0"0(0#0#63"/Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m4300885448#1750"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-gbkictbhgsoyxnfetrnzlfjjkrty/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/PreferenceViewController.o0#
+lSLF07#2@71"Compile /Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m282739300#282739300#0(579"/Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m: In function '-[PreferenceViewController viewDidLoad]':/Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m:39: warning: 'UIImage' may not respond to '-setImage:'/Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m:39: warning: (Messages without a matching method signature/Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m:39: warning: will be assumed to return 'id' and accept/Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m:39: warning: '...' as arguments.)2(22@41"'UIImage' may not respond to '-setImage:'282739300#120#119#0(6@63"/Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m282732249#39#0#39#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)282739300#239#123#0(6@63"/Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m282732249#39#0#39#0#0"0(0#0#63"/Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m4300885448#1752"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-faokwbaeizvhobbeswzkgeohunxs/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/PreferenceViewController.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/PreferenceViewController.o0#
 
 CCompileC build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/RemoteGameHost.o /Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282731972.487974
-e282731972.645208
+s282739300.113172
+e282739300.198970
 r1
 xCompileC
 xbuild/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/RemoteGameHost.o
@@ -1265,11 +1371,11 @@ o/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:81: warning: '...' as arg
 o/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m: In function '-[RemoteGameHost connectionTerminated:]':
 o/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:86: warning: '-roomTerminated:reason:' not found in protocol(s)
 o/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:86: warning: no '-roomTerminated:reason:' method found
-lSLF07#2@61"Compile /Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m282731972#282731972#0(1342"In file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.h:11,                 from /Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.h:11,                 from /Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:9:/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h:23: warning: '@end' must appear in an @implementation context/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m: In function '-[RemoteGameHost connectionAttemptFailed:]':/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:81: warning: '-roomTerminated:reason:' not found in protocol(s)/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:81: warning: no '-roomTerminated:reason:' method found/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:81: warning: (Messages without a matching method signature/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:81: warning: will be assumed to return 'id' and accept/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:81: warning: '...' as arguments.)/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m: In function '-[RemoteGameHost connectionTerminated:]':/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:86: warning: '-roomTerminated:reason:' not found in protocol(s)/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:86: warning: no '-roomTerminated:reason:' method found6(22@48"'@end' must appear in an @implementation context282731972#235#120#4(7@75"In file included from /Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m282731972#18446744073709551615#0#0(6@53"/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m282730446#9#0#9#0#0"0(7@75"In file included from /Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.h282731972#18446744073709551615#0#0(6@53"/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.h282730446#11#0#11#0#0"0(7@71"In file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.h282731972#18446744073709551615#0#0(6@49"/Users/sixteen/kadd-jade/iQk/Classes/Connection.h282730446#11#0#11#0#0"0(13@109"'@end' must appear in an @implementation context in /Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282731972#18446744073709551615#0#0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282730446#23#0#23#0#0"0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282730446#23#0#23#0#0"0(22@50"'-roomTerminated:reason:' not found in protocol(s)282731972#468#118#0(6@53"/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m282730446#81#0#81#0#28"'*' not found in protocol(s)0(22@41"No '-roomTerminated:reason:' method found282731972#586#109#0(6@53"/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m282730446#81#0#81#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)282731972#695#113#0(6@53"/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m282730446#81#0#81#0#0"0(22@50"'-roomTerminated:reason:' not found in protocol(s)282731972#1115#118#0(6@53"/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m282730446#86#0#86#0#28"'*' not found in protocol(s)0(22@41"No '-roomTerminated:reason:' method found282731972#1233#109#0(6@53"/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m282730446#86#0#86#0#19"no '*' method found0(0#0#53"/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m4300885448#1730"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-gbkictbhgsoyxnfetrnzlfjjkrty/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/RemoteGameHost.o0#
+lSLF07#2@61"Compile /Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m282739300#282739300#0(1342"In file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.h:11,                 from /Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.h:11,                 from /Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:9:/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h:23: warning: '@end' must appear in an @implementation context/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m: In function '-[RemoteGameHost connectionAttemptFailed:]':/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:81: warning: '-roomTerminated:reason:' not found in protocol(s)/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:81: warning: no '-roomTerminated:reason:' method found/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:81: warning: (Messages without a matching method signature/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:81: warning: will be assumed to return 'id' and accept/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:81: warning: '...' as arguments.)/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m: In function '-[RemoteGameHost connectionTerminated:]':/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:86: warning: '-roomTerminated:reason:' not found in protocol(s)/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m:86: warning: no '-roomTerminated:reason:' method found6(22@48"'@end' must appear in an @implementation context282739300#235#120#4(7@75"In file included from /Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m282739300#18446744073709551615#0#0(6@53"/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m282730446#9#0#9#0#0"0(7@75"In file included from /Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.h282739300#18446744073709551615#0#0(6@53"/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.h282730446#11#0#11#0#0"0(7@71"In file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.h282739300#18446744073709551615#0#0(6@49"/Users/sixteen/kadd-jade/iQk/Classes/Connection.h282730446#11#0#11#0#0"0(13@109"'@end' must appear in an @implementation context in /Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282739300#18446744073709551615#0#0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282730446#23#0#23#0#0"0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282730446#23#0#23#0#0"0(22@50"'-roomTerminated:reason:' not found in protocol(s)282739300#468#118#0(6@53"/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m282730446#81#0#81#0#28"'*' not found in protocol(s)0(22@41"No '-roomTerminated:reason:' method found282739300#586#109#0(6@53"/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m282730446#81#0#81#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)282739300#695#113#0(6@53"/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m282730446#81#0#81#0#0"0(22@50"'-roomTerminated:reason:' not found in protocol(s)282739300#1115#118#0(6@53"/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m282730446#86#0#86#0#28"'*' not found in protocol(s)0(22@41"No '-roomTerminated:reason:' method found282739300#1233#109#0(6@53"/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m282730446#86#0#86#0#19"no '*' method found0(0#0#53"/Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m4300885448#1732"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-faokwbaeizvhobbeswzkgeohunxs/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/RemoteGameHost.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/RemoteGameHost.o0#
 
 CCompileC build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Server.o /Users/sixteen/kadd-jade/iQk/Classes/Server.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282731972.573693
-e282731972.776904
+s282739300.199057
+e282739300.360194
 r1
 xCompileC
 xbuild/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Server.o
@@ -1281,11 +1387,11 @@ xcom.apple.compilers.gcc.4_2
 oIn file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.h:11,
 o                 from /Users/sixteen/kadd-jade/iQk/Classes/Server.m:15:
 o/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h:23: warning: '@end' must appear in an @implementation context
-lSLF07#2@53"Compile /Users/sixteen/kadd-jade/iQk/Classes/Server.m282731972#282731972#0(268"In file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.h:11,                 from /Users/sixteen/kadd-jade/iQk/Classes/Server.m:15:/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h:23: warning: '@end' must appear in an @implementation context1(22@48"'@end' must appear in an @implementation context282731972#148#120#3(7@67"In file included from /Users/sixteen/kadd-jade/iQk/Classes/Server.m282731972#18446744073709551615#0#0(6@45"/Users/sixteen/kadd-jade/iQk/Classes/Server.m282730446#15#0#15#0#0"0(7@71"In file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.h282731972#18446744073709551615#0#0(6@49"/Users/sixteen/kadd-jade/iQk/Classes/Connection.h282730446#11#0#11#0#0"0(13@109"'@end' must appear in an @implementation context in /Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282731972#18446744073709551615#0#0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282730446#23#0#23#0#0"0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282730446#23#0#23#0#0"0(0#0#45"/Users/sixteen/kadd-jade/iQk/Classes/Server.m4300885448#1714"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-gbkictbhgsoyxnfetrnzlfjjkrty/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/Server.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Server.o0#
+lSLF07#2@53"Compile /Users/sixteen/kadd-jade/iQk/Classes/Server.m282739300#282739300#0(268"In file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.h:11,                 from /Users/sixteen/kadd-jade/iQk/Classes/Server.m:15:/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h:23: warning: '@end' must appear in an @implementation context1(22@48"'@end' must appear in an @implementation context282739300#148#120#3(7@67"In file included from /Users/sixteen/kadd-jade/iQk/Classes/Server.m282739300#18446744073709551615#0#0(6@45"/Users/sixteen/kadd-jade/iQk/Classes/Server.m282730446#15#0#15#0#0"0(7@71"In file included from /Users/sixteen/kadd-jade/iQk/Classes/Connection.h282739300#18446744073709551615#0#0(6@49"/Users/sixteen/kadd-jade/iQk/Classes/Connection.h282730446#11#0#11#0#0"0(13@109"'@end' must appear in an @implementation context in /Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282739300#18446744073709551615#0#0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282730446#23#0#23#0#0"0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282730446#23#0#23#0#0"0(0#0#45"/Users/sixteen/kadd-jade/iQk/Classes/Server.m4300885448#1716"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-faokwbaeizvhobbeswzkgeohunxs/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/Server.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/Server.o0#
 
 CCompileC build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/ServerBrowseViewController.o /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282731972.114277
-e282731972.281371
+s282739299.846347
+e282739300.044066
 r1
 xCompileC
 xbuild/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/ServerBrowseViewController.o
@@ -1298,12 +1404,12 @@ oIn file included from /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.h:13,
 o                 from /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m:11:
 o/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h:23: warning: '@end' must appear in an @implementation context
 o/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m: In function '-[ServerBrowseViewController tableView:cellForRowAtIndexPath:]':
-o/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m:125: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)
-lSLF07#2@73"Compile /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m282731972#282731972#0(711"In file included from /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.h:13,                 from /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m:11:/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h:23: warning: '@end' must appear in an @implementation context/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m: In function '-[ServerBrowseViewController tableView:cellForRowAtIndexPath:]':/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m:125: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)2(22@48"'@end' must appear in an @implementation context282731972#171#120#3(7@87"In file included from /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m282731972#18446744073709551615#0#0(6@65"/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m282731395#11#0#11#0#0"0(7@74"In file included from /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.h282731972#18446744073709551615#0#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.h282730446#13#0#13#0#0"0(13@109"'@end' must appear in an @implementation context in /Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282731972#18446744073709551615#0#0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282730446#23#0#23#0#0"0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282730446#23#0#23#0#0"0(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)282731972#436#275#0(6@65"/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m282731395#125#0#125#0#33"'*' is deprecated (declared at *)0(0#0#65"/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m4300885448#1754"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-gbkictbhgsoyxnfetrnzlfjjkrty/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/ServerBrowseViewController.o0#
+o/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m:125: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)
+lSLF07#2@73"Compile /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m282739299#282739300#0(713"In file included from /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.h:13,                 from /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m:11:/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h:23: warning: '@end' must appear in an @implementation context/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m: In function '-[ServerBrowseViewController tableView:cellForRowAtIndexPath:]':/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m:125: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)2(22@48"'@end' must appear in an @implementation context282739299#171#120#3(7@87"In file included from /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m282739299#18446744073709551615#0#0(6@65"/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m282731395#11#0#11#0#0"0(7@74"In file included from /Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.h282739299#18446744073709551615#0#0(6@52"/Users/sixteen/kadd-jade/iQk/Classes/LocalGameHost.h282730446#13#0#13#0#0"0(13@109"'@end' must appear in an @implementation context in /Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282739299#18446744073709551615#0#0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282730446#23#0#23#0#0"0(6@57"/Users/sixteen/kadd-jade/iQk/Classes/ConnectionDelegate.h282730446#23#0#23#0#0"0(22@196"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)282739299#436#277#0(6@65"/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m282731395#125#0#125#0#33"'*' is deprecated (declared at *)0(0#0#65"/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m4300885448#1756"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-faokwbaeizvhobbeswzkgeohunxs/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseViewController.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/ServerBrowseViewController.o0#
 
 CCompileC build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/ServerBrowser.o /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282731972.645300
-e282731972.755688
+s282739300.228870
+e282739300.314891
 r1
 xCompileC
 xbuild/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/ServerBrowser.o
@@ -1312,11 +1418,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowser.m282731972#282731972#0(0"0(0#0#52"/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowser.m4300885448#1728"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-gbkictbhgsoyxnfetrnzlfjjkrty/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowser.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/ServerBrowser.o0#
+lSLF07#2@60"Compile /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowser.m282739300#282739300#0(0"0(0#0#52"/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowser.m4300885448#1730"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-faokwbaeizvhobbeswzkgeohunxs/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowser.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/ServerBrowser.o0#
 
 CCompileC build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/gridMap.o /Users/sixteen/kadd-jade/iQk/Classes/gridMap.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282731972.854092
-e282731972.929228
+s282739300.432545
+e282739300.516019
 r1
 xCompileC
 xbuild/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/gridMap.o
@@ -1326,11 +1432,11 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/sixteen/kadd-jade/iQk/Classes/gridMap.m:56: warning: property 'touchPoint' requires method '-touchPoint' to be defined - use @synthesize, @dynamic or provide a method implementation
-lSLF07#2@54"Compile /Users/sixteen/kadd-jade/iQk/Classes/gridMap.m282731972#282731972#0(189"/Users/sixteen/kadd-jade/iQk/Classes/gridMap.m:56: warning: property 'touchPoint' requires method '-touchPoint' to be defined - use @synthesize, @dynamic or provide a method implementation1(22@128"Property 'touchPoint' requires method '-touchPoint' to be defined - use @synthesize, @dynamic or provide a method implementation282731972#0#189#0(6@46"/Users/sixteen/kadd-jade/iQk/Classes/gridMap.m282730446#56#0#56#0#0"0(0#0#46"/Users/sixteen/kadd-jade/iQk/Classes/gridMap.m4300885448#1716"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-gbkictbhgsoyxnfetrnzlfjjkrty/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/gridMap.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/gridMap.o0#
+lSLF07#2@54"Compile /Users/sixteen/kadd-jade/iQk/Classes/gridMap.m282739300#282739300#0(189"/Users/sixteen/kadd-jade/iQk/Classes/gridMap.m:56: warning: property 'touchPoint' requires method '-touchPoint' to be defined - use @synthesize, @dynamic or provide a method implementation1(22@128"Property 'touchPoint' requires method '-touchPoint' to be defined - use @synthesize, @dynamic or provide a method implementation282739300#0#189#0(6@46"/Users/sixteen/kadd-jade/iQk/Classes/gridMap.m282730446#56#0#56#0#0"0(0#0#46"/Users/sixteen/kadd-jade/iQk/Classes/gridMap.m4300885448#1718"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-faokwbaeizvhobbeswzkgeohunxs/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/gridMap.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/gridMap.o0#
 
 CCompileC build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/iQkAppDelegate.o /Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282731971.852730
-e282731972.036723
+s282739299.518087
+e282739299.812668
 r1
 xCompileC
 xbuild/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/iQkAppDelegate.o
@@ -1341,11 +1447,11 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.m: In function '-[iQkAppDelegate setLang]':
 o/Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.m:61: warning: incompatible Objective-C types assigning 'struct NSString *', expected 'struct iQkAppDelegate *'
-lSLF07#2@61"Compile /Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.m282731971#282731972#0(260"/Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.m: In function '-[iQkAppDelegate setLang]':/Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.m:61: warning: incompatible Objective-C types assigning 'struct NSString *', expected 'struct iQkAppDelegate *'1(22@96"Incompatible Objective-C types assigning 'struct NSString *', expected 'struct iQkAppDelegate *'282731971#96#164#0(6@53"/Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.m282730446#61#0#61#0#58"incompatible Objective-C types assigning '*', expected '*'0(0#0#53"/Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.m4300885448#1730"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-gbkictbhgsoyxnfetrnzlfjjkrty/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/iQkAppDelegate.o0#
+lSLF07#2@61"Compile /Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.m282739299#282739299#0(260"/Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.m: In function '-[iQkAppDelegate setLang]':/Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.m:61: warning: incompatible Objective-C types assigning 'struct NSString *', expected 'struct iQkAppDelegate *'1(22@96"Incompatible Objective-C types assigning 'struct NSString *', expected 'struct iQkAppDelegate *'282739299#96#164#0(6@53"/Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.m282738733#61#0#61#0#58"incompatible Objective-C types assigning '*', expected '*'0(0#0#53"/Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.m4300885448#1732"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-faokwbaeizvhobbeswzkgeohunxs/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/iQkAppDelegate.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/iQkAppDelegate.o0#
 
 CCompileC build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/iQkGooViewController.o /Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282731972.036803
-e282731972.268165
+s282739299.677323
+e282739299.846247
 r1
 xCompileC
 xbuild/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/iQkGooViewController.o
@@ -1355,21 +1461,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m: In function '-[iQkGooViewController touchesBegan:withEvent:]':
-o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:144: warning: no '-init:' method found
-o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:144: warning: (Messages without a matching method signature
-o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:144: warning: will be assumed to return 'id' and accept
-o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:144: warning: '...' as arguments.)
-o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m: In function '-[iQkGooViewController reactByGesture:fromUser:]':
-o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:161: warning: format not a string literal and no format arguments
+o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:139: warning: no '-init:' method found
+o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:139: warning: (Messages without a matching method signature
+o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:139: warning: will be assumed to return 'id' and accept
+o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:139: warning: '...' as arguments.)
 o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m: At top level:
-o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:165: warning: incomplete implementation of class 'iQkGooViewController'
-o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:165: warning: method definition for '-serverHostTerminated:reason:' not found
-o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:165: warning: class 'iQkGooViewController' does not fully implement the 'GameDelegate' protocol
-lSLF07#2@67"Compile /Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m282731972#282731972#0(1306"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m: In function '-[iQkGooViewController touchesBegan:withEvent:]':/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:144: warning: no '-init:' method found/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:144: warning: (Messages without a matching method signature/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:144: warning: will be assumed to return 'id' and accept/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:144: warning: '...' as arguments.)/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m: In function '-[iQkGooViewController reactByGesture:fromUser:]':/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:161: warning: format not a string literal and no format arguments/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m: At top level:/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:165: warning: incomplete implementation of class 'iQkGooViewController'/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:165: warning: method definition for '-serverHostTerminated:reason:' not found/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:165: warning: class 'iQkGooViewController' does not fully implement the 'GameDelegate' protocol7(22@24"No '-init:' method found282731972#124#99#0(6@59"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m282730446#144#0#144#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)282731972#223#120#0(6@59"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m282730446#144#0#144#0#0"0(22@51"Format not a string literal and no format arguments282731972#679#126#0(6@59"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m282730446#161#0#161#0#51"format not a string literal and no format arguments0(23@13"At top level:282731972#805#75#0(6@59"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m282730446#0#0#0#0#0"0(22@57"Incomplete implementation of class 'iQkGooViewController'282731972#880#132#0(6@59"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m282730446#165#0#165#0#38"incomplete implementation of class '*'0(22@63"Method definition for '-serverHostTerminated:reason:' not found282731972#1012#138#0(6@59"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m282730446#165#0#165#0#35"method definition for '*' not found0(22@81"Class 'iQkGooViewController' does not fully implement the 'GameDelegate' protocol282731972#1150#156#0(6@59"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m282730446#165#0#165#0#51"class '*' does not fully implement the '*' protocol0(0#0#59"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m4300885448#1742"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-gbkictbhgsoyxnfetrnzlfjjkrty/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/iQkGooViewController.o0#
+o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:157: warning: incomplete implementation of class 'iQkGooViewController'
+o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:157: warning: method definition for '-serverHostTerminated:reason:' not found
+o/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:157: warning: class 'iQkGooViewController' does not fully implement the 'GameDelegate' protocol
+lSLF07#2@67"Compile /Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m282739299#282739299#0(1055"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m: In function '-[iQkGooViewController touchesBegan:withEvent:]':/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:139: warning: no '-init:' method found/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:139: warning: (Messages without a matching method signature/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:139: warning: will be assumed to return 'id' and accept/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:139: warning: '...' as arguments.)/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m: At top level:/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:157: warning: incomplete implementation of class 'iQkGooViewController'/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:157: warning: method definition for '-serverHostTerminated:reason:' not found/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m:157: warning: class 'iQkGooViewController' does not fully implement the 'GameDelegate' protocol6(22@24"No '-init:' method found282739299#124#99#0(6@59"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m282732623#139#0#139#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)282739299#223#120#0(6@59"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m282732623#139#0#139#0#0"0(23@13"At top level:282739299#554#75#0(6@59"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m282732623#0#0#0#0#0"0(22@57"Incomplete implementation of class 'iQkGooViewController'282739299#629#132#0(6@59"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m282732623#157#0#157#0#38"incomplete implementation of class '*'0(22@63"Method definition for '-serverHostTerminated:reason:' not found282739299#761#138#0(6@59"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m282732623#157#0#157#0#35"method definition for '*' not found0(22@81"Class 'iQkGooViewController' does not fully implement the 'GameDelegate' protocol282739299#899#156#0(6@59"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m282732623#157#0#157#0#51"class '*' does not fully implement the '*' protocol0(0#0#59"/Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m4300885448#1744"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-faokwbaeizvhobbeswzkgeohunxs/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/iQkGooViewController.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/iQkGooViewController.o0#
 
 CCompileC build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/main.o /Users/sixteen/kadd-jade/iQk/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282731971.851565
-e282731971.918776
+s282739299.505433
+e282739299.561881
 r1
 xCompileC
 xbuild/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/main.o
@@ -1378,11 +1482,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@43"Compile /Users/sixteen/kadd-jade/iQk/main.m282731971#282731971#0(0"0(0#0#35"/Users/sixteen/kadd-jade/iQk/main.m4300885448#1702"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-gbkictbhgsoyxnfetrnzlfjjkrty/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/main.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/main.o0#
+lSLF07#2@43"Compile /Users/sixteen/kadd-jade/iQk/main.m282739299#282739299#0(0"0(0#0#35"/Users/sixteen/kadd-jade/iQk/main.m4300885448#1704"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-faokwbaeizvhobbeswzkgeohunxs/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/main.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/main.o0#
 
 CCompileC build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/splashView.o /Users/sixteen/kadd-jade/iQk/Classes/splashView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282731972.850674
-e282731973.057860
+s282739300.382008
+e282739300.545997
 r1
 xCompileC
 xbuild/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/splashView.o
@@ -1391,47 +1495,52 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@57"Compile /Users/sixteen/kadd-jade/iQk/Classes/splashView.m282731972#282731973#0(0"0(0#0#49"/Users/sixteen/kadd-jade/iQk/Classes/splashView.m4300885448#1722"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-gbkictbhgsoyxnfetrnzlfjjkrty/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/splashView.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/splashView.o0#
+o/Users/sixteen/kadd-jade/iQk/Classes/splashView.m: In function '-[splashView dismissSplashFinish]':
+o/Users/sixteen/kadd-jade/iQk/Classes/splashView.m:87: warning: 'UIView' may not respond to '-showModeSelectView'
+o/Users/sixteen/kadd-jade/iQk/Classes/splashView.m:87: warning: (Messages without a matching method signature
+o/Users/sixteen/kadd-jade/iQk/Classes/splashView.m:87: warning: will be assumed to return 'id' and accept
+o/Users/sixteen/kadd-jade/iQk/Classes/splashView.m:87: warning: '...' as arguments.)
+lSLF07#2@57"Compile /Users/sixteen/kadd-jade/iQk/Classes/splashView.m282739300#282739300#0(511"/Users/sixteen/kadd-jade/iQk/Classes/splashView.m: In function '-[splashView dismissSplashFinish]':/Users/sixteen/kadd-jade/iQk/Classes/splashView.m:87: warning: 'UIView' may not respond to '-showModeSelectView'/Users/sixteen/kadd-jade/iQk/Classes/splashView.m:87: warning: (Messages without a matching method signature/Users/sixteen/kadd-jade/iQk/Classes/splashView.m:87: warning: will be assumed to return 'id' and accept/Users/sixteen/kadd-jade/iQk/Classes/splashView.m:87: warning: '...' as arguments.)2(22@49"'UIView' may not respond to '-showModeSelectView'282739300#100#113#0(6@49"/Users/sixteen/kadd-jade/iQk/Classes/splashView.m282738745#87#0#87#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)282739300#213#109#0(6@49"/Users/sixteen/kadd-jade/iQk/Classes/splashView.m282738745#87#0#87#0#0"0(0#0#49"/Users/sixteen/kadd-jade/iQk/Classes/splashView.m4300885448#1724"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -include /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-faokwbaeizvhobbeswzkgeohunxs/iQk_Prefix.pch -c /Users/sixteen/kadd-jade/iQk/Classes/splashView.m -o /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/splashView.o0#
 
 CCompileXIB /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.xib
-s282730587.871563
-e282730588.203717
+s282739296.191279
+e282739297.318706
 r1
 xCompileXIB
 x/Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.xib
-lSLF07#2@37"CompileXIB Classes/ModeSelectView.xib282730587#282730588#0(0"0(0#0#55"/Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.xib4300885448#464"    cd /Users/sixteen/kadd-jade/iQk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/ModeSelectView.nib /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.xib0#
+lSLF07#2@37"CompileXIB Classes/ModeSelectView.xib282739296#282739297#0(0"0(0#0#55"/Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.xib4300885448#466"    cd /Users/sixteen/kadd-jade/iQk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/ModeSelectView.nib /Users/sixteen/kadd-jade/iQk/Classes/ModeSelectView.xib0#
 
 CCompileXIB /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseView.xib
-s282730588.119637
-e282730588.448668
+s282739297.258958
+e282739297.595219
 r1
 xCompileXIB
 x/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseView.xib
-lSLF07#2@39"CompileXIB Classes/ServerBrowseView.xib282730588#282730588#0(0"0(0#0#57"/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseView.xib4300885448#468"    cd /Users/sixteen/kadd-jade/iQk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/ServerBrowseView.nib /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseView.xib0#
+lSLF07#2@39"CompileXIB Classes/ServerBrowseView.xib282739297#282739297#0(0"0(0#0#57"/Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseView.xib4300885448#470"    cd /Users/sixteen/kadd-jade/iQk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/ServerBrowseView.nib /Users/sixteen/kadd-jade/iQk/Classes/ServerBrowseView.xib0#
 
 CCompileXIB /Users/sixteen/kadd-jade/iQk/MainWindow.xib
-s282730587.870953
-e282730588.119566
+s282739296.154162
+e282739297.258879
 r1
 xCompileXIB
 x/Users/sixteen/kadd-jade/iQk/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib282730587#282730588#0(0"0(0#0#43"/Users/sixteen/kadd-jade/iQk/MainWindow.xib4300885448#448"    cd /Users/sixteen/kadd-jade/iQk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/MainWindow.nib /Users/sixteen/kadd-jade/iQk/MainWindow.xib0#
+lSLF07#2@25"CompileXIB MainWindow.xib282739296#282739297#0(0"0(0#0#43"/Users/sixteen/kadd-jade/iQk/MainWindow.xib4300885448#450"    cd /Users/sixteen/kadd-jade/iQk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/MainWindow.nib /Users/sixteen/kadd-jade/iQk/MainWindow.xib0#
 
 CCompileXIB /Users/sixteen/kadd-jade/iQk/PreferenceView.xib
-s282731970.200376
-e282731971.280462
+s282739297.596757
+e282739297.951245
 r1
 xCompileXIB
 x/Users/sixteen/kadd-jade/iQk/PreferenceView.xib
-lSLF07#2@29"CompileXIB PreferenceView.xib282731970#282731971#0(0"0(0#0#47"/Users/sixteen/kadd-jade/iQk/PreferenceView.xib4300885448#456"    cd /Users/sixteen/kadd-jade/iQk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/PreferenceView.nib /Users/sixteen/kadd-jade/iQk/PreferenceView.xib0#
+lSLF07#2@29"CompileXIB PreferenceView.xib282739297#282739297#0(0"0(0#0#47"/Users/sixteen/kadd-jade/iQk/PreferenceView.xib4300885448#458"    cd /Users/sixteen/kadd-jade/iQk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/PreferenceView.nib /Users/sixteen/kadd-jade/iQk/PreferenceView.xib0#
 
 CCompileXIB /Users/sixteen/kadd-jade/iQk/iQkGooView.xib
-s282730588.203785
-e282730588.563686
+s282739297.318963
+e282739297.631054
 r1
 xCompileXIB
 x/Users/sixteen/kadd-jade/iQk/iQkGooView.xib
-lSLF07#2@25"CompileXIB iQkGooView.xib282730588#282730588#0(0"0(0#0#43"/Users/sixteen/kadd-jade/iQk/iQkGooView.xib4300885448#448"    cd /Users/sixteen/kadd-jade/iQk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/iQkGooView.nib /Users/sixteen/kadd-jade/iQk/iQkGooView.xib0#
+lSLF07#2@25"CompileXIB iQkGooView.xib282739297#282739297#0(0"0(0#0#43"/Users/sixteen/kadd-jade/iQk/iQkGooView.xib4300885448#450"    cd /Users/sixteen/kadd-jade/iQk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/iQkGooView.nib /Users/sixteen/kadd-jade/iQk/iQkGooView.xib0#
 
 CCpResource build/Release-iphonesimulator/iQk.app/AcidBass.wav AcidBass.wav
 s282730588.489895
@@ -1799,6 +1908,15 @@ xbuild/Release-iphonesimulator/iQk.app/ZildjianCymbals.wav
 xZildjianCymbals.wav
 lSLF07#2@24"Copy ZildjianCymbals.wav282730588#282730588#0(0"0(0#0#48"/Users/sixteen/kadd-jade/iQk/ZildjianCymbals.wav4300885448#452"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sixteen/kadd-jade/iQk/ZildjianCymbals.wav /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app0#
 
+CCpResource build/Release-iphonesimulator/iQk.app/gooView.mov gooView.mov
+s282737095.846550
+e282737096.394194
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iQk.app/gooView.mov
+xgooView.mov
+lSLF07#2@16"Copy gooView.mov282737095#282737096#0(0"0(0#0#40"/Users/sixteen/kadd-jade/iQk/gooView.mov4300885448#444"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sixteen/kadd-jade/iQk/gooView.mov /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app0#
+
 CCpResource build/Release-iphonesimulator/iQk.app/iQkCreateServer.png iQkCreateServer.png
 s282730588.619996
 e282730588.636136
@@ -1926,23 +2044,23 @@ xiQkSplash.png
 lSLF07#2@18"Copy iQkSplash.png282730588#282730588#0(0"0(0#0#42"/Users/sixteen/kadd-jade/iQk/iQkSplash.png4300885448#446"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sixteen/kadd-jade/iQk/iQkSplash.png /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app0#
 
 CGenerateDSYMFile /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app.dSYM /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/iQk
-s282731973.285572
-e282731973.336255
+s282739300.829427
+e282739300.870709
 r1
 xGenerateDSYMFile
 x/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app.dSYM
 x/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/iQk
-lSLF07#2@101"GenerateDSYMFile build/Release-iphonesimulator/iQk.app.dSYM build/Release-iphonesimulator/iQk.app/iQk282731973#282731973#0(0"0(0#0#70"/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/iQk4300885448#345"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/iQk -o /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app.dSYM0#
+lSLF07#2@101"GenerateDSYMFile build/Release-iphonesimulator/iQk.app.dSYM build/Release-iphonesimulator/iQk.app/iQk282739300#282739300#0(0"0(0#0#70"/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/iQk4300885448#345"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/iQk -o /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app.dSYM0#
 
 CLd /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/iQk normal i386
-s282731973.150092
-e282731973.285493
+s282739300.675024
+e282739300.829338
 r1
 xLd
 x/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/iQk
 xnormal
 xi386
-lSLF07#2@75"Link /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/iQk282731973#282731973#0(0"0(0#0#0"4300885448#846"    cd /Users/sixteen/kadd-jade/iQk    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -L/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -filelist /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/iQk.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -framework AudioToolbox -o /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/iQk0#
+lSLF07#2@75"Link /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/iQk282739300#282739300#0(0"0(0#0#0"4300885448#871"    cd /Users/sixteen/kadd-jade/iQk    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -filelist /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/Objects-normal/i386/iQk.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -framework AudioToolbox -framework MediaPlayer -o /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/iQk0#
 
 CProcessInfoPlistFile /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/Info.plist iQk-Info.plist
 s282730587.865249
@@ -1952,6 +2070,19 @@ xProcessInfoPlistFile
 x/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/Info.plist
 xiQk-Info.plist
 lSLF07#2@22"Process iQk-Info.plist282730587#282730587#0(0"0(0#0#43"/Users/sixteen/kadd-jade/iQk/iQk-Info.plist29555366482477168#441"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iQk-Info.plist -genpkginfo /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app/Info.plist0#
+
+CProcessPCH /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-faokwbaeizvhobbeswzkgeohunxs/iQk_Prefix.pch.gch iQk_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s282739297.951448
+e282739299.505198
+r1
+xProcessPCH
+x/var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-faokwbaeizvhobbeswzkgeohunxs/iQk_Prefix.pch.gch
+xiQk_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile iQk_Prefix.pch282739297#282739299#0(0"0(0#0#43"/Users/sixteen/kadd-jade/iQk/iQk_Prefix.pch4300885448#1608"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -c /Users/sixteen/kadd-jade/iQk/iQk_Prefix.pch -o /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-faokwbaeizvhobbeswzkgeohunxs/iQk_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-gbkictbhgsoyxnfetrnzlfjjkrty/iQk_Prefix.pch.gch iQk_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s282731971.280570
@@ -1967,10 +2098,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@25"Precompile iQk_Prefix.pch282731971#282731971#0(0"0(0#0#43"/Users/sixteen/kadd-jade/iQk/iQk_Prefix.pch4300885448#1606"    cd /Users/sixteen/kadd-jade/iQk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-generated-files.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-own-target-headers.hmap -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-all-target-headers.hmap -iquote /Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/iQk-project-headers.hmap -F/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator -I/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/include -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources/i386 -I/Users/sixteen/kadd-jade/iQk/build/iQk.build/Release-iphonesimulator/iQk.build/DerivedSources -c /Users/sixteen/kadd-jade/iQk/iQk_Prefix.pch -o /var/folders/++/++LSnvDNHyueOzB3RF8w8U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iQk_Prefix-gbkictbhgsoyxnfetrnzlfjjkrty/iQk_Prefix.pch.gch0#
 
 CTouch /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app
-s282731973.336367
-e282731973.342309
+s282739300.870778
+e282739300.873512
 r1
 xTouch
 x/Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app
-lSLF07#2@72"Touch /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app282731973#282731973#0(0"0(0#0#0"4300885448#256"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app0#
+lSLF07#2@72"Touch /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app282739300#282739300#0(0"0(0#0#0"4300885448#256"    cd /Users/sixteen/kadd-jade/iQk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/sixteen/kadd-jade/iQk/build/Release-iphonesimulator/iQk.app0#
 
