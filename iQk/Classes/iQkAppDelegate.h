@@ -46,6 +46,10 @@
 
 - (void)setLang;
 
+-(void) playMovieAtURL;
+
+-(void)myMovieFinishedCallback:(NSNotification*)aNotification;
+
 + (id)getLang;
 
 @end

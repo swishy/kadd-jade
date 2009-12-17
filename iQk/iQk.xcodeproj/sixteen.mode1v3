@@ -274,20 +274,21 @@
 								<string>CDA83B8210CF71B70050F857</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>CDA83B8D10CF72280050F857</string>
+								<string>CDEBC64710DA33AD008B134E</string>
+								<string>CDEBC64A10DA33AD008B134E</string>
 								<string>19C28FACFE9D520D11CA2CBB</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>36</integer>
-									<integer>26</integer>
+									<integer>40</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 834}}</string>
+							<string>{{0, 1546}, {186, 834}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -324,7 +325,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>iQkGooViewController.m</string>
+								<string>iQkAppDelegate.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -332,11 +333,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>iQkGooViewController.m</string>
+										<string>iQkAppDelegate.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CDEBC63E10DA2F46008B134E</string>
+										<string>CDEBC66D10DA378E008B134E</string>
 										<key>history</key>
 										<array>
 											<string>CDDC913E10C778960054F2A5</string>
@@ -356,14 +357,12 @@
 											<string>CD282F2910D5A8A4003EEF38</string>
 											<string>CD282F2A10D5A8A4003EEF38</string>
 											<string>CD92DECF10D6078200717A9F</string>
-											<string>CD92DED010D6078200717A9F</string>
 											<string>CD92DED310D6078200717A9F</string>
 											<string>CD92DED510D6078200717A9F</string>
 											<string>CD92DED610D6078200717A9F</string>
 											<string>CD92DED710D6078200717A9F</string>
 											<string>CD92DED810D6078200717A9F</string>
 											<string>CD92DF3810D61EE600717A9F</string>
-											<string>CD92DF3910D61EE600717A9F</string>
 											<string>CD43994210D8D0A5002D598B</string>
 											<string>CD43998D10D8E0CF002D598B</string>
 											<string>CDEBC5CE10DA20D3008B134E</string>
@@ -383,7 +382,9 @@
 											<string>CDEBC63B10DA2F46008B134E</string>
 											<string>CDEBC63C10DA2F46008B134E</string>
 											<string>CDEBC63D10DA2F46008B134E</string>
-											<string>CD43999410D8E0E8002D598B</string>
+											<string>CDEBC66A10DA378E008B134E</string>
+											<string>CDEBC66B10DA378E008B134E</string>
+											<string>CDEBC66C10DA378E008B134E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
