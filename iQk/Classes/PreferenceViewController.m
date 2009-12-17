@@ -7,12 +7,14 @@
 //
 
 #import "PreferenceViewController.h"
+#import "iQkAppDelegate.h"
 
 NSString *kNickKey				= @"nickNameKey";
 NSString *kSoundLibraryKey		= @"soundLibraryKey";
 NSString *kGooColorKey			= @"gooColorKey";
 
 @implementation PreferenceViewController
+@synthesize nickImage, bNickName;
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -28,6 +30,15 @@ NSString *kGooColorKey			= @"gooColorKey";
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+	
+	NSString *lang = [iQkAppDelegate getLang];
+	
+	if ([lang isEqualToString: @"zh-Hans" ]) {
+		NSLog(@"Into if statement");
+		UIImage *nImage = [UIImage imageNamed:@"iQkNickButton.png"];
+		[nickImage setImage:nImage];
+		[nImage release];
+	}
 	
 	NSString *nickName;
 	NSString *sound;
@@ -103,6 +114,10 @@ NSString *kGooColorKey			= @"gooColorKey";
 
 - (void)save{
 	[self writeToDefaults:[bNickName text] :[bSound text] :[bColor text]];
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+	[bNickName resignFirstResponder];
 }
 
 - (void)dealloc {

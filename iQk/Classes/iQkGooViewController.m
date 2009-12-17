@@ -90,7 +90,7 @@ static BOOL preferenceLoaded = NO;
 
 - (void)accelerometer:(UIAccelerometer *)iQkAccelerometer didAccelerate:(UIAcceleration *)acceleration {
 	
-	// set tilt now overide in method
+	// set tilt now , this stops the simulator bailing out due to lack of accel 
 	tilt = @"d";
 	
 	//check for shake first
@@ -119,36 +119,30 @@ static BOOL preferenceLoaded = NO;
 	if (acceleration.x >= 0.8) {
 		// Tilt right
 		tilt = @"r";
-		NSLog(@"activating new grid");
 	}
 	if (acceleration.y >= 0.8) {
 		// Tilt forward
-		NSLog(@"activating new grid again");
 	}
 	if (acceleration.x <= -0.8) {
 		// Tilt left
 		tilt = @"l";
-		NSLog(@"activating new grid 2");
 	}
 	if (acceleration.y <= -0.8) {
 		// Tilt backward
-		NSLog(@"activating new grid 3 again");
 	}
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
 	UITouch *touch = [touches anyObject];
 	CGPoint touchCoordinates = [touch locationInView:self.view];
-	NSLog(@"in touchesBegan event");
 	NSString *grid = [gridMap getGridID:touchCoordinates :tilt];
 	[game broadcastGesture:[[Gesture alloc] init:grid] fromUser:[AppConfig getInstance].name];
 } 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
-	NSLog(@"in touchesMoved event");
 
 }
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
-	NSLog(@"in touchesEnded event");
+
 } 
 
 - (void)clicked:(id)sender {
@@ -157,8 +151,6 @@ static BOOL preferenceLoaded = NO;
 }
 
 - (void)reactByGesture:(Gesture*)gesture fromUser:(NSString*)userName{
-	NSLog(@"displayChatMessage reached.");
-	NSLog(gesture.grid);
 	[Audio playSound:gesture.grid];
 }
 
