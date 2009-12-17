@@ -120,7 +120,6 @@
 					<int key="NSColorSpace">3</int>
 					<bytes key="NSWhite">MSAwLjMyAA</bytes>
 				</object>
-				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 			</object>
 		</object>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
@@ -249,7 +248,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>ServerBrowseViewController</string>
 					<string>UIResponder</string>
-					<string>{{729, 414}, {320, 480}}</string>
+					<string>{{729, 434}, {320, 460}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>

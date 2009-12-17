@@ -84,7 +84,6 @@
 		[splashImage removeFromSuperview];
 		[self removeFromSuperview];
 		[image release];
-		[super showModeSelectView];
 	}               
 	if (self.delegate != NULL && [self.delegate respondsToSelector:@selector(splashIsDone)]) {
 		[delegate splashIsDone];

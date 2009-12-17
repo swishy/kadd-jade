@@ -115,7 +115,6 @@
 					<int key="NSColorSpace">3</int>
 					<bytes key="NSWhite">MSAwLjQAA</bytes>
 				</object>
-				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 			</object>
 		</object>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
@@ -230,7 +229,7 @@
 					<string>ModeSelectViewController</string>
 					<string>UIResponder</string>
 					<string>ModeSelectView</string>
-					<string>{{794, 492}, {320, 480}}</string>
+					<string>{{794, 512}, {320, 460}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
