@@ -10,6 +10,7 @@
 #import "Game.h"
 #import "GameDelegate.h"
 #import "gridMap.h";
+#import <QuartzCore/QuartzCore.h>
 
 @class Game;
 
@@ -28,6 +29,10 @@
 - (IBAction)clicked:(id)sender;
 
 - (IBAction)activate;
+
+- (void)doAnimation:(UIView *)gooView;
+
+- (void)endAnimation:(NSTimer*)timer;
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event;
 

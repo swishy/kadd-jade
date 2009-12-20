@@ -132,6 +132,31 @@ static BOOL preferenceLoaded = NO;
 	}
 }
 
+-(void)doAnimation:(UIView *)gooView {
+	
+	// grabbing the layer of the tocuhed view.
+	CALayer *animateLayer = [gooView layer];
+	
+	// here is an example wiggle
+	CABasicAnimation *wiggle = [CABasicAnimation animationWithKeyPath:@"transform"];
+	wiggle.duration = 0.1;
+	wiggle.repeatCount = 1e100f;
+	wiggle.autoreverses = YES;
+	wiggle.toValue = [NSValue valueWithCATransform3D:CATransform3DRotate(animateLayer.transform,0.1, 0.0 ,1.0 ,2.0)];
+	
+	// doing the wiggle
+	[animateLayer addAnimation:wiggle forKey:@"wiggle"];
+	
+	// setting a timer to remove the layer
+	NSTimer *wiggleTimer = [NSTimer scheduledTimerWithTimeInterval:(2) target:self selector:@selector(endAnimation:) userInfo:animateLayer repeats:NO];
+	
+}
+
+-(void)endAnimation:(NSTimer*)timer {
+	// stopping the wiggle now
+	[((CALayer*)timer.userInfo) removeAllAnimations];
+}
+
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
 	UITouch *touch = [touches anyObject];
 	CGPoint touchCoordinates = [touch locationInView:self.view];
@@ -142,6 +167,7 @@ static BOOL preferenceLoaded = NO;
 
 }
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+	[self doAnimation:[self view]];
 
 } 
 
