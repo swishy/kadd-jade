@@ -206,7 +206,7 @@ static void serverAcceptCallback(CFSocketRef socket, CFSocketCallBackType type, 
 
 - (BOOL) publishService {
 	// come up with a name for our chat room
-	NSString* chatRoomName = [NSString stringWithFormat:@"%@'s chat room", [[AppConfig getInstance] name]];
+	NSString* chatRoomName = [NSString stringWithFormat:@"%@'s iQk", [[AppConfig getInstance] name]];
 	
 	// create new instance of netService
  	self.netService = [[NSNetService alloc]

@@ -10,6 +10,8 @@
 #import "splashView.h"
 #import "MediaPlayer/MediaPlayer.h"
 
+//NSString *kNickKey				= @"nickNameKey";
+
 @implementation iQkAppDelegate
 
 @synthesize window;
@@ -115,6 +117,43 @@ static iQkAppDelegate* _lang;
 	[window bringSubviewToFront:iqkGooViewController.view];
 	
 	NSLog(@"showGameView finished.");
+}
+
+- (id) getNickName{
+	NSString *nickName;
+	//NSString *sound;
+	//NSString *color;
+	
+	NSString *testName = [[NSUserDefaults standardUserDefaults] stringForKey:@"nickNameKey"];
+	
+	if (testName == nil){
+		NSString *pathStr = [[NSBundle mainBundle] bundlePath];
+		NSString *settingsBundlePath = [pathStr stringByAppendingPathComponent:@"Settings.bundle"];
+		NSString *finalPath = [settingsBundlePath stringByAppendingPathComponent:@"Root.plist"];
+		
+		NSDictionary *settingsDict = [NSDictionary dictionaryWithContentsOfFile:finalPath];
+		NSArray *prefSpecifierArray = [settingsDict objectForKey:@"PreferenceSpecifiers"];
+		
+		NSDictionary *prefItem;
+		
+		for (prefItem in prefSpecifierArray)
+		{
+			NSString *keyValueStr = [prefItem objectForKey:@"Key"];
+			id defaultValue = [prefItem objectForKey:@"value"];
+			
+			if ([keyValueStr isEqualToString:@"nickNameKey"]){
+				nickName = defaultValue;
+			}
+			/*
+			 if ([keyValueStr isEqualToString:kSoundLibraryKey]){
+			 sound = defaultValue;
+			 }
+			 if ([keyValueStr isEqualToString:kGooColorKey]){
+			 color = defaultValue;
+			 }
+			 */
+		}
+	}
 }
 
 + (id)getInstance {

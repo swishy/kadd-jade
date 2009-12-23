@@ -10,8 +10,8 @@
 #import "iQkAppDelegate.h"
 
 NSString *kNickKey				= @"nickNameKey";
-NSString *kSoundLibraryKey		= @"soundLibraryKey";
-NSString *kGooColorKey			= @"gooColorKey";
+//NSString *kSoundLibraryKey		= @"soundLibraryKey";
+//NSString *kGooColorKey			= @"gooColorKey";
 
 @implementation PreferenceViewController
 @synthesize nickImage, bNickName;
@@ -41,14 +41,14 @@ NSString *kGooColorKey			= @"gooColorKey";
 	}
 	
 	NSString *nickName;
-	NSString *sound;
-	NSString *color;
+	//NSString *sound;
+	//NSString *color;
 	
 	NSString *testName = [[NSUserDefaults standardUserDefaults] stringForKey:kNickKey];
 	
 	if (testName == nil){
 		NSString *pathStr = [[NSBundle mainBundle] bundlePath];
-		NSString *settingsBundlePath = [pathStr stringByAppendingPathComponent:@"Preference.bundle"];
+		NSString *settingsBundlePath = [pathStr stringByAppendingPathComponent:@"Settings.bundle"];
 		NSString *finalPath = [settingsBundlePath stringByAppendingPathComponent:@"Root.plist"];
 		
 		NSDictionary *settingsDict = [NSDictionary dictionaryWithContentsOfFile:finalPath];
@@ -59,22 +59,32 @@ NSString *kGooColorKey			= @"gooColorKey";
 		for (prefItem in prefSpecifierArray)
 		{
 			NSString *keyValueStr = [prefItem objectForKey:@"Key"];
-			id defaultValue = [prefItem objectForKey:@"value"];
+			NSString *defaultValue = [prefItem objectForKey:@"DefaultValue"];
 		
 			if ([keyValueStr isEqualToString:kNickKey]){
 				nickName = defaultValue;
 			}
+			/*
 			if ([keyValueStr isEqualToString:kSoundLibraryKey]){
 				sound = defaultValue;
 			}
 			if ([keyValueStr isEqualToString:kGooColorKey]){
 				color = defaultValue;
 			}
+			*/
 		}
+		NSDictionary *appDefaults = [NSDictionary dictionaryWithObjectsAndKeys:
+									 nickName, kNickKey,
+									 //sound, kSoundLibraryKey,
+									 //color, kGooColorKey, nil];
+									 nil];
+		[[NSUserDefaults standardUserDefaults] registerDefaults:appDefaults];
+		[[NSUserDefaults standardUserDefaults] synchronize];
 	}
+	
 	bNickName.text = [[NSUserDefaults standardUserDefaults] stringForKey:kNickKey];
-	bSound.text = [[NSUserDefaults standardUserDefaults] stringForKey:kSoundLibraryKey];
-	bColor.text = [[NSUserDefaults standardUserDefaults] stringForKey:kGooColorKey];
+	//bSound.text = [[NSUserDefaults standardUserDefaults] stringForKey:kSoundLibraryKey];
+	//bColor.text = [[NSUserDefaults standardUserDefaults] stringForKey:kGooColorKey];
 }
 
 
@@ -100,20 +110,27 @@ NSString *kGooColorKey			= @"gooColorKey";
 }
 
 
-- (void)writeToDefaults:(NSString*)nickName :(NSString*)sound :(NSString*)color{
+//- (void)writeToDefaults:(NSString*)nickName :(NSString*)sound :(NSString*)color{
+- (void)writeToDefaults:(NSString*) nickName{
+	NSUserDefaults *name = [NSUserDefaults standardUserDefaults];
+	[name setObject:nickName forKey:kNickKey];
 	
 	
+	/*
 	NSDictionary *appDefaults = [NSDictionary dictionaryWithObjectsAndKeys:
 								 nickName, kNickKey,
-								 sound, kSoundLibraryKey,
-								 color, kGooColorKey, nil];
+								 //sound, kSoundLibraryKey,
+								 //color, kGooColorKey, nil];
+								 nil];
 	[[NSUserDefaults standardUserDefaults] registerDefaults:appDefaults];
 	[[NSUserDefaults standardUserDefaults] synchronize];
+	 */
+	
 	
 }
 
 - (void)save{
-	[self writeToDefaults:[bNickName text] :[bSound text] :[bColor text]];
+	[self writeToDefaults: bNickName.text];
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {

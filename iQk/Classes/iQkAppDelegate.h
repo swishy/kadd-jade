@@ -48,6 +48,8 @@
 
 - (void)showModeSelectView;
 
+- (id) getNickName;
+
 + (id)getLang;
 
 @end

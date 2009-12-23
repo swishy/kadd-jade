@@ -6,6 +6,7 @@
 //  Copyright 2009 __MyCompanyName__. All rights reserved.
 //
 #import "AppConfig.h"
+#import "iQkAppDelegate.h"
 
 static AppConfig* instance;
 
@@ -15,7 +16,8 @@ static AppConfig* instance;
 
 // Initialization
 - (id) init {
-	self.name = @"unknown";
+	//self.name = @"unknown";
+	self.name = [[iQkAppDelegate	getInstance] getNickName];
 	return self;
 }
 

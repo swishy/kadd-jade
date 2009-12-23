@@ -19,7 +19,8 @@
 @property (nonatomic, retain) UIImage *nickImage;
 @property (nonatomic, retain) UITextField *bNickName;
 
-- (void)writeToDefaults:(NSString*) nickName :(NSString*) sound: (NSString*) color;
+//- (void)writeToDefaults:(NSString*) nickName :(NSString*) sound: (NSString*) color;
+- (void)writeToDefaults:(NSString*) nickName;
 - (void)save;
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event;
 
