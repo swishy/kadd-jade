@@ -86,6 +86,7 @@
 		CDDC912610C772760054F2A5 /* iQkMultiButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CDDC912510C772760054F2A5 /* iQkMultiButton.png */; };
 		CDDC912A10C7730F0054F2A5 /* splashView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDC912910C7730F0054F2A5 /* splashView.m */; };
 		CDDC912C10C773510054F2A5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDC912B10C773510054F2A5 /* QuartzCore.framework */; };
+		CDE5274910E1E4E500BF1AE5 /* iQkGooViewContact.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE5274810E1E4E500BF1AE5 /* iQkGooViewContact.png */; };
 		CDEBC5C510DA200F008B134E /* iQkJoinButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEBC5C410DA200F008B134E /* iQkJoinButton.png */; };
 		CDEBC5C710DA2037008B134E /* iQkNickButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEBC5C610DA2037008B134E /* iQkNickButton.png */; };
 		CDEBC64810DA33AD008B134E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEBC64710DA33AD008B134E /* MediaPlayer.framework */; };
@@ -196,6 +197,7 @@
 		CDDC912810C7730F0054F2A5 /* splashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = splashView.h; sourceTree = "<group>"; };
 		CDDC912910C7730F0054F2A5 /* splashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = splashView.m; sourceTree = "<group>"; };
 		CDDC912B10C773510054F2A5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CDE5274810E1E4E500BF1AE5 /* iQkGooViewContact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iQkGooViewContact.png; sourceTree = "<group>"; };
 		CDEBC5C410DA200F008B134E /* iQkJoinButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iQkJoinButton.png; sourceTree = "<group>"; };
 		CDEBC5C610DA2037008B134E /* iQkNickButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iQkNickButton.png; sourceTree = "<group>"; };
 		CDEBC64710DA33AD008B134E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
@@ -319,6 +321,7 @@
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* iQk-Info.plist */,
 				EA7EBAC710B91BF700CC3F9A /* iQkGooView.xib */,
+				CDE5274810E1E4E500BF1AE5 /* iQkGooViewContact.png */,
 				CDDC912510C772760054F2A5 /* iQkMultiButton.png */,
 				CDDC912310C772620054F2A5 /* iQkSplash.png */,
 				CDEBC5C410DA200F008B134E /* iQkJoinButton.png */,
@@ -514,6 +517,7 @@
 				468813BF10DA0BAB0035B2CF /* iQkCreateServer.png in Resources */,
 				CDEBC5C510DA200F008B134E /* iQkJoinButton.png in Resources */,
 				CDEBC5C710DA2037008B134E /* iQkNickButton.png in Resources */,
+				CDE5274910E1E4E500BF1AE5 /* iQkGooViewContact.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

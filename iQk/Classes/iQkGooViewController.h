@@ -18,10 +18,12 @@
 	Game* game;
 	IBOutlet UIButton* goo;
 	IBOutlet UILabel* show;
+	IBOutlet UIImageView* grid1ImageView;
 	UIAccelerometer *iQkAccelerometer;
 }
 
 @property (nonatomic, retain) Game* game;
+@property (nonatomic, retain) UIImageView* grid1ImageView;
 
 // The following property is what is used to recieve values from HW
 @property (nonatomic, retain) UIAccelerometer *iQkAccelerometer;
@@ -30,7 +32,9 @@
 
 - (IBAction)activate;
 
-- (void)doAnimation:(UIView *)gooView;
+- (IBAction)touched:(id)sender;
+
+- (void)doAnimation:(UIImageView *)gooView;
 
 - (void)endAnimation:(NSTimer*)timer;
 

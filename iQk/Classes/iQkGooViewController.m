@@ -17,6 +17,7 @@
 
 @synthesize game;
 @synthesize iQkAccelerometer;
+@synthesize grid1ImageView;
 
 static NSString *tilt;
 static BOOL preferenceLoaded = NO;
@@ -61,7 +62,7 @@ static BOOL preferenceLoaded = NO;
 		[self.game start];
 	}
 	
-	[self becomeFirstResponder];
+	//[self becomeFirstResponder];
 }
 
 
@@ -132,23 +133,23 @@ static BOOL preferenceLoaded = NO;
 	}
 }
 
--(void)doAnimation:(UIView *)gooView {
+-(void)doAnimation:(UIImageView *)gooView {
 	
-	// grabbing the layer of the tocuhed view.
-	CALayer *animateLayer = [gooView layer];
+	// grabbing the layer of the touched view.
+	CALayer *animateLayer = gooView.layer;
 	
 	// here is an example wiggle
-	CABasicAnimation *wiggle = [CABasicAnimation animationWithKeyPath:@"transform"];
-	wiggle.duration = 0.1;
-	wiggle.repeatCount = 1e100f;
-	wiggle.autoreverses = YES;
-	wiggle.toValue = [NSValue valueWithCATransform3D:CATransform3DRotate(animateLayer.transform,0.1, 0.0 ,1.0 ,2.0)];
+	CABasicAnimation *animate = [CABasicAnimation animationWithKeyPath:@"transform"];
+	animate.duration = 0.1;
+	animate.repeatCount = 1e100f;
+	animate.autoreverses = YES;
+	animate.toValue = [NSValue valueWithCATransform3D:CATransform3DRotate(animateLayer.transform,0.1, 0.0 ,1.0 ,2.0)];
 	
 	// doing the wiggle
-	[animateLayer addAnimation:wiggle forKey:@"wiggle"];
+	[animateLayer addAnimation:animate forKey:@"wiggle"];
 	
 	// setting a timer to remove the layer
-	NSTimer *wiggleTimer = [NSTimer scheduledTimerWithTimeInterval:(2) target:self selector:@selector(endAnimation:) userInfo:animateLayer repeats:NO];
+	NSTimer *animateTimer = [NSTimer scheduledTimerWithTimeInterval:(2) target:self selector:@selector(endAnimation:) userInfo:animateLayer repeats:NO];
 	
 }
 
@@ -167,12 +168,18 @@ static BOOL preferenceLoaded = NO;
 
 }
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
-	[self doAnimation:[self view]];
+	//UIView *current = [NSArray [self.subviews(1)]];
+	//[self doAnimation:[NSArray * self.subviews[1]]];
 
 } 
 
+- (void)touched:(id)sender {
+	NSLog(@"triggered new touched event");
+}
+
 - (void)clicked:(id)sender {
 	[game broadcastGesture:[[Gesture alloc] init] fromUser:[AppConfig getInstance].name];
+	[self doAnimation:self.view];
 	//[Audio playSound:gesture.name];
 }
 
