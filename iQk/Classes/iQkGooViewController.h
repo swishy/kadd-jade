@@ -34,7 +34,7 @@
 
 - (IBAction)touched:(id)sender;
 
-- (void)doAnimation:(UIImageView *)gooView;
+- (void)doAnimation:(UIView *)gooView;
 
 - (void)endAnimation:(NSTimer*)timer;
 

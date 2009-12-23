@@ -13,6 +13,7 @@
 #import "iQkAppDelegate.h"
 
 
+
 @implementation iQkGooViewController
 
 @synthesize game;
@@ -133,28 +134,27 @@ static BOOL preferenceLoaded = NO;
 	}
 }
 
--(void)doAnimation:(UIImageView *)gooView {
-	
-	// grabbing the layer of the touched view.
-	CALayer *animateLayer = gooView.layer;
+-(void)doAnimation:(UIView *)gooView {
 	
 	// here is an example wiggle
-	CABasicAnimation *animate = [CABasicAnimation animationWithKeyPath:@"transform"];
+	CABasicAnimation *animate = [CABasicAnimation animationWithKeyPath:@"opacity"];
 	animate.duration = 0.1;
 	animate.repeatCount = 1e100f;
 	animate.autoreverses = YES;
-	animate.toValue = [NSValue valueWithCATransform3D:CATransform3DRotate(animateLayer.transform,0.1, 0.0 ,1.0 ,2.0)];
+	animate.fromValue = [NSNumber numberWithFloat:1.0];
+	animate.toValue=[NSNumber numberWithFloat:0.8];
+	//animate.toValue = [NSValue valueWithCATransform3D:CATransform3DRotate(animateLayer.transform,0.1, 0.0 ,1.0 ,2.0)];
 	
 	// doing the wiggle
-	[animateLayer addAnimation:animate forKey:@"wiggle"];
+	[gooView.layer addAnimation:animate forKey:@"animateOpacity"];
 	
 	// setting a timer to remove the layer
-	NSTimer *animateTimer = [NSTimer scheduledTimerWithTimeInterval:(2) target:self selector:@selector(endAnimation:) userInfo:animateLayer repeats:NO];
+	NSTimer *animateTimer = [NSTimer scheduledTimerWithTimeInterval:(0.1) target:self selector:@selector(endAnimation:) userInfo:gooView.layer repeats:NO];
 	
 }
 
 -(void)endAnimation:(NSTimer*)timer {
-	// stopping the wiggle now
+	// stopping the fade now
 	[((CALayer*)timer.userInfo) removeAllAnimations];
 }
 
@@ -163,6 +163,7 @@ static BOOL preferenceLoaded = NO;
 	CGPoint touchCoordinates = [touch locationInView:self.view];
 	NSString *grid = [gridMap getGridID:touchCoordinates :tilt];
 	[game broadcastGesture:[[Gesture alloc] init:grid] fromUser:[AppConfig getInstance].name];
+	[self doAnimation:[self view]];
 } 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
 
@@ -179,7 +180,6 @@ static BOOL preferenceLoaded = NO;
 
 - (void)clicked:(id)sender {
 	[game broadcastGesture:[[Gesture alloc] init] fromUser:[AppConfig getInstance].name];
-	[self doAnimation:self.view];
 	//[Audio playSound:gesture.name];
 }
 
