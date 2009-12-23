@@ -1,9 +1,12 @@
 //
-//  iQkAppDelegate.m
-//  iQk
-//
-//  Created by nineteen on 12/11/09.
-//  Copyright __MyCompanyName__ 2009. All rights reserved.
+// Copyright 2009 All rights reserved.
+// Anakin Hao akua28@hotmail.com 
+// Keryn Thompson keryn_bubbles@hotmail.com 
+// Diana Sawirs dsawirs@jadeworld.com 
+// Dale Anderson dale@st8vrt.com
+// 
+// Under gpl2 licence 
+// http://www.gnu.org/licenses/gpl-2.0.txt
 //
 
 #import "iQkAppDelegate.h"
@@ -26,6 +29,8 @@ static iQkAppDelegate* _lang;
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
 	_instance = self;
 	[self setLang];
+	
+	[self createPreference];
 	
 	modeSelectViewController = [ModeSelectViewController alloc];
 	serverBrowseViewController = [ServerBrowseViewController alloc];
@@ -120,6 +125,37 @@ static iQkAppDelegate* _lang;
 }
 
 - (id) getNickName{
+	//NSString *nickName;
+	//NSString *sound;
+	//NSString *color;
+	//[[NSUserDefaults standardUserDefaults] synchronize];
+	return [[NSUserDefaults standardUserDefaults] stringForKey:@"nickNameKey"];
+	
+	/*
+	if (testName == nil){
+		NSString *pathStr = [[NSBundle mainBundle] bundlePath];
+		NSString *settingsBundlePath = [pathStr stringByAppendingPathComponent:@"Settings.bundle"];
+		NSString *finalPath = [settingsBundlePath stringByAppendingPathComponent:@"Root.plist"];
+		
+		NSDictionary *settingsDict = [NSDictionary dictionaryWithContentsOfFile:finalPath];
+		NSArray *prefSpecifierArray = [settingsDict objectForKey:@"PreferenceSpecifiers"];
+		
+		NSDictionary *prefItem;
+		
+		for (prefItem in prefSpecifierArray)
+		{
+			NSString *keyValueStr = [prefItem objectForKey:@"Key"];
+			id defaultValue = [prefItem objectForKey:@"value"];
+			
+			if ([keyValueStr isEqualToString:@"nickNameKey"]){
+				nickName = defaultValue;
+			}
+		}
+		return nickName;
+	}*/
+}
+
+- (void)createPreference{
 	NSString *nickName;
 	//NSString *sound;
 	//NSString *color;
@@ -127,6 +163,7 @@ static iQkAppDelegate* _lang;
 	NSString *testName = [[NSUserDefaults standardUserDefaults] stringForKey:@"nickNameKey"];
 	
 	if (testName == nil){
+		NSLog(@"launch pre is null");
 		NSString *pathStr = [[NSBundle mainBundle] bundlePath];
 		NSString *settingsBundlePath = [pathStr stringByAppendingPathComponent:@"Settings.bundle"];
 		NSString *finalPath = [settingsBundlePath stringByAppendingPathComponent:@"Root.plist"];
@@ -153,8 +190,17 @@ static iQkAppDelegate* _lang;
 			 }
 			 */
 		}
+		NSDictionary *appDefaults = [NSDictionary dictionaryWithObjectsAndKeys:
+									 @"Default Name", @"nickNameKey",
+									 //sound, kSoundLibraryKey,
+									 //color, kGooColorKey, nil];
+									 nil];
+		[[NSUserDefaults standardUserDefaults] registerDefaults:appDefaults];
+		[[NSUserDefaults standardUserDefaults] synchronize];
 	}
+	
 }
+
 
 + (id)getInstance {
 	return _instance;

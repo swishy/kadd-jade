@@ -1,9 +1,12 @@
 //
-//  gridMap.m
-//  iQk
-//
-//  Created by sixteen on 3/12/09.
-//  Copyright 2009 __MyCompanyName__. All rights reserved.
+// Copyright 2009 All rights reserved.
+// Anakin Hao akua28@hotmail.com 
+// Keryn Thompson keryn_bubbles@hotmail.com 
+// Diana Sawirs dsawirs@jadeworld.com 
+// Dale Anderson dale@st8vrt.com
+// 
+// Under gpl2 licence 
+// http://www.gnu.org/licenses/gpl-2.0.txt
 //
 
 #import "gridMap.h"

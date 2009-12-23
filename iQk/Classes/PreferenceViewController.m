@@ -1,9 +1,12 @@
 //
-//  PreferenceView.m
-//  iQk
-//
-//  Created by seventeen on 14/12/09.
-//  Copyright 2009 __MyCompanyName__. All rights reserved.
+// Copyright 2009 All rights reserved.
+// Anakin Hao akua28@hotmail.com 
+// Keryn Thompson keryn_bubbles@hotmail.com 
+// Diana Sawirs dsawirs@jadeworld.com 
+// Dale Anderson dale@st8vrt.com
+// 
+// Under gpl2 licence 
+// http://www.gnu.org/licenses/gpl-2.0.txt
 //
 
 #import "PreferenceViewController.h"
@@ -47,6 +50,7 @@ NSString *kNickKey				= @"nickNameKey";
 	NSString *testName = [[NSUserDefaults standardUserDefaults] stringForKey:kNickKey];
 	
 	if (testName == nil){
+		NSLog(@"is null");
 		NSString *pathStr = [[NSBundle mainBundle] bundlePath];
 		NSString *settingsBundlePath = [pathStr stringByAppendingPathComponent:@"Settings.bundle"];
 		NSString *finalPath = [settingsBundlePath stringByAppendingPathComponent:@"Root.plist"];
