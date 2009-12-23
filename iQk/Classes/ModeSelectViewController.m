@@ -8,6 +8,7 @@
 
 #import "ModeSelectViewController.h"
 #import "iQkAppDelegate.h"
+#import	"LocalGameHost.h"
 @implementation ModeSelectViewController
 
 @synthesize modeSelectView, soloButton, multiButton;
@@ -79,9 +80,11 @@
 }
 
 - (void)soloButton:(id)sender{
-	//[[iQkAppDelegate getInstance] fadeView:self.view];
-	[self showModeSelectView:NO];
-	[[iQkAppDelegate getInstance] showServerBrowseView];
+	//[self showModeSelectView:NO];
+	//[[iQkAppDelegate getInstance] showServerBrowseView];
+	
+	LocalGameHost* server = [[[LocalGameHost alloc] init] autorelease];
+	[[iQkAppDelegate getInstance] showGameView:server];
 
 	
 }
