@@ -48,6 +48,9 @@
 	grid = [ grid stringByAppendingString:rowID];
 	grid = [ grid stringByAppendingString:tilt];
 
+	[columnID release];
+	[rowID release];
+	
 	return grid;
 	
 }

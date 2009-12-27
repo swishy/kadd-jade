@@ -23,6 +23,7 @@
 	IBOutlet UILabel* show;
 	IBOutlet UIImageView* grid1ImageView;
 	UIAccelerometer *iQkAccelerometer;
+	NSString *tilt;
 }
 
 @property (nonatomic, retain) Game* game;
@@ -30,6 +31,7 @@
 
 // The following property is what is used to recieve values from HW
 @property (nonatomic, retain) UIAccelerometer *iQkAccelerometer;
+@property (nonatomic, retain) NSString *tilt;
 
 - (IBAction)clicked:(id)sender;
 
@@ -49,4 +51,5 @@
 
 - (void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration;
 
+- (void)reactByGesture:(Gesture *)gesture fromUser:(NSString *)userName;
 @end

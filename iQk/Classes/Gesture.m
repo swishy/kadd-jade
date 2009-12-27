@@ -16,12 +16,13 @@
 @synthesize grid;
 
 - (void)dealloc{
+	//[grid release];
 	self.grid = nil;
 	[super dealloc];
 }
 
 
-- (id)init:(NSString *) theGrid{
+- (id)init:(id) theGrid{
 	[super init];
 	self.grid = theGrid;
 	return self;

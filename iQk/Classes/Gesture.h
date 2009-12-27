@@ -18,6 +18,6 @@
 
 @property(nonatomic,retain) NSString* grid;
 
-- (id)init;
+- (id)init:(NSString*) theGird;
 
 @end

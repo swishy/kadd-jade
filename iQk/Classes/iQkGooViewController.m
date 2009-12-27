@@ -22,8 +22,9 @@
 @synthesize game;
 @synthesize iQkAccelerometer;
 @synthesize grid1ImageView;
+@synthesize tilt;
 
-static NSString *tilt;
+//static NSString *tilt;
 static BOOL preferenceLoaded = NO;
 
 /*
@@ -88,6 +89,8 @@ static BOOL preferenceLoaded = NO;
 	[goo release];
 	[show release];
 	[iQkAccelerometer release];
+	[grid1ImageView release];
+	[tilt release];
     [super dealloc];
 }
 
@@ -152,7 +155,8 @@ static BOOL preferenceLoaded = NO;
 	[gooView.layer addAnimation:animate forKey:@"animateOpacity"];
 	
 	// setting a timer to remove the layer
-	NSTimer *animateTimer = [NSTimer scheduledTimerWithTimeInterval:(0.1) target:self selector:@selector(endAnimation:) userInfo:gooView.layer repeats:NO];
+	//NSTimer *animateTimer = [NSTimer scheduledTimerWithTimeInterval:(0.1) target:self selector:@selector(endAnimation:) userInfo:gooView.layer repeats:NO];
+	[NSTimer scheduledTimerWithTimeInterval:(0.1) target:self selector:@selector(endAnimation:) userInfo:gooView.layer repeats:NO];
 	
 }
 
@@ -163,10 +167,16 @@ static BOOL preferenceLoaded = NO;
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
 	UITouch *touch = [touches anyObject];
+	//CGPoint touchCoordinates = [touch locationInView:self.view];
 	CGPoint touchCoordinates = [touch locationInView:self.view];
 	NSString *grid = [gridMap getGridID:touchCoordinates :tilt];
-	[game broadcastGesture:[[Gesture alloc] init:grid] fromUser:[AppConfig getInstance].name];
+	Gesture *gesture = [[[Gesture alloc] init:grid] autorelease];
+	[game broadcastGesture:gesture fromUser:[AppConfig getInstance].name];
 	[self doAnimation:[self view]];
+	//[gesture dealloc];
+	//[touch release];
+	//gesture = nil;
+	//touch = nil;
 } 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
 
