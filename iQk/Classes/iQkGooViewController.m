@@ -200,4 +200,12 @@ static BOOL preferenceLoaded = NO;
 	[Audio playSound:gesture.grid];
 }
 
+- (void)iQkTerminated:(id)game reason:(NSString*)reason {
+	// Explain what happened
+	UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"iQk session terminated!" message:reason delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+	[alert show];
+	[alert release];
+	[self exit];
+}
+
 @end

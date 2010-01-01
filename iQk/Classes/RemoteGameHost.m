@@ -95,7 +95,7 @@
 	// Display message locally
 	//[delegate displayChatMessage:[packet objectForKey:@"message"] fromUser:[packet objectForKey:@"from"]];
 	[delegate reactByGesture:[packet objectForKey:@"gesture"] fromUser:[packet objectForKey:@"from"]];
-	NSLog(@"REmoteGameHost.receivedNetworkPacket reached.");
+	//NSLog(@"REmoteGameHost.receivedNetworkPacket reached.");
 }
 
 

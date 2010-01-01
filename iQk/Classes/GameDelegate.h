@@ -15,5 +15,5 @@
 @protocol GameDelegate
 
 - (void) reactByGesture:(Gesture*)gesture fromUser:(NSString*)userName;
-- (void) serverHostTerminated:(id)game reason:(NSString*)string;
+- (void) iQkTerminated:(id)game reason:(NSString*)string;
 @end
