@@ -82,12 +82,12 @@
 #pragma mark ConnectionDelegate Method Implementations
 
 - (void)connectionAttemptFailed:(Connection*)connection {
-	[delegate roomTerminated:self reason:@"Wasn't able to connect to server"];
+	[delegate iQkTerminated:self reason:@"Wasn't able to connect to server"];
 }
 
 
 - (void)connectionTerminated:(Connection*)connection {
-	[delegate roomTerminated:self reason:@"Connection to server closed"];
+	[delegate iQkTerminated:self reason:@"Connection to server closed"];
 }
 
 
