@@ -26,7 +26,13 @@
 static iQkAppDelegate* _instance;
 static iQkAppDelegate* _lang;
 
-- (void)applicationDidFinishLaunching:(UIApplication *)application {    
+- (void)applicationDidFinishLaunching:(UIApplication *)application {   
+	//[application setDelegate:self];
+	
+	//NSNotificationCenter  *nc = [NSNotificationCenter defaultCenter];
+	
+	//[nc addObserver:self selector:@selector(windowWillClose:) name:NSWindowWillCloseNotification object:nil];
+	
 	_instance = self;
 	[self setLang];
 	
@@ -43,7 +49,7 @@ static iQkAppDelegate* _lang;
     [window makeKeyAndVisible];
 	
 	splashView *splash = [[splashView alloc] initWithImage:
-						  [UIImage imageNamed:@"iQkSplash.png"]];
+						  [UIImage imageNamed:@"iQkSplash2.png"]];
 	[splash startSplash];
 	
 	//[window bringSubviewToFront:modeSelectViewController.view];
@@ -204,5 +210,18 @@ static iQkAppDelegate* _lang;
 
 + (id)getInstance {
 	return _instance;
+}
+
+- (void)windowWillClose:(NSNotification *)notification {
+	NSLog(@"iuuiouioqoiuweoiuqwoieouioui");
+}
+
+-  (void)applicationWillTerminate:(NSNotification *)notification { 
+	//NSLog(@"Damnit are we here yet?");
+	//[self performSelector:@selector(terminateWithSuccess)];
+	//[window sendSubviewToBack:self.modeSelectViewController.view];
+	//[window bringSubviewToFront:splashEnd];
+	//NSLog(@"asdasdasd");
+	
 }
 @end

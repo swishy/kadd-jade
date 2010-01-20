@@ -25,6 +25,8 @@
 		1EEE874F10D63355002DEF6F /* PreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE874E10D63355002DEF6F /* PreferenceViewController.m */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		2DB1AC991107013500FAC2BB /* iQkSplash2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DB1AC981107013500FAC2BB /* iQkSplash2.png */; };
+		2DB1AC9B1107014200FAC2BB /* iQkSplashClose.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DB1AC9A1107014200FAC2BB /* iQkSplashClose.png */; };
 		4680DE9D10D0BAD10015D2C3 /* CowBell.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4680DE9C10D0BAD10015D2C3 /* CowBell.wav */; };
 		4680DEB110D0D97E0015D2C3 /* DiscoHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4680DEB010D0D97E0015D2C3 /* DiscoHit.wav */; };
 		4680DEB310D0D98D0015D2C3 /* DrumStick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4680DEB210D0D98D0015D2C3 /* DrumStick.wav */; };
@@ -130,6 +132,8 @@
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DB1AC981107013500FAC2BB /* iQkSplash2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iQkSplash2.png; sourceTree = "<group>"; };
+		2DB1AC9A1107014200FAC2BB /* iQkSplashClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iQkSplashClose.png; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* iQk_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iQk_Prefix.pch; sourceTree = "<group>"; };
 		4680DE9C10D0BAD10015D2C3 /* CowBell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CowBell.wav; sourceTree = "<group>"; };
 		4680DEB010D0D97E0015D2C3 /* DiscoHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DiscoHit.wav; sourceTree = "<group>"; };
@@ -330,6 +334,8 @@
 				CDE5274810E1E4E500BF1AE5 /* iQkGooViewContact.png */,
 				CDDC912510C772760054F2A5 /* iQkMultiButton.png */,
 				CDDC912310C772620054F2A5 /* iQkSplash.png */,
+				2DB1AC981107013500FAC2BB /* iQkSplash2.png */,
+				2DB1AC9A1107014200FAC2BB /* iQkSplashClose.png */,
 				CDEBC5C410DA200F008B134E /* iQkJoinButton.png */,
 				CDEBC5C610DA2037008B134E /* iQkNickButton.png */,
 			);
@@ -529,6 +535,8 @@
 				CD80C1C310E22725000B1483 /* ModeSelectView.xib in Resources */,
 				CD80C1C510E22738000B1483 /* iQkGooView.xib in Resources */,
 				CD80C20910E229E2000B1483 /* Settings.bundle in Resources */,
+				2DB1AC991107013500FAC2BB /* iQkSplash2.png in Resources */,
+				2DB1AC9B1107014200FAC2BB /* iQkSplashClose.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,12 +629,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dale  Anderson (6Z5288S6E8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jade Software Corporation Limited";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "93957F51-57C1-4A60-A3C1-C8A97238E917";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7983C003-9594-4E48-A47F-B0E5376B0537";
 				SDKROOT = iphoneos3.1;
 			};
 			name = Distribution;
