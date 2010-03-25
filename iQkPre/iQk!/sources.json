@@ -1,0 +1,54 @@
+[
+		{
+				"source": "/usr/palm/frameworks/media/media.js"
+		},
+		{
+				"source": "app/views/GooView/playSound.js",
+		}, 
+		{
+				"source": "app/getLocale.js",
+		}, 
+    {
+        "source": "app/assistants/stage-assistant.js"
+    }, 
+    {
+        "source": "app/views/main/main-chrome.js", 
+        "scenes": "main"
+    }, 
+    {
+        "source": "app/assistants/main-assistant.js", 
+        "scenes": "main"
+    }, 
+    {
+        "source": "app/assistants/GooView-assistant.js", 
+        "scenes": "GooView"
+    }, 
+    {
+        "source": "app/views/GooView/GooView-chrome.js", 
+        "scenes": "GooView"
+    }, 
+    {
+        "source": "app/assistants/ModeSelect-assistant.js", 
+        "scenes": "ModeSelect"
+    }, 
+    {
+        "source": "app/views/ModeSelect/ModeSelect-chrome.js", 
+        "scenes": "ModeSelect"
+    }, 
+    {
+        "source": "app/assistants/Preferences-assistant.js", 
+        "scenes": "Preferences"
+    }, 
+    {
+        "source": "app/views/Preferences/Preferences-chrome.js", 
+        "scenes": "Preferences"
+    }, 
+    {
+        "source": "app/assistants/ServerBrowser-assistant.js", 
+        "scenes": "ServerBrowser"
+    }, 
+    {
+        "source": "app/views/ServerBrowser/ServerBrowser-chrome.js", 
+        "scenes": "ServerBrowser"
+    }
+]

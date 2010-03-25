@@ -1,0 +1,9 @@
+{
+	"id": "com.kaddstudios.iqk",
+	"version": "1.0.0",
+	"vendor": "KADD Studios",
+	"type": "web",
+	"main": "index.html",
+	"title": "iQk",
+	"icon": "icon.png"
+}
